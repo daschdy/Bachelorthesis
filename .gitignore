@@ -1,0 +1,3 @@
+py/.env
+rust/.env
+rust/target
