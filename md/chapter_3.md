@@ -24,5 +24,6 @@ date: 05.06.2025
 - Kaum Ergebnisse aus synchronen Lernszenarien sind kaum zu finden
 
 ##### S. 453
+- test durch WinPC
 
 
