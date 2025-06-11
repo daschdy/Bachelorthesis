@@ -99,3 +99,66 @@ date: 05.06.2025
 - Logisitische Limitationen an Hochschulen
 - Gruppengrößen und - interaktion
 - Schwierigkeitsgrad
+
+#### Konzeption und Evaluation einer virtuellen Lernumgebung für die Hochschullehre
+##### S. 345
+- Pilotstudie zeigt, dass VR sowohl qualitativ als auch quantitativ positive Einschätzungen der Usability der Lernumgebung in beiden Experimentalgruppen herausgestellt werden
+- Positive Effekte auf kognitive und affektive Wirkung der Lernumgebung im Vergleich zu konventionellen Lernmaterialien
+- Unterschiede zwischen der Nutzung als VR- oder Desktop-Umgebung zeigen sich auf kognitiver und affektiver Ebene jedoch kaum.
+
+##### S. 346
+- konstruktivistische Lerntheorie: 
+    - Wissen entsteht durch Interaktion des Einzelnen mit seiner Umwelt
+    - Wissen entsteht durch kognitive Prozesse und Informationsverarbeitung, die durch Aufmerksamkeit sowie Aktivierung möglichst vieler Sinne angeregt werden können
+    - 4C/ID, Cognitive Theory of Multimedia Learning (CTML) oder auch Cognitive Load Theory (CLT) zeigen Strategien, die das Lernen fördern können
+    - Neue Leranansätze wie: Embodied Learning
+
+##### S. 347
+- Redundanzprinzip: Audiovisuelle Präsentation von Bild- und Textinformationen in Bild und Tern sind lernförderlicher als die redundante Präsentation derselben Information in Bild, Ton und Text
+- Modalitätsprinzip: Verwendung von gesprochenem statt geschriebenen Text zur Begleitung bildlicher Darstellungen ist lernförderlicher
+- VR zu Lehr-Lernzweckens seit den 1960er Jahren. In den letzten Jahren vermehrt in den Fokus, da der Fortschritt in immersiven Technologien immer komplexere Simulationen, realitätsnähere Visualisierungen und Interaktionen ermöglicht
+
+#### Lehrvideos und virtuelle Lernumgebungen in der Studieneingangsphase: Anforderungen und Wirkungen im Grenzbereich Schule, Hochschule und Gesellschaft
+
+##### S. 370
+- An deutschen Hochschulen ist die Erfolgsquote von Studienanfänger:innen in naturwissenschaftlichen Studiengängen deutlich geringer als in anderen Studiengängen. In chemischen Studiengängen liegen die Studienabbruchquoten seit. Jahren im Bereich bis zu 40 % (Heublein et al. 2014, 2022). Hintergrund sind oft Leistungsprobleme, die sich im subjektiven Empfinden „den Anforderungen des Studiums nicht gerecht zu werden“ ausdrücken, sowie „eine mangelnde Studienmotivation“ infolge nicht erfüllter Erwartungen (Heublein et al. 2010). Dabei spielen insbesondere auch enttäuschte Erwartungen an das gewählte Fach eine Rolle (Kreulich und Dellmann 2016). Nach den Ergebnissen des aktuellen MINTNachwuchsbarometers muss davon ausgegangen werden, dass diese Problematik sich in den kommenden Jahren eher noch verschärfen wird, denn die mathematischen und naturwissenschaftlichen Leistungen der 15-Jährigen sinken seit 2012 kontinuierlich (acatech/Joachim Herz Stiftung 2022).
+
+##### S. 371
+- Digitale Medien gewinnen seit der COVID-19-Pandemie sowohl in der schulischen als auch in der hochschulischen Lehre eine immer größere Bedeutung
+- Neue digitale Kanäle wie Twitter und YouTube haben dabei an Bedeutung gewonnen
+- Auf Video-Plattformen wie YouTube findet sich eine große Anzahl an Erklär- und Laborvideos zu beinahe allen Themen der Schulchemie
+- Im Fokusbereich Schule bewegen sich diese Videos inhaltlich und/oder formell meist auf einem eher niedrigen Niveau
+- Gleichzeitig bieten gerade solche Plattformen mit ihrer großen Reichweite herausragende Möglichkeiten, die Gesellschaft stärker für die komplexen Zusammenhänge chemischer Prozesse zu sensibilisieren und potenzielle Studieninstressierte zu erreichen
+- Für Studierende gehören der Wunsch nach Unterhaltung, der Informationsbedarf und akademisches Lernen zu den hauptsächlichen Motivationen für die Nutzung von YouTube-Videos. Wichtig für die Effektivität der Videos sind dabei die Relevanz der thematisierten Inhalte und eine passende Einbettung in die sonstigen Kursstrukturen
+- Am Campus Leverkusen werden seit gut zehn Jahren Lehr- und Laborvideos und seit 2021 auch interaktive Laborsimulationen für die Hochschullehre entwickelt und auf offenen Plattformen verfügbar gemacht. Ziel ist es hierbei, für Studierende den Einstieg in das Studium zu verbessern, indem der inhaltliche Zugang zu den oft als abstrakt und komplex empfundenen Modellvorstellungen in der Chemie erleichtert wird
+
+##### S. 372
+- VR Simulationen hingegen erfordern eine aktive Mitarbeit der Nutzer:innen und sind insofern stärker handlungsorientiert
+- Für die Entwicklung von praxisnahen Handlungskompetenzen bieten sie demnach gegenüber Videos entscheidende Vorteile
+- VR-Entwicklung sehr aufwendig
+
+#### Rollenbasierte Simulationen als Übungs- und Prüfungsformate im lehramtsstudium
+Nicht relevant
+
+#### Simulationsumgebungen als didaktische Instrumente
+##### S. 2
+- Simulationsumgebungen: inhaltsneutrale, computerbasierte Tools in denen komplexe, reale Systeme konstruiert und simuliert werden können
+- Computerunterstütztes Lernen
+
+##### S. 8
+- Erfahrung ist der zentrale Schritt zum Lernen
+- Simulationen sind Nachbildungen von Abläufen in realen und meist komplexen Systemen. 
+- Simulationsbasiertes Lernen stellt als konstruktivistische Lernmethode einen Teilbereich des computerunterstützten Lernens dar und findet mittels Computerprogrammen statt, in denen BenutzerInnen "Phänomene oder Aktivitäten" modellieren und "die dafür vorgesehen sind, dass die Nutzer durch Interaktionen mit Ihnen etwas über diese Phänomene und Aktivitäten lernen"
+- Simulationsumgebungen bieten Lernenden die Möglichkeit, durch Nachbildung eines realen Systems in ein Modell und durch die darauffolgende Simulation dieses Modells, Erkenntnisse über das zugrundeliegende reale System zu gewinnen
+
+
+##### S. 11
+- Das Lernen, sowohl ds institutionelle in Schulen und Universitäten als auch das individuelle, waren schnell geprägt von den Möglichkeiten des Einsatzes computergestützter Instrumente im didaktischen Kontext
+- Entwicklung der ersten Lernmaschinen reicht in das 19. Jahrhundert zurück
+- Das "programmierte Lernen" zur Mitte des 20. Jahrhunderts unterteilte den lernenden Inhalt in kleine Stücke und verlief zuerst nach einem fixen Ablaufplan
+- Moderne Bezeichnung von computergestütztem Lernen ist E-Learning
+- Drei folgende Aspekten kommen in allen Definitionen des Begriffs E-Learning vor:
+    - Systeme, die Lernen ermöglichen und Lerninhalte darbieten
+    - Örtliche Unabhängigkeit
+    - Individuelles und gruppenbezogenes Lernen
+
