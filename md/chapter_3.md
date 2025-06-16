@@ -162,3 +162,109 @@ Nicht relevant
     - Örtliche Unabhängigkeit
     - Individuelles und gruppenbezogenes Lernen
 
+##### S. 12
+- Da das Lernen kein beobachtbarer Prozess ist, muss die Veränderung des Verhaltens in Form von Leistung (das was sich im offenen Verhalten ausdrücken lässt) oder die Veränderung des Verhaltenspotentials in Form von Verständnis, als Ergebnis des Lernen beschrieben werden
+- Die Konsistenz der Veränderung bedeutet, dass die Veränderung des Verhaltens oder des Verhaltenspotentials eine dauerhafte oder zumindest längerfristige ist
+- Didaktig vom griechischen und bedeutet "unterrichten" oder "lehren"
+- Didaktik im weiteren Sinn: Theorie des Lernens und Lehrens in jeglichem Kontext
+- Didaktik im engeren Sinn: ausschließelich für die Erforschung des schulischen Lernens
+
+##### S. 13
+- Fünf Prinzipien der Didaktiv:
+    - Situationsbezogenheit
+    - Handlungsorientierung
+    - Wissenschaftsorientierung
+    - Exemplarischen
+    - Struktur
+
+##### S. 14
+- Lerntheorien sind Thesen darüber, wie Lernen funktioniert
+- 3 verschiedene Lerntheorien: Behaviorismus, Kognitivismus und Konstruktivismus
+- Jede Theorie des Lernens basiert explizipt oder implizit auf mindestens einer dieser drei Paradigmen
+- Zusätzlich als eigenständig zu betrachten: Erfahrungsbasierte Lerntheorie (David Kolb) und Konnektivismus (George Siemens)
+
+##### S. 15
+**Behaviorismus**
+- ausschließlich beobachtbaren Verhalten kann analysiert werden
+- Mensch wird als Black-Box empfunden, deren inneres Funktionieren für die BeobachterInnen ungeklärt bleibt
+- Das beobachtbare Verhalten wird von Reizen und Verstärkungen gesteuert. Ein bestimmter Reiz löst dabei eine bestimmte Reaktion im Verhalten aus. Diese Reaktion erhält aus der Umwelt eine Rückmeldung und erzeugt positive und negative Verstärkungen
+- Lernen entsteht durch Konditionierung
+- Ziel ist die Aneignung von Faktenwissen
+- Trotz Kritik, zentrale Rolle im computergestützten Lernen. Diese Art von Lernsoftware wird auch "Drill & Test"-Software genannt
+
+##### S. 16
+**Kognitivismus**
+- unter Kognition versteht man sämtliche "Prozesse des Wissens"
+- als kognitive Fähigkeiten können das Denken, die Erinnerung, die Verwendung der Sprache, die Kreativität, die Wahrnehmung und einige mehr bezeichnet werden
+- Lernende wird als Individuum definiert, das "äußere Reize aktiv und selbstständig verarbeitet und deshalb nicht durch äußere Stimuli steuerbar ist"
+- Vorstellung dieser Struktur entspricht dem Computermodell von Bower und Hilgard
+- Spielt für die Entwicklung von Anwendungen im Bereich der künstlichen Intelligenz eine große Rolle, da im Sinne der Modellkonstruktion ein Verständnis des realen Systems Voraussetzung für die technische Reproduktion darstellt
+
+##### S. 17
+**Kognitive Wissensrepräsentation (Kognitivismus)**
+- Durch den Transfer in das Langzeitgedächtnis wird Wissen in Gedächtnisstrukturen abgelegt
+- Hier gibt es verschiedene Fprmen, wie das Wissen langfrisitig gespeichert wird:
+    - Prototypen und Schemata/ Skripts
+    - Semantische Netze
+    - Mentale Modelle
+    - Dual Coding
+
+##### S. 20
+**Gestalttheorie**
+- kann lerntheoretisch als kognitivistischer Ansatz betrachtet werden und wurde von Max Wertheimer 1912 begründet
+- Als Gestalt wird ein Ganzes definiert, "dessen Einzelheiten in einer bestimmten Relation zueinander stehen"
+- Lösungsansatz durch kognitive Bewertung, Selektion und Strukturierung der wahrgenommenden Reize innerhalb des beobachtbaren Gesamtkontextes
+- Erkenntnis geschieht demnach durch Einsicht
+- Die Gestalt bezieht sich sowohl auf einzelne Sinne (optisch, akustisch...) als auch auf kognitive Leistung
+- Einige Gestaltgesetze:
+    - Gesetz der Prägnanz/ Gesetz der guten Gestalt
+    - Gesetz der Nähe
+    - Gesetz der Ähnlichkeit
+    - Gesetz der Kontinuität
+
+##### S. 22
+**Konstruktivismus**
+- Realität nicht objektiv wahrgenommen werden kann, sondern von den BetrachterInnen konstruiert wird
+- Realität wird demnach "als eine interaktive Konzeption verstanden, in der Beobachter und Beobachtetes gegenseitig und strukturell miteinander gekoppelt sind"
+- Lernen funktioniert, indem Menschen ihr Wissen konstruieren. Dies geschieht in Interaktion mit der aktuellen Lebenssituation udn dem früher erworbenen Wissen
+- Unterschied zum Kognitivismus ist, dass beim Konstruktivismus nicht "das Lösen bereits präsenter Probleme im Vordergrund steht, sondern das eigenständige Generieren von Problemen"
+- drei Lehransätze:
+    - Cognitive Apprenticeshio
+    - Knowledge Communities
+    - Cognitive Tools
+
+##### S. 22
+**Erfahrungsbasierte Lerntheorie**
+- Erfahrungen sammeln und über diese Erfahrungen nachdenken steht im Zentrum dieser Theorie
+- Zyklus: Konkrete Erfahrungen sammeln $\rarr$ Observieren und reflektieren $\rarr$ Abstrahieren, konzeptionieren und generalisieren $\rarr$ Testen der Konzepte in einer neuen Situation
+- Im Kontext des Lernens mit Simulationsumgebungen spielt dieser Lernzyklus eine zentrale Rolle und beschreibt auch gleichzeitig exakt den richtigen Umgang mit diesem
+
+**Konnektivismus**
+- Der Begriff des Konnektivismus bzw. des Konnektionismus wird im Kontext der Erforschung künstlicher Intelligenz verwendet und beschäftigt sich mit der Informationsverarbeitung in neuronalen Netzen
+
+##### S. 26
+- Jede Form des klassischen und des computergestützten Lernens basiert explizit oder implizit auf einer Lerntheorie.
+- Zusätzlich können computergestützte Lernsysteme auch nach der verwendeten Methode eingeteilt werden:
+    - Tutorielle Systeme
+    - Adaptive Systeme/ Intelligente Tutorielle Systeme
+    - Computerspiele
+    - Simulationen und Mikrowelten
+    - Kombinierte Ansätze
+    - Werkzeuge und Programmierumgebungen
+
+##### S. 27
+- Halycon Skinnder meldete 1866 ein Patent anm das eine erste Lernmaschine beschrieb. Über die Tastatur einer Schreibmaschine musste die Bezeichnung eines Bildes eingegeben werdenm das in einem Kasten angezeigt worden war.
+- Herbert Aiken erfand 1911 eine Buchstabiermaschine
+- Ca. 700 Patente für Lernmaschinen bis 1936
+- Die ersten Lernmaschinen von Burrhus F. Skinnder und James G. Holland in den 30er Jahren des letzten Jahrhunderts folgten der behaviorisitischen Lerntheorie und funktionierten nach dem Schema der Konditionierung
+- Das Prinzip ihrer Lernmaschinen bestand darin, den zu lernenden Stoff in kleine Einheiten zu zerteilen und nach jeder Einheit zum vorher gelesenen Text Fragen zu stellen
+- Die Lernmaschinen von Skinnder von Holland können als lineare Lernprogramme bezeichnet werden, da der Ablauf jeden Lernenden der gleiche war
+- Norman Crowder entwarf 1959 Lernprogramme, die Verzweigungen vorsegen. Je nachdem, welcher Fehler bei der Eingabe der Antwort gemacht wurde, erhielt der Lernende entsprechenden Rückmeldungen und auch der weiteren Fortgang der Lerneinheit wurde entsprechend verzweigt
+- in den 1960er Jahren viel Forschung
+- in den 1970-1980er Jahren lässt Interesse am automatisierten Lernen stark nach
+- Erst mit der steigenden Anzahl von Computern in privaten Haushalten und vor allem seit der stark ansteigenden Verbreitung des Internets ab Mitte der 1990er Jahre, erlebte E-Learning, einen starken Aufschwun
+
+##### S. 28
+- Vor allem die fehlenden sozialen Interaktionen sind gegennüber dem traditionellen Unterricht gravierende Nachteile
+- Daher wurde Blended Learning entwickelt: Steht für vermischten Unterricht und eine Kombination aus Präsenzunterricht und E-Learning dar. Es wird auch hybrides Lernen bezeichnet
+
