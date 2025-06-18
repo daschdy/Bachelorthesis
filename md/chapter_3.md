@@ -266,5 +266,32 @@ Nicht relevant
 
 ##### S. 28
 - Vor allem die fehlenden sozialen Interaktionen sind gegennüber dem traditionellen Unterricht gravierende Nachteile
-- Daher wurde Blended Learning entwickelt: Steht für vermischten Unterricht und eine Kombination aus Präsenzunterricht und E-Learning dar. Es wird auch hybrides Lernen bezeichnet
 
+##### S. 29
+- Daher wurde Blended Learning entwickelt: Steht für vermischten Unterricht und eine Kombination aus Präsenzunterricht und E-Learning dar. Es wird auch hybrides Lernen bezeichnet
+- Elektronisch unterstützes Lernen tendiert in der Regel dazu, Multimediaelemente so in die Lerneinheit einzubauen, dass diese auf eine bestimmte Art in einer bestimmten Reihenfolge vom Lernenden zu konsumieren sind
+- Simulationsbasiertes Lernen folgt anderen Regeln. Anstelle im Detail zum Beispiel die Funktionsweise eines Autos zu beschreiben und in einer Videosequenz das Fahrverhalten zu illustrieren, versetzt eine Simulation über das Autofahren den Lernenden in die Rolle der Fahrerin oder des Fahrers eines Autos
+- Simulationsbasiertes Lernen stellt somit eine konstruktivistische Lernmethode dar und findet mittels Computerprogrammen statt
+- Reale System werden durch Nachbildung in ein Computermodell übertragen und Lernen geschieht durch die Interaktion mit diesem Computermodell
+
+##### S. 30
+- Studie: Rimmert van der Kooij - Über die Pädagogik und das Spiel
+- Vier Kategorien des Spielens:
+    1. Wiederholungsspiel, sensomotorisches Übungsspiel
+    2. Imitationsspiel, Phantasiespiel
+    3. Konstruktionsspiel
+    4. Gruppierungsspiel
+- Spiel: System von Regeln mit einer vorgegebenen Zielzetzung. Ein Spiel zeichnet in der Regel die Eigenschaft des Nullsummenspiels aus, jede Verbesserung des Ergebnisses einer SpielerIn ist automatisch mit der Verschlechterung des Ergebnisses einer anderen SpielerIn verbunden
+- Spielzeug: Ist ein Spiel, bei dem zwar Regeln vorhanden sind, jedoch die eindeutige Zielsetzung sowie die Eigenschaft des Nullsummenspiels fehlen. Spiele, in denen auch die Regeln beliebig veränderbar sind, werden im Kontext von Software als Mikrowelten bezeichnet
+
+##### S. 32
+**Simulation**
+- Simulation ist nach der Richtlinie 3633 des Vereins Deutscher Ingenieure e.V. "das Nachbilden eines Systems mit seinen dynamischen Prozessen in einem experimentierfähigen Modell, um zu Erkenntnissen zu gelanden, die auf die Wirklichkeit übertragbar sind"
+- *Ergebnisorientierte Simulationen* beschreiben reale Systeme als Prozesse, die durch das Eintreffen von Ereignissen ausgelöst werden - werden zur Beschreibung von Prozessabläufen zum Beispiel in Betrieben verwendet
+- *System Dynamics* teilt das zu beschreibende System in Bestands- und Flussgrößen ein. Kann zur Beschreibung von technischen, physikalischen, biologischen oder ökonomischen Systemen verwendet werden
+
+##### S. 33
+- Bei *Multiagentensimulationen* stehen die einzelnen Akteure eiens Systems und ihr Verhalten im Zentrum. Werden für die Nachbildung von Systemen verwendet, die sich aus vielen Akteuren zusammensetzen
+
+##### S. 34
+- Entwicklung der Simulationen - siehe Abbildung!
