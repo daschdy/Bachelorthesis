@@ -27,16 +27,16 @@ date: 05.06.2025
 **Gamification**
 - Gamification existiert schon seit ca. 20 Jahren und ist auf Nick Pelling (Software-Entwickler) zurückzuführen, der eine spieleähnliche Benutzeroberfläche für Bank- und Verkaufsautomaten konzipierte
 - Ähnliche Begriffe: "gamefulness" oder auch "gameful design" existieren parallel oder wie der Begriff "playful interaction design" auch davor
-- Gamifizierungswerkzeuge: 
+- Gamifizierungswerkzeuge:
     - Punktesysteme
     - Ranglisten
     - Belohnungen
-    - Erfolge und Abzeichen 
+    - Erfolge und Abzeichen
     - Fortschritt
 - Ziel: Positive Auswirkung auf Motivation, Arbeits- und Lernerfolg
 
 **Gamified learning**
-- vier Komponenten, die das Zusammenspiel von Lernen und Gamifizierung beschreiben: 
+- vier Komponenten, die das Zusammenspiel von Lernen und Gamifizierung beschreiben:
     1. Instruktion
     2. Verhalten und Einstellungen der Lernenden
     3. Spielelemente
@@ -91,7 +91,7 @@ date: 05.06.2025
 - Einstellung zu Gamifizierung (Satifaction)
 - Kollaboration/ Kommunikation
 
-##### S. 463 
+##### S. 463
 - synchrone, gamifizierte Lernaktivitäten
 - kein negativer Effekt von gamifizierten Lernaktivitäten
 - Langzeitstudien nötig
@@ -107,7 +107,7 @@ date: 05.06.2025
 - Unterschiede zwischen der Nutzung als VR- oder Desktop-Umgebung zeigen sich auf kognitiver und affektiver Ebene jedoch kaum.
 
 ##### S. 346
-- konstruktivistische Lerntheorie: 
+- konstruktivistische Lerntheorie:
     - Wissen entsteht durch Interaktion des Einzelnen mit seiner Umwelt
     - Wissen entsteht durch kognitive Prozesse und Informationsverarbeitung, die durch Aufmerksamkeit sowie Aktivierung möglichst vieler Sinne angeregt werden können
     - 4C/ID, Cognitive Theory of Multimedia Learning (CTML) oder auch Cognitive Load Theory (CLT) zeigen Strategien, die das Lernen fördern können
@@ -147,7 +147,7 @@ Nicht relevant
 
 ##### S. 8
 - Erfahrung ist der zentrale Schritt zum Lernen
-- Simulationen sind Nachbildungen von Abläufen in realen und meist komplexen Systemen. 
+- Simulationen sind Nachbildungen von Abläufen in realen und meist komplexen Systemen.
 - Simulationsbasiertes Lernen stellt als konstruktivistische Lernmethode einen Teilbereich des computerunterstützten Lernens dar und findet mittels Computerprogrammen statt, in denen BenutzerInnen "Phänomene oder Aktivitäten" modellieren und "die dafür vorgesehen sind, dass die Nutzer durch Interaktionen mit Ihnen etwas über diese Phänomene und Aktivitäten lernen"
 - Simulationsumgebungen bieten Lernenden die Möglichkeit, durch Nachbildung eines realen Systems in ein Modell und durch die darauffolgende Simulation dieses Modells, Erkenntnisse über das zugrundeliegende reale System zu gewinnen
 
@@ -295,3 +295,31 @@ Nicht relevant
 
 ##### S. 34
 - Entwicklung der Simulationen - siehe Abbildung!
+- Modellierungsprozesse sind gleichzeitig Konstruktions- und Abbildungsprozesse
+- Konstruktivismus: Entwurf des realen Systems
+- Erkenntnistheoretischer Sicht: Abbildung der Wirklichkeit, da diese Eigenschaften des abzubildenden Objekts beinhalten
+- Gilbert und Troitzsch: Simulation ist "eine besondere Form der Modellierung"
+- Herbert Stachowiak: Allgemeine Modelltheorie:
+    - Abbildung
+    - Verkürzung
+    - Pragmatismus
+- Für die Generierung von Simulationen bedeutet das, dass ein Modell zwar einerseits tatsächlich die Struktur der Wirklichkeit nachbilden soll, stellt aber andererseits auch klar, dass diese Nachbildung nocht umfassend sein kann und auch nicht sein soll.
+- Modelle sind also Entwürfe, die "eine wirklichkeitsnahe, jedoch einfacherere, billigere oder ungefährlichere Untersuchung als das Objekt erlauben"
+- Ziel der Modellbildung und der darauf aufbauenden Simulation ist es, sich auf jene Eigenschaften des Originalsystems zu beschränken, die für die Fragestellungen relevant sind. Zusätzlich muss das Modell mit jenen Eigenschaften begnügen, die messbar und nachbildbar sind
+
+##### S. 36
+- Abbildung: Logik der Simulation
+- Simulation wird unter anderem zu folgenden Zwecken genutzt:
+    - Simulation als eine Methode zur Theoriebildung
+    - Zum Erlangen eines besseren Verständnisses von bestimmten Eigenschaften von Systemen der Wirklichkeit
+    - Als Vorhersageinstrument, um in die Zukunft blicken zu können
+    - Als Substitut für menschliche Kapazitäten
+    - Zur Systementwicklung im technischen Bereich
+    - Zu Trainingszwecken
+    - Zu Unterhaltungszwecken
+    - Simulation zur Entdeckung und zur Formalisierung
+
+##### S. 37
+- Umsetzung von ereignisorientierten Simulationen in Softwareprogrammen wird mit Hilfe von Warteschlangen implementiert, daher werden sie auch "queuing models" genannt. Beispiel sind hier auch Petri-Netze
+
+##### S. 38
