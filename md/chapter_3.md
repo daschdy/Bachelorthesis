@@ -322,4 +322,41 @@ Nicht relevant
 ##### S. 37
 - Umsetzung von ereignisorientierten Simulationen in Softwareprogrammen wird mit Hilfe von Warteschlangen implementiert, daher werden sie auch "queuing models" genannt. Beispiel sind hier auch Petri-Netze
 
-##### S. 38
+#### Strukturierte Lehr- und Lernmodelle für die Ausbildung im Fachgebiet Technische Informatik
+
+##### S. 140
+- bisherige Formen umfassen sowohl ein breites Spektum von traditioneller Lehre bis hin zu moderner rechnergestützter Ausbildung mit multimedialer Unterstützung
+- Es kann zwischen synchroner und asynchroner Kommunikation, zwischen konventioneller und rechnergestützter Organisation oder auch zwischen Frontalunterricht, Selbstlernen und kooperativem Lernen unterschieden werden
+- am weitesten verbreitet:
+    - klassische Präsenzlehre mit Vorlesung und Übungen
+    - Tele-Teaching mit netzbasierter Kommunikation, jedoch zu einer konkreten Lehrveranstaltung
+    - mobiles Lernen orts- und zeitunabhängig unter Nutzung mobiler Endgeräte und drahtloser Kommunikation
+    - virtuelles Lernen ohne Bindung an einen Standort oder eine konkrete Lehrveranstaltung
+- Formen sind nicht disjunkt, sondern werden häufig in Kombination verwendet. Als Beispiel gilt hier "Blended Learning"
+- In Fachgebieten mit hoher technischer Affinität ist ein größerer Anteil an rechnergestütztem Lehr- und Lernformen zu finden
+- Schwierigkeiten von eLearning: Aufwändige Materialerstllung, apparative und personelle Ausstattung
+- großes Potential in der technischen Informatik
+- innovatives eLearning-Konzept aus einem strukturierten Aufbau der Materialien, einem strukturierten Aufbau der Materialien, einem strukturierten Entwurfs-, Verwaltungs- und Nutzungskonzept sowie strukturierten Einsatzszenarien
+
+##### S. 141
+- Technische Informatik: Kombination aus beständigen Grundlagenthemen mit aktuellen Einflüssen aus Industrie und Forschung 
+- Dies führt zu einer ausgewogenen Mischung von über längere Zeiträume hinweg gültigem Lehrstoff mit individuellen Aktualisierungen
+- Aufwendige Erstellung von multimedialem Lehr- und Lernmaterial kann sich so über eine größere Zeitspanne amortisieren und weist eine hohe Praxisrelevanz auf
+- Themen der technischen Informatik sind gut schematisch visualisieren. Sinnvoll ist hier die Visualisierung des Aufbaus von Rechnerkomponenten sowie Abläufe von Rechnersystemen
+- Vorgänge innerhalb eines Rechnersystems können schließlich mit Hilfe von Simulatoren oder rechnergestützten Experimenten für die Studenten intensiv erfahrbar gemacht werden
+- Der interaktive, häufig spielerische Umgang mit dem Thema in einem selbst gesteuerten Lernprozess (exploratives Lernen) für nachweislich zu einer tieferen Durchdringung des Lehrstoffs als bei der passiven Konsumierung von Faktenwissen
+- Simulation unzerstörbarer Objekte
+- In der technischen Informatik ist zudem der Computer nicht nur ein Hilfsmittel für den Lernprozess, sondern selbst der Gegenstand der Betrachtung. So kann es den Studenten in rechnergestützten Experimenten ermöglicht werden, in einem real existierenden System zur Laufzeit Beobachtungen und Versuche durchzuführen. 
+- zahlreiche hochqualitative eLearning-Angebite aus dem BMBF-Programm "Neue Medien in der Bildung" (NMB)
+- relevante Projekte:
+    - "Rechnerarchitektur Visualisierung" (RaVi) aus dem SIMBA-Verbund
+    - "Universitären Lehrverbund Informatik" (ULI) 
+    - "WissenswerkstattRechensysteme" (WWR)
+- Trend zu XML. Im NMB Programm waren dies 26% aller Projekte. Gründe:
+    - textuelle Beschreibung verbundenen geringer Datenaufkommen, was auch über schmalbandigen Internetanschluss übertragbar ist
+    - abstrakte Beschreibung bietet hohe Flexibilität
+    - XML kann sehr gut automatisch verarbeitet werden
+    - textbasierte Suchmechanismen innerhalb dieser Objekte
+
+##### S. 142
+- eine semantisch motivierte Auszeichnung aller Bestandteile eines Dokuments (unabhängig von ihren gestalterischen Eigenschaften) erlaubt es, diese Bestandteile in automatisierten Verfahren zu identifizieren, zu transformieren oder zu interpretieren
