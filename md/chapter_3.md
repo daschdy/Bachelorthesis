@@ -339,18 +339,18 @@ Nicht relevant
 - innovatives eLearning-Konzept aus einem strukturierten Aufbau der Materialien, einem strukturierten Aufbau der Materialien, einem strukturierten Entwurfs-, Verwaltungs- und Nutzungskonzept sowie strukturierten Einsatzszenarien
 
 ##### S. 141
-- Technische Informatik: Kombination aus beständigen Grundlagenthemen mit aktuellen Einflüssen aus Industrie und Forschung 
+- Technische Informatik: Kombination aus beständigen Grundlagenthemen mit aktuellen Einflüssen aus Industrie und Forschung
 - Dies führt zu einer ausgewogenen Mischung von über längere Zeiträume hinweg gültigem Lehrstoff mit individuellen Aktualisierungen
 - Aufwendige Erstellung von multimedialem Lehr- und Lernmaterial kann sich so über eine größere Zeitspanne amortisieren und weist eine hohe Praxisrelevanz auf
 - Themen der technischen Informatik sind gut schematisch visualisieren. Sinnvoll ist hier die Visualisierung des Aufbaus von Rechnerkomponenten sowie Abläufe von Rechnersystemen
 - Vorgänge innerhalb eines Rechnersystems können schließlich mit Hilfe von Simulatoren oder rechnergestützten Experimenten für die Studenten intensiv erfahrbar gemacht werden
 - Der interaktive, häufig spielerische Umgang mit dem Thema in einem selbst gesteuerten Lernprozess (exploratives Lernen) für nachweislich zu einer tieferen Durchdringung des Lehrstoffs als bei der passiven Konsumierung von Faktenwissen
 - Simulation unzerstörbarer Objekte
-- In der technischen Informatik ist zudem der Computer nicht nur ein Hilfsmittel für den Lernprozess, sondern selbst der Gegenstand der Betrachtung. So kann es den Studenten in rechnergestützten Experimenten ermöglicht werden, in einem real existierenden System zur Laufzeit Beobachtungen und Versuche durchzuführen. 
+- In der technischen Informatik ist zudem der Computer nicht nur ein Hilfsmittel für den Lernprozess, sondern selbst der Gegenstand der Betrachtung. So kann es den Studenten in rechnergestützten Experimenten ermöglicht werden, in einem real existierenden System zur Laufzeit Beobachtungen und Versuche durchzuführen.
 - zahlreiche hochqualitative eLearning-Angebite aus dem BMBF-Programm "Neue Medien in der Bildung" (NMB)
 - relevante Projekte:
     - "Rechnerarchitektur Visualisierung" (RaVi) aus dem SIMBA-Verbund
-    - "Universitären Lehrverbund Informatik" (ULI) 
+    - "Universitären Lehrverbund Informatik" (ULI)
     - "WissenswerkstattRechensysteme" (WWR)
 - Trend zu XML. Im NMB Programm waren dies 26% aller Projekte. Gründe:
     - textuelle Beschreibung verbundenen geringer Datenaufkommen, was auch über schmalbandigen Internetanschluss übertragbar ist
@@ -360,3 +360,33 @@ Nicht relevant
 
 ##### S. 142
 - eine semantisch motivierte Auszeichnung aller Bestandteile eines Dokuments (unabhängig von ihren gestalterischen Eigenschaften) erlaubt es, diese Bestandteile in automatisierten Verfahren zu identifizieren, zu transformieren oder zu interpretieren
+- Mehrdimensionales Modell für Lehr- und Lernmaterial (3 Achsen: intensity, target, device)
+
+##### S. 146
+- Durch die Strukturierung von Materialien, Verfahren und Werkzeugen sowie Einsatzszenarien ist eine deutliche Effizenzsteuerung erreichbar
+- Unterstützung durch neuartige Verfahren der automatischen Generierung nutzerdefinierter Manuskripte. So wird learning on demand ermöglicht
+
+## Kapitel 3.2 - Geschichte
+#### Kompendium Multimediales Lernen
+##### S. 3
+- Maschine, die Lernen erleichtern soll von Agostino Ramelli (1588). Er konzipierte ein Leserad
+- Erstes Patent auf eine Lernmaschine erhielt 1866 Halycon Skinner: Nach Anzeige eines Bildes auf der Vorderseite eines Kastens sollte die richtige Bezeichnung über eine Schreibmaschinentastaur eingegebn werden. Nachteil: Auch richtig geschriebene, aber sachlich falsche Bezeichnungen wurden akzeptiert
+- Bessere Buchstabiermaschine von Herbert Aiken (1911).
+- In der Folgezeit wurden bis 1936 ca. 700 Patente für vergleichbare "Übungsmaschinen" angemeldet
+
+##### S. 4
+- Idee der computergestützten Instruktion geht zurück auf die "Programmierte Unterweisung" (PU) und diese wiederum war der Versuch, aus einer Lerntheorie unmittelbar eine Lehrtechnologie abzuleiten
+- Lehrmaschinen, deren Funktion im Wesentlichen daran bestand, dem Lernenden den Lehrstoff in Frames meist in Textform darzustellen und anschließend Fragen dazu
+- Im Sinne des operanten Konditionierens ist es für den Lernfortschritt unumgänglich, dass der Lerner ein korrektes Antwortverhalten zeigt, welches dann verstärkt werden kann
+
+##### S. 5
+- Hierbei sollte es sich nicht um Auswahlantworten handeln, da diese oft nur ein Wiedererkennen erfordern und nicht das "aktive Verhalten", das verstärkt werden soll
+- typische Aufgabenform von Skinner: Lückentexte
+
+##### S. 6
+- Lehrziel- und Lehrstoffanalysen gelten heute allgemein als unerlässlich für jede rationale Instruktionsplanung
+- Darstellung des Lehrstoffs aus unterschiedlichen Blickwinkeln lässt sich aus wissenspsychologischer Perspektive viel stringenter begründen
+- Bedeutung von individuell unterschiedlichen Lernzeiten wurden von Bloom mit einer Reihe von Arbeiten belegt
+- Rückmeldung im Lehr-Lern-Prozess spielt eine wesentliche Rolle
+- Skinner-Holland'sche Lehrmaschinen wurden in der 50er Jahren immer beliebter, durch "Sputnik-Schock"
+- Gleichzeitig Verbreitung der Computertechnologie, Verbindung der Idee der "Lehrmaschine" mit der Möglichkeit des Computers zur Antwortausgabe
