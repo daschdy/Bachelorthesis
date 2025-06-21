@@ -390,3 +390,45 @@ Nicht relevant
 - Rückmeldung im Lehr-Lern-Prozess spielt eine wesentliche Rolle
 - Skinner-Holland'sche Lehrmaschinen wurden in der 50er Jahren immer beliebter, durch "Sputnik-Schock"
 - Gleichzeitig Verbreitung der Computertechnologie, Verbindung der Idee der "Lehrmaschine" mit der Möglichkeit des Computers zur Antwortausgabe
+- verzweigte Lehrprogramme wurden von Crowder 1959 vorgeschlagen, statt den linearen Programmen
+- Crowders Programme beinhalten typischerweise größere Frames, jeweils gefolgt von einer Frage mit Auswahlmöglichkeiten. Bei Wahl einer falschen Antwort erhält der Lernen einen zur Art des Fehlers passenden Kommentar, anschließend wird je nach Art des Fehlers mit einer bestimmten Sequenz von Frames fortgefaren, eventuell werden auch Frames wiederholt, die möglicherweise nicht verstanden wurden
+- Hieraus ergibt sich eine individualisierung des Lehr-Lernprozess. Der Idee nach handelte es sich um adaptive Lehrprogramme; allerdinge mangelte es an wissensdiagnostischen Verfahren ebenso wie an Methoden der Lehrstoffanalyse
+- Verzweigte Programme wurden jedoch bald typisch für das computerunterstützte Lernen
+- Beisiel mit Lückentext
+
+##### S. 7
+- in der zweiten Hälfte der sechziger Jahre ging das öffentliche Interesse an computergestützter Instruktion deutlich zurück
+- 1971 beschloss die National Science Foundation (NSF) der USA zwei Großprojekte über jeweils fünf Jahre, ausgestattet mit insgesamt 10 Mio. Dollar.
+    - TICCIT (Time-shared Interactive Computer Controlled Information Television)
+    - PLATO (Programmed Logic for Automatic Teaching Operation)
+- Mit beiden Projekten sollte gezeigt werden, dass mittels computerunterstützter Instruktion ein effektiver und kostengünstiger Unterricht möglich ist
+
+##### S. 10
+- Auch in Deutschland wurden seit 1964 an Lehrmaschinen gearbeitet
+- Es handelte sich bei diesen Lehrautomaten (Robbimat 0, Geromat III, Bakkalaureus) um Geräte für die Gruppenschulung, d.h. Adaptivität und Individualisierung spielten keine Rolle
+- Konzeption erinnert an Sprachlabors
+- Ende der sechziger Jahre, Anfang der siebziger Jahre wurden zur Förderung unterrichtstechnologischer Forschung und Entwicklung in der Bundesrepublik zwei Forschungseinrichtungen geschaffen: das Bildungstechnologische Zentrum in Wiesbaden und das "Forschungs- und Entwicklungszentrum für objektivierte Lehr- und Lernverfahren (FEoLL)" in Paderborn
+- Forschungsprojekt (1971-1974) sollte heraus finden: "Effizienzvergleich computergesteuerten Parallelunterrichts mit programmiertem Einzelunterricht in Buchform"
+- In Berlin (1968) ein Schulversuch "Algorithmierung von Lehrprogrammen für computergesteuerten Unterricht (ALCU)". Daneben gab es eine Reihe von Forschungs- und Entwicklungsprojekten zum computergestützten bzw. computerunterstützten Unterricht
+
+##### S. 11
+- An der Universität Freiburg (Anfang 1970er Jahre) eine Reihe von Übungsprogrammen
+- PFLABE sollten Biologiestudenten als Alternative zu einem Praktikum Wissen für das Bestimmen einheimischer Blütenpflanzen erwerben. Lernerfolg war nicht besser, aber der Zeitaufwand geringer
+- ZOPRAM zielt darauf ab, unterschiedliches Vorwissen von Studenten durch Ausgleich von Defiziten zu homogenisieren. Dieses Ziel wurde erreicht
+- "Computerunterstützte Simulationen im naturwissenschaftlichen Unterricht" lag der Schwerpunkt beim Einsatz von Simulationsprogrammen
+- In den 70er Jahren: Eine Reihe von Modellversuchen im Bereich der allgemeinbildenden Schulen durchgeführt. Begleituntersuchungen ergaben: Überlegenheit des neuen Mediums im Vergleich zum herkömmlichen Unterricht, teils keine Unterschiede
+- Ende der 1970er/ Anfang der 80er Jahre Flaute im computergestützen Lernen in Deutschland
+- Mitter der 80er Jahre gab es eine Renaissane des computergestützen Lernens, allerdings mit anderen Entwicklungsschwerpunkten. Großunternehmen investierten in die betriebliche Aus- und Fortbildung
+- Studien mit dem am Deutschen Institut für Fernstudien in Tübigen entwicklten Programm KAVIS bzw. KAVIS II. Dabei handelt es sich um ein tutorielles Lernprogramm mit Videoeinbindung für den Biologieunterricht
+- Unter Forschungsaspekten bedeutsam wurden auch Simulationsprogramme in Form von Planspielen. Beispiel von Preiß "Jeansfabrik" zeigt deutlich die Bedeutung der Rolle des Lehrers und die Einbettung von Simulationen in ein didaktisches Gesamtkonzept bei Planspielen
+- Ende 80er bis Mitte 90er Jahre ist ein zunehmendes Interesse an computergestützten Lerntechnologien zu verzeichnen
+- Europäische Gemeinschaft schrieb seither mehrfach Forschungs- und Entwicklungsprogramme aus, die explizit innovativer Bildungstechnologien gewidmet waren
+
+##### S. 12
+- Leutner untersucht an der Universität Aachen die Effizienz adaptiver Lernhilfen beim Lernen mit Planspielen (1989, 1991, 1992)
+- Im Kontext wissenspsychologischer Fragestellungen zeigte sich, dass die Entwicklung intelligenter tutorieller Systeme auch ein Vehikel zum Verständnis grundlegender Probleme der Wissensrepräsentation auch Wissensdiagnose sein kann
+- 1987 wurde dies als Schwerpunktprogramm der Deutschen Forschungsgemeinschaft aufgelegt. Im Rahmen entsprechender Forschungs- und Entwicklungsprojekte wurden Lernumgebungen zu Themen aus der Physik, Informatik und Wahrscheinlichkeitstheorie entwickelt.
+- Ergebnis: Hohe Ansprich an Wissensdiagnose und Modellierung von Lernprozessen bzw. Wissensverarbeitung, der mit solchen Programmen verbunden ist, wohl auch mittelfristig nicht einzulösen sein wird
+- Verlagerung vom Schulischen zu beruflichem Lernen änderten die Forschungsfragen: Effektivitäts- und Effizienzaspekte, Transferproblematik und die Möglichkeit zur Unterstütung selbstständigen Lernens rückten in den Vordergrund
+- Dadurch ergeben sich neue technische, ergonomische, instruktionspsychologische und didaktische Fragestellungen, die zunehmend eine interdisziplinäre Zusammenarbeit erfordern
+- 1993 computerbasierte arbeitsanaloge Lernaufgaben für die kaufmännische Erstausbildung (Niegemann et al. 1993)

@@ -5,11 +5,10 @@ tags:
   - bachelor
 ---
 
-# Bachelor 
+# Bachelor
 
 ## Todo
-[] Teilgebiete Rechnerarchitektur 
-[] Mindmap Teilgebiete Rechnerarchitektur
+[] Unterschied zwischen Hochschulunterricht und Gymnasial- bzw. Schulunterricht
 [] Teilgebiete Chronologie
 
 ## Ausschreibung
@@ -59,11 +58,11 @@ Aus der Literaturrecherche abgeleiteter Inhalt für Arbeit:
 
 - Clustering/Überblick anhand von Simulatortypen, d.h. : Sind Simulatoren eher realitätsnah vs. didaktisch reduziert? Enthalten sie Gamificatonelemente? Für welche Bildungsebenen sind die Simulatoren geeignet/gedacht? ... (Beispielhafter Auszug, kann auch anders gewählt werden)
 
-### Bewertungskriterien 
+### Bewertungskriterien
 
 Eine sehr gute Arbeit strukturiert die Rechercheergebnisse sinnvoll und "erzählt damit eine kohärente Geschichte" in entsprechenden Subkapiteln. Das bedeutet, dass klare Argumentsstrukturen zu erkannten, belegbaren Thesen (z.B. "Gamification ist ein zunehmend aufkommendes Konzept und wird zukünftig vermutlich noch mehr Fokus finden") verständlich und klar ausformuliert und anhand von sehr gut gewählten Beispielen (Simulatoren, Forschungsergebnisse, ...) ausreichender Anzahl und Umfangs nachvollziehbar begründet werden. Eine sehr gute Arbeit gibt dem Leser eine sehr gute Übersicht über aktuelle/zukünftige Trends in oben genannten Bereichen und soll als Grundlage dienen, zukünftige Forschungsprojektentscheidungen zu unterstützen.
 
-Die Arbeit ist in wissenschaftlicher, fehlerfreier Sprache (Deutsch oder Englisch, vom Kandidaten zu wählen) formuliert. Wissenschaftliche Sprache bedeutet insbesondere einen neutralen, professionellen Ton, sowie eine korrekte Verwendung von Literaturreferenzen (Zitatstil vom CS3 Latex Template vorgegeben). 
+Die Arbeit ist in wissenschaftlicher, fehlerfreier Sprache (Deutsch oder Englisch, vom Kandidaten zu wählen) formuliert. Wissenschaftliche Sprache bedeutet insbesondere einen neutralen, professionellen Ton, sowie eine korrekte Verwendung von Literaturreferenzen (Zitatstil vom CS3 Latex Template vorgegeben).
 
 Die Arbeit enthält weiterhin einen sehr guten Abstract, der zentralen Punkte der Arbeit in ca. einer halben Seite zusammenfasst und Interesse am Thema weckt, sowie eine Einleitung mit überzeugender Motivation zum Thema (wozu benötigt man überhaupt eine Literaturrecherche zu dem Bereich? Was ist das Ziel? Was kann man lernen?), und eine Konklusion am Ende (Zusammenfassung der wesentlichen Erkenntnisse, Ausblicke auf zukünftige Forschung, ggf. Hinweise zu Bereiche, die nicht untersucht wurden und Bestandteil von zukünftigen Arbeiten sein kann)
 
