@@ -432,3 +432,72 @@ Nicht relevant
 - Verlagerung vom Schulischen zu beruflichem Lernen änderten die Forschungsfragen: Effektivitäts- und Effizienzaspekte, Transferproblematik und die Möglichkeit zur Unterstütung selbstständigen Lernens rückten in den Vordergrund
 - Dadurch ergeben sich neue technische, ergonomische, instruktionspsychologische und didaktische Fragestellungen, die zunehmend eine interdisziplinäre Zusammenarbeit erfordern
 - 1993 computerbasierte arbeitsanaloge Lernaufgaben für die kaufmännische Erstausbildung (Niegemann et al. 1993)
+
+##### S. 13
+- Mitte 90er Jahre: Aufschwung, seitdem Bezeichnung "E-Learning" eingeführt wurde
+- Ende der 90er Jahre: Durch die Verbreitung des Zugangs zum WWW bzw. Internets
+- 2002 Initiative "Schulen ans Netz" erreichte, dass jede Schule in Deutschland über einen Internetanschluss verfügte
+- 2008 spielt E-Learning an öffentlichen Schulen keine Rolle
+
+##### S. 14
+- **Erwartungen**
+    - Massive Kosteneinsparungen nur bei größerem Adressatenkreis
+    - Texte und Bilder bleiben gleich, folglich auch mit Vorlesungsskript lernbar
+    - Hohe Abbrechraten, wenn die Lernenden das selbstständige Lernen nicht gewohnt sind und keine keine hinreichende (tutorielle) Unterstützung während des Lernrprozesses erhalten
+    - Tolle Bilder, schöne Hintergrundmusik in guter Qualität, realistische Geräusche, Kombination von Schrift, Bild und Sprache: Wirken nicht unbedingt motivierend und sichern auch keinen dauerhaften Lernerfolg
+    - Zeitaufwand hoch bei problembasiertem Lernen
+- Die meisten der aufgeführten Probleme haben sich relativiert und sind auf eine Quelle zurückzuführen: Es fehle häufig an qualitativ hinreichenden didaktischen Konzepten
+- Zunehmendes Interesse an Web 2.0 sowie die Möglichkeit, dass Lernende selbst Website gestalten und ihr Wissen darstellen
+- Web 2.0-Anwendungen wie Wikis, kann eine Form informellen, selbstregulierten Lernens angenommen werden (aktuell keine systematischen Studien)
+- "Digital Game Based Learning" order "Serious Games", also das Lernen mit Hilfe digitaler multimedialer Spiele mit "ernsthaften" Hintergrund
+- Interessant für E-Learning könnte schließlich die Entwicklung des "Semantic Web" werden: Möglichkeiten des Fragestellens und der einfachen Informationssuche für Lernende könnten dadurch deutlich erleichtert werden
+- Adaptives Lernen steht sowohl bei der mit E-Learning befassten Informatik als auch in der pädagogischen Psychologie wieder hoch im Kurs
+- Web 2.0, Lernspiele, "Semantic Web" und KI im E-Learning könnten sinnvoll kombiniert die technische Basis neuer psychologisch-didaktischer Änsätze bilden
+
+## Kapitel 3.2 - Konzepte und Lernziele
+##### S. 17
+- Dem 2002 verstorbenen Robert M. Gagné - unbestrittener Vater der "Instructional Design" Idee - ging es in erster Linie um die Ablösung der Vorstellungen von "der richtigen Lehrmethode" durch eine Konzeption, die versucht, für unterschiedliche Kategorien von Lernaufgaben und unterschiedlichen Lernvoraussetzungen und Rahmenbedingungen die jeweils (relativ) bestgeeignete Lernumgebung zu finden
+
+##### S. 18
+- Konstruktivistische Lernumgebungen oder offene Lernumgebungen sind keineswegs ungeeignet, sie sind lediglich nicht generell geeignet
+- Es gibt klare emprirische Befunde aus systematisch kontrollierten und in der Regel replizierten Untersuchungen, dass
+    - beim Begriffslernen die Anzahl, Art und Zusammenstellung von Positiv- und Negativbeispielen des zu lernenden Begriffs die Qualität des Lernergebnisses beeinflussen und eine optimale Stragegie für die Präsentation von Beispielen existiert
+    - die gleichzeitige Präsentation von gesprochenen und geschriebenem Text zur Erläuterung eines Sachverhalts, der durch eine Animation veranschaulicht wird, im Durchschnitt schlechtere Lernergebnisse zur Folge hat als lediglich gesprochener Text
+    - das Zugrundelegen einer individuellen Bezugsnormorientierung bei Rückmeldungen die Lernmotivation von Schülern im Vergleich zur üblichen sozialen Bezugsnormierung im Mittel deutlich steigert
+    - Bilder, Animationen oder Geschichten, die nichts zur Erklärung der intendierten Sachverhalte beitragen, sondern lediglich "irgendwie motivieren" sollen, das Behalten und Verstehen des Lehrstoffs eher behindern als fördern
+    - die Platzierung erklärender Texte innerhalb des Abbildes eines technischen oder biologischen Gegenstands im Durchschnitt zu deutlich besseren Lernerfolgen führt als die Platzierung außerhalb der Grafik, auch wenn letztere Variante meist als ästhetisch besser hilt und daher intuitiv vorgezogen wird
+
+##### S. 38
+- Instruktionsdesign ist seit den späten fünfziger Jahren wichtige Teildisziplin der pädagogischen Psychologie.
+- Es wurde ursprünglich nicht speziell für multimedial gestützte Instruktion entwickelt, sondern generell für jedes systematische Arrangement von Umgebungsbedingungen, das geeignet ist, Kompetenzen zu fördern.
+- Medienbasierte Lernangebote erfordern allerdings stets eine systematische Planung und Konzeption, so dass Instruktionsdesign hier besonders wichtig ist
+- Aktuelle Instruktionsdesignmodelle sind weniger auf direkte Instruktion ausgerichtet als die erste Generation von Instruktionsdesignmodellen. Die zweite Generation von Instruktionsdesignmodellen entstand ab Ende der achtziger Jahre - es handelt sich dabei um situationistische Modelle, die stärker das selbstständige Lernen und die aktive Rolle des Lernenden fokussieren. Außerdem betonen diese Modelle oft die Möglichkeiten des kooperativen bzw. kollaborativen Lernens.
+- Zu den wichtigsten Modellen der zweiten Generation gehören "Anchored Instruction", "Cognitive Apprenticeship", "Goal-Based Scenarios" sowie das 4C/ID-Modell für das Training komplexer Fähigkeiten
+- Darüber hinaus gibg es eine Reihe weiterer Modelle für spezielle Domänen oder Kategorien von Lehrzielen bzw. Lernaufgaben
+
+##### S. 41
+- In der Frühzeit des multimedialen Lernens war eine verbreitete Vorstellung "viel hilft viel", d.h. Lernerfolge sind umso eher zu erwarten, je mehr Sinneskanäle angesprochen und je mehr unterschiedliche Symbolsysteme verwendet werden
+- Annahmen wurden seit Ende der achtziger Jahre durch Forschungsarbeiten u.a. von Sweller und Chandler (1991) einerseits und Mayer et al. (2001, 2005a) andererseits auf der Grundlage theoretischer Annahmen zur Struktur des menschlichen Gedächtnisses experimentell geprüft
+- Seit Ende der neunziger Jahre wurden auch in den Niederlanden und in Deutschland diverse Studien durchgeführt, in denen sich die Tragfähigkeit der theoretischen Ansätze immer wieder bestätigte (Brünken, Plass & Leutner, 2003; Gerjets & Scheiter, 2003; Kirschner, 2002; Renkl & Atkinson, 2003; van Bruggen, Kirschner & Jochems, 2002 ...)
+- Auch Weiterentwicklungen und Differenzierungen der Modellansätze sind aktuell in der Diskussion
+- Theorieansätze der menschlichen Informationsverarbeitung:
+    - Cognitive-Lead-Theorie
+    - Kognitive Theorie multimedialen Lernens
+    - Integrierte Modell des Text- und Bildverstehens
+
+##### S. 42
+**Gedächtnis**
+- Lernende, insbesondere jene, die noch wenig Wissen über die vermittelten Lerninhalte haben, können dabei beobachtet werden, wie sie sich einen Text mehrmals durchlesen oder ein Bild sehr lange oder wiederholt betrachten, um alle relevanten Informationen aufzunehmen
+- Lernende hingegen, die schon ein umfangreiches Vorwissen zum Lerngegenstand haben, lesen Texte selektiv, überspringen also ganze Textteile oder überfliegen den Text nur. Das gleiche gilt bei Bildern oder Animationen, diese betrachten sie nur kurz, extrahieren aber dennoch alle relevanten Wissensinhalte aus dem Lernmaterial
+- Erklären lässt sich diese Beobachtung durch die Kapazitätsbegrenzung der menschlichen Informationsverarbeitung. Es können im menschlichen Gedäcjtnis nicht alle Informationen auf einmal aufgenommen und verarbeitet werden
+- Deshalb muss die Konzeption multimedialer Instruktion einerseits auf das Vorwissen der Lernenden abgestimmt sein und andererseits die Begrenzung des Arbeitsgedächtnisses berücksichtigen. Andernfalls kann multimediale Instruktion nur zufällig erfolgreich sein und zu den gewünschten Lerneffekten hinführen
+
+##### S. 43
+- *Arbeitsgedächtnis* $\rarr$ 7 Werte
+- *Langzeitgedächtnis*
+    - Informationen, Wissenszusammenhänge, Erfahrungen etc. werden verbal, bildhaft oder auditiv abgespeichert
+    - Schemata kategorisieren mehrere kleinere Informationseinheiten zu einer großen, die dann im Ganzen im Langzeitgedächtnis gespeichert werden kann
+    - Spezielle Form: Skripte
+
+##### S. 44
+- Für Informationen im Langzeitgedächtnis lassen sich keine Limitierungen messen, egal, ob sie die Dauer oder die Anzahl der Informationseinheiten betreffen
