@@ -501,3 +501,41 @@ Nicht relevant
 
 ##### S. 44
 - Für Informationen im Langzeitgedächtnis lassen sich keine Limitierungen messen, egal, ob sie die Dauer oder die Anzahl der Informationseinheiten betreffen
+- Beim Verstehen arbeiten arbeiten Langzeit- und Arbeitsgedächtnis eng zusammen. Verständnis tritt erst dann ein, wenn alle relevanten Elemente der Information simultan im Arbeitsspeicher verarbeitet werden konnten
+- Wissen in Wissenseinheiten zerlegen. Diese Wissenseinheiten sequenziell verstehen, indem er einige wenige neue Informationseinheiten im Arbeitsgedächtnis kombiniert und organisiert und dann im Langzeitgedächtnis abgespeichert wird
+- Sobald neue Wissenseinheiten im Arbeitsgedächtnis vorhanden sind, kombiniert und organisiert er dieses neue Wissen mit dem bereits im Langzeitgedächtnis abgespeicherten, wobei die aus dem Langzeitgedächtnis ins Arbeitsgedächtnis übernommenen Schemata die Kombination und Organisation der neuen Wissenselemente steuern
+- Dieser sukzessive Prozess von Wissensabruf aus dem Langzeitgedächtnis und der Kombination und Organisation mit neuen Wissenselementen erfolgt so lange, bis alle zum ursprünglichen komplexen Wissensinhalt gehörenden essentiellen Elemente im Arbeitsgedächtnis bearbeitet und zu Schemata zusammengeführt sowie untereinander organisiert wurden. Erst dann tritt Verstehen ein
+
+##### S. 45
+**Cognitive Load Theory**
+- Annahmen:
+    - Kapazität des Arbeitsgedächtnisses ist begrenzt
+    - Lernen bedeutet Schemata zu konstruieren. Sie kategorisieren und organisieren Wissen. Zudem steuern sie den Erwerb von Neuem
+- Es können nach der Cognitive-Load-Theorie drei unterschliedliche Quellen kognitiver Belastung im Arbeitsgedächtnis auftreten:
+    - Intrinsic Cognitive Load: Er ergibt such aus der Lernaufgabe als solcher. Der Instrinsic Cognitive Load bestimmt sich aus der Aufgabenschwierigkeit, der Aufgabenkomplexität oder/ und dem Umfang der Lernaufgabe
+    - Extraneous Cognitive Load: Er ist abhängig von der Gestaltung des Lernmaterials. Den Extraneous Cognitive Load beeinflussen die ausgewählte Art und Strukturierung der Wissensvermittlung, die Präsentation der Lerninhalte und die verfügbare Steuerungsnavigation, um die Lerninhalte zu erreichen
+    - Germane Cognitive Load: Mit ihm werden die freuen kognitiven Ressourcen bezeichnet, die für die Schemakonstruktion im Arbeitsgedächtnis verhanden sind. Der Germane Cognitive Load ist die kognitive Belastung die für den reinen Wissenserwerb benötigt wird
+- Die drei Quellen kognitiver Belastung werden als additiv wahrgenommen. Dabei sollte es das Ziel sein, den Extraneous Cognitive Load zu minimieren, um möglichst viele kognitive Ressourcen für den Germane Cognitive Load frei zu halten. Denn der Intrinsic Cognitive Load ist nach Sweller nicht veränderbar
+
+##### S. 47
+- Es existieren didaktische Gestaltungsmöglichkeiten, um den "Extraneous Cognitive Load" so gering wie möglich zu halten:
+    - Worked Example Effect
+    - Split Attention Effect
+    - Modality Effect
+    - Redundancy Effect
+    - Expertise Reversal Effect
+
+##### S. 49
+- Cognitive-Load-Theorie ist in vielerlei Hinsicht essentiell für die Konzeption multimedialen Lernens. Ohne Rücksicht auf die begrenzte Arbeitsgedächtniskapazität beim Lernen kann die geplante Instruktion nur zufällig effektiv und effizient sein
+- Designentscheidungen zum Intrinsic, Extraneous und Germane Cognitive Load entscheiden über die für effektives und effizientes Lernen so zentrale Belastung des Arbeitsgedächtnisses
+- Instruktion z.B. mittels fallbasiertem oder beispielbasierendem Lernen ist dazu geeignet, Schemata zu vermitteln. Sie unterstützen den Lernenden beim Wissenserwerb und erleichtern den Erwerb von neuen Informationen
+
+##### S. 50
+**Kognitive Theorie Multimedialen Lernens (CTML)**
+- Menschen lernen besser mti Wörtern und Bildern als mit nur einem Medium. Dennoch garantiert das Hinzufügen von Bildern zu Texten noch keinen guten Lernerfolg
+- ursprünglich als SOI Modell von Mayer (2001, 2005a) bezeichnet
+- Annahmen:
+    - Informationsverarbeitung erfolgt getrennt nach visuell und auditiv dargebotener Information
+    - Kapazität des Arbeitsgedächtnisses und jedes Verarbeitungskanals ist begrenzt
+    - Wesentliche Lernaktivitäten sind: Die aktive Auswahl, Strukturierung neuer Informationen, der Aufbau eines mentalen Modells und die Verknüpfung neu erworbenen Wissens mit bereits Gelerntem
+- Die zentrale Annahme der Theorie, dass die menschliche Informationsverarbeitung sich danach unterscheidet, ob auditive oder visuelle Information aufgenommen werden
