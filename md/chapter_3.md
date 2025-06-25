@@ -538,4 +538,30 @@ Nicht relevant
     - Informationsverarbeitung erfolgt getrennt nach visuell und auditiv dargebotener Information
     - Kapazität des Arbeitsgedächtnisses und jedes Verarbeitungskanals ist begrenzt
     - Wesentliche Lernaktivitäten sind: Die aktive Auswahl, Strukturierung neuer Informationen, der Aufbau eines mentalen Modells und die Verknüpfung neu erworbenen Wissens mit bereits Gelerntem
-- Die zentrale Annahme der Theorie, dass die menschliche Informationsverarbeitung sich danach unterscheidet, ob auditive oder visuelle Information aufgenommen werden
+- Die zentrale Annahme der Theorie, dass die menschliche Informationsverarbeitung sich danach unterscheidet, ob auditive oder visuelle Information aufgenommen werden. Je nachdem, welche Informationen zu verarbeiten sind, wird entweder der visuell/bildhafte/nonverbale Kanal für visuelle Informationen angesprochen oder für verbale Informationen der auditiv/verbale Kanal.
+
+##### S. 52
+- Im Rahmen der kognitiven Theorie multimedialen Lernens wird folgendes vermutet:
+    - Text-, Bild-, Sprach- und Audioinformationen werden dual codiert. Diese Verarbeitung erfolgt für die Text- und Bildinhalte über den Kanal für visuell/bildhafte Verarbeitung und für gesprochene Sprache, Töne und Musik über den Kanal für die auditiv/verbale Verarbeitung
+    - Jeder der beiden Kanäle hat eine begrenzte Verarbeitungskapazität und es können somit auch nur eine begrenzte Anzahl kognitiver Prozesse gleichzeitig gesteuert werden
+- Nach der Theorie multimedialen Lernens gelangen Text- und Bildinformationen zunächst, über die Augen und Ohren aufgenommen, in das sensorische Gedächtnis, wo die Informationen für sehr kurze Zeit präsent gehalten werden, um über den weiteren Verarbeitungsprozess zu entscheiden. Als wichtig ausgewählte, über die Ohren aufgenommene, gesprochene Wörter bzw. Informationen werden über den auditiv/verbalen Kanal an das Arbeitsgedächtnis weitergeleitet; ebenso visuelle Informationen. Diese erreichen das Arbeitsgedächtnis jedoch über den visuell/bildhaften Kanal
+- Für geschriebenen Text gilt allerdings die Besonderheit, dass er zunächst im visuell/bildlichen Kanal verarbeitet wrd und dann in den auditiv/verbalen Kanal wechselt
+- Siehe Grafik auf S. 53
+
+##### S. 53
+**Konsequenzen für die Gesaltung multimedialen Lernens**
+- zwei wesentliche Konsequenzen lassen aus diesem Modell für die Gestaltung von multimedialem Lernen ableiten
+    1. Sobald dem Lernenden zu viele Informationen gemeinsam über einen Kanal angeboten werden, ist das Arbeitsgedächtnis überlastet und der Wissenserwerb behindert
+    2. Das Arbeitsgedächnis ist ebenso überfordert, wenn zu viele Informationen gleichzeitig auf beiden Kanälen zu verarbeiten sind. Denn in diesem Fall muss das Arbeitsgedächtnis sehr viele Informationen gleichzeitig aktiv halten
+
+##### S. 54
+- fünf Designprinzipien sollten darüber hinaus nach Mayer (2001) bei der Konzeption multimedialen Lernens Anwendung finden. Neben dem Modalitätsprinzip und dem Redundanzprinzip:
+    - Multimedia Prinzip
+    - Kontiguitätsprinzip
+    - Kohärenzprinzip
+
+##### S. 260
+**Simulation**
+- Eine Animation wird dann zur Simulation, wenn sie einen bestimmten Grad an Interaktivität aufweist. Von einer Simulation kann gesprochen werden, wenn der Lernende die Möglichkeit hat, bestimmte Parameter zu verändern, und damit beeinflussen kann, was im Verlauf der Animation dargestellt wird (Betrancourt 2005)
+- Rieber (2005) ohne Animation: Er definiert Simulationen als Computerprogramme, die Phänomene oder Aktivitäten modellieren und die dafür vorgesehen sind, dass die Nutzer durch Interaktionen mit ihnen etwas über diese Phänomene und Aktivitäten lernen.
+- Rolle der Lernenden ist festgelegt
