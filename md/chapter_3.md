@@ -565,3 +565,18 @@ Nicht relevant
 - Eine Animation wird dann zur Simulation, wenn sie einen bestimmten Grad an Interaktivität aufweist. Von einer Simulation kann gesprochen werden, wenn der Lernende die Möglichkeit hat, bestimmte Parameter zu verändern, und damit beeinflussen kann, was im Verlauf der Animation dargestellt wird (Betrancourt 2005)
 - Rieber (2005) ohne Animation: Er definiert Simulationen als Computerprogramme, die Phänomene oder Aktivitäten modellieren und die dafür vorgesehen sind, dass die Nutzer durch Interaktionen mit ihnen etwas über diese Phänomene und Aktivitäten lernen.
 - Rolle der Lernenden ist festgelegt
+- Multimediales Lernen erfolgt in den meisten Fällen durch Erläuterungen und Erklärungen unter der Nutzung von Text, Bildern, Audio etc.
+- Im Gegensatz dazu bieten Simulationen die Möglichkeit zur Interaktion mit dem Lehrstoff (learning by doing). Der Schwerpunkt liegt hier auf Exploration anstelle von Erläuterungen
+- Er kann direkt beobachten, wie sich die von ihm vorgenommenen Veränderungen auswirken = natürliches Feedback
+- Jeder Simulation liegt ein mathematisches Modell zugrunde. Deshalb werden Simulationen häufiger in den Naturwissenschaften angewandt, weil hier präziser formulierte Modelle vorliegen und kausale Zusammenhänge bestehen, was in den Geisteswissenschaften nicht notwendigerweise der Falle ist
+- Simulationen haben von sich aus kein bestimmtes Lernziel außer der Exploration. Dem Lernenden können jedoch Ziele vorgegeben werden durch Fragen oder Problemstellungen
+
+##### S. 261
+- Vorteil von Simulationen: Training einer komplexen Fähigkeit, das in der realen Welt nicht ohne weiteres Möglich ist (Beispiele: Flugsimulatoren oder Astronautentrainings - Wohingegen magnetische Feldlinien durch Eisenspäne sichtbar gemacht werden können, kann Rechnerarchitektur nicht einfach nachgebildet werden)
+- Daher können Öernende in der Simulation Erfahrungen sammeln und Fehler machen, die in der realen Welt schwerwiegende Konsequenzen nach sich ziehen würden
+
+**Arten von Simulationen**
+- Modellanwendende Simulationen:
+    - zugrundeliegende mathematische Modell wurde bereits programmiert und der Lernende kann einige Parameter verändern
+- Modellbildende Simulationen:
+    - Möglichkeit, die Eigenschaften des Systems selbst zu programmieren bzw. zu erstellen
