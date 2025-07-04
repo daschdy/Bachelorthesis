@@ -10,21 +10,24 @@ date: 2025-26-04
 - MMIX: https://dl.gi.de/server/api/core/bitstreams/86f6584e-1815-47c7-80c8-997add9b3d2d/content
 - Grafischer Prozessor-Simulator: https://eprints.ost.ch/id/eprint/920/1/HS%202020%202021-SA-EP-Schmidli-Boillat-Grafischer%20Prozessor-Simulator.pdf
 - MikroSim: http://www.mikrocodesimulator.de/Detailinfo/cebit95_faltblatt.pdf
-- Bonsai Computer: https://old.imst.ac.at/files/projekte/2045/berichte/2045_Langfassung_Gatterer.pdf 
+- Bonsai Computer: https://old.imst.ac.at/files/projekte/2045/berichte/2045_Langfassung_Gatterer.pdf
 - PoCiLet: https://eldorado.tu-dortmund.de/bitstream/2003/21401/1/pg433.eb.pdf
 - DCMSIM: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1264669
 - SIME: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6403198
 - MSCSim: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4117042
 - CREATOR: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10540579
-- SICOME 2.0: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8476041
+- SICOME 2.0:
+    - https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8476041
+    - SICOME 2.0: A teaching simulator for Computer Architecture already in Zotero
+
 - UCOMIPSIM 2.0: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8476063
 - Ramulator 2.0: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10321647
 - Parallel Simulator: https://ieeexplore.ieee.org/document/5662504
 - BZK.SAU: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5541476
 - OOOSIM: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5421294
 
-## Simulatoren in der Lehre 
-- Didaktische Simulationsmodelle für E-Learning in der IK-Ausbildung: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=ec4c5dbacf125ed8049700e2695141ad90f78b63#page=77 
+## Simulatoren in der Lehre
+- Didaktische Simulationsmodelle für E-Learning in der IK-Ausbildung: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=ec4c5dbacf125ed8049700e2695141ad90f78b63#page=77
 
 - Entwicklung rechnergestützter Simulatoren aus der Perspektive eines erfahrungsbezogenen Lernkonzepts: https://www.cyberphysicals.de/artlabWWW/public_html/publications/artec-01-mueller-Simulatoren.pdf
 
@@ -46,7 +49,7 @@ date: 2025-26-04
 
 - Computerunterstützter Unterricht (CUU) und interaktives Lernen: https://books.google.de/books?hl=de&lr=&id=wdV8AQAAQBAJ&oi=fnd&pg=PP5&dq=didaktische+simulatoren+rechnerarchitektur&ots=ZWfY6IyQeK&sig=1bH4GqcmY-Wz7HzGVIEDX40LFg4&redir_esc=y#v=onepage&q&f=false
 
-- Adaptive Lehrvideos: https://dl.gi.de/server/api/core/bitstreams/52fada81-a9c2-4c25-9fb1-1491129252fb/content 
+- Adaptive Lehrvideos: https://dl.gi.de/server/api/core/bitstreams/52fada81-a9c2-4c25-9fb1-1491129252fb/content
 
 - HELCA – Ein Konzept für einen E-Campus?: https://www.researchgate.net/profile/Stephan-Olbrich/publication/228466993_HELCA-Ein_Konzept_fur_einen_E-Campus/links/0deec5398977ede052000000/HELCA-Ein-Konzept-fuer-einen-E-Campus.pdf
 
@@ -58,7 +61,7 @@ date: 2025-26-04
 
 - Digital Tools, Technologies, and Learning Methodologies for Education 4.0 Frameworks: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10401932
 
-- VIDAR Lab: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9942777 
+- VIDAR Lab: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9942777
 
 - Teaching And Learning Support For Computer Architecture And Organization Courses Design On Computer Engineering and Computer Science For Undergraduate: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8239076
 

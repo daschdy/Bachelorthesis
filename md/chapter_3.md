@@ -629,3 +629,6 @@ Nicht relevant
 - MARS: Simulator for MIPS assembly language such as how to implement addition and multiplication, for and while loop, etc. in MIPS assembly langauge
 - Logisim: Educational Tool for designing and simulating digital logic circuits
 - SPIM: This simulator runs and executes a MIPS assembly language in 32-bit processor and provides a debugger and minimal set of operation system services
+
+#### Simulators as a Teaching Aid for Computer Architecture and Organization
+##### S. 110
