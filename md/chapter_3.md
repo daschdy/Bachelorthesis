@@ -580,3 +580,22 @@ Nicht relevant
     - zugrundeliegende mathematische Modell wurde bereits programmiert und der Lernende kann einige Parameter verändern
 - Modellbildende Simulationen:
     - Möglichkeit, die Eigenschaften des Systems selbst zu programmieren bzw. zu erstellen
+
+#### Einsatz von Simulationswerkzeugen in der Lehre am Beispiel von ARIS
+##### S. 131
+- Auch in der Lehre und Weiterbildung werden Simulationswerkzeige als wesentlicher Bestandteil explorativer Lernprozesse gesehen, mit deren Hilfe es über den klassischen, frontal orientierten Lernmethoden hinaus gelingen kann, den Studierenden und Lernenden Problemlösungskompetenzen zu vermitteln, die im heutigen schwer vorhersagbaren und komplexen Umfeld unerlässliche Managementkompetenz sind
+- Der Begriff Simulaion bezeichnet ein Modell eines (dynamischen) realen Systems.
+- Im Kontext des computerunterstützten Unterrichts sind Simulationen Softwareanwendungen, bei denen die Hauptmerkmale eines Phänomens oder Systems am Bildschirm nachgestellt werden, damit der Lernende entdecken kann, wie jedes Merkmal das Verhalten des Phänomens oder Systems als Ganzes mitbestimmt
+- Neben den bekannten Möglichkeiten, die Kontrolle über komplexe Systeme unter extremen Bedingungen zu erlernen und zu üben ist die Simulation von Experimenten insb. mit den neuen Möglichkeiten des elektronischen Lernens über Internet (E-Learning) interessant
+
+##### S. 132
+- Software-basierte Simulationen in der Lehre gehören zu den Programmen des explorativen Lernens und haben den Vorteil, nicht für eine bestimmte Altersgruppe bestimmt zu sein, die über bestimmte Vorkenntnisse verfügen muss
+- Komplexe Zusammenhänge werden in realistischer Form abgebildet
+- Entsprechende Demonstrationen bzw. Veranschaulichungen dienen der Einführung in die Handhabung technischer Systeme
+- Aufgrund der Realitätsnähe und der unmittelbaren Reaktion des Systems auf die Aktionen der Lernenden, ist der motivierende Aspekt dieser Form der Lernumgebung sehr groß
+- Die interaktive Funktion dieses Systems besteht in der Unterstützung der Lernenden bei der Analyse des Lernstoffs und der Selbststeuerung des Lernwegs
+- Durch Änderung der Parameter oder durch Entscheidungen können Effekte ausgelöst werden, die Aufschlüsse über die Beziehungen und Funktionen der einzelnen Faktoren geben und somit einen Lerneffekt erzeugen
+- Zu jeder effizienten Gestaltung von Simulationen gehören folgende Elemente:
+    - Das Szenario der Simulation
+    - Das zugrunde liegende Modell
+    - Die instruktionale Strategie
