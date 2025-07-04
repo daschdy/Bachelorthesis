@@ -599,3 +599,33 @@ Nicht relevant
     - Das Szenario der Simulation
     - Das zugrunde liegende Modell
     - Die instruktionale Strategie
+
+#### Teaching And Learning Support for Computer Architecture And Organization Courses Design On Computer Engineering and Computer Science For Undergraduate: A Review
+##### S. 1
+- Understanding computer system hardware is basic for the undergraduate student which study in the computer area. System user always needs a faster, cheap and reliable process which is conducted by it computer system self. To fulfill that process is required how a computer works from their design and how they operate
+- Nowadays, there are many freely available simulators that can save time resource, ease of use, and have the capacity to learn the basic concept of computer architecture
+
+##### S. 3
+- Simulation Software examples:
+    - Electrical Numerical Integrator and Computer
+    - The Visible Virtual Maschine
+    - MARS
+    - Logisim
+    - SPIM
+    - CPU-OS
+- Simulator Requirements:
+    - can cover all topics in the courses
+    - able to run ob laboratory computers
+    - freely available on the internet
+    - userfriendly GUI
+
+##### S. 4-5
+- ENIAC: Electrical Numerical Integrator and Computer
+    - Simulation the first computer that developed
+    - Using a decimal based number
+    - Output is a printer
+- VVM: Visible Virtual Machine
+    - simulate the fetch-execute cycle of the computer system based on Von Neumann Machine
+- MARS: Simulator for MIPS assembly language such as how to implement addition and multiplication, for and while loop, etc. in MIPS assembly langauge
+- Logisim: Educational Tool for designing and simulating digital logic circuits
+- SPIM: This simulator runs and executes a MIPS assembly language in 32-bit processor and provides a debugger and minimal set of operation system services
