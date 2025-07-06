@@ -632,3 +632,23 @@ Nicht relevant
 
 #### Simulators as a Teaching Aid for Computer Architecture and Organization
 ##### S. 110
+- Advancement in computer system hardware makes it difficult to meet the demands of teaching computer architecture and organization
+- There was a lock of giving students the exposure of different architectures visualization through graphical represenation with the help of simulators. Instead they were receiving the theoretical aspect of internal structure and components of the computer, how the instructions are being executed and handled by different architectures. This problem can be dealt by the use of simulators
+
+##### S. 111-112
+- Criteria for selecting simulators:
+    - topics covered in the lectures
+    - able to run on laboratory computers
+    - freely available on the internet
+    - user friendly GUI
+- Simulators:
+    - ENIC
+    - VVM
+    - MARS
+    - Logisim
+    - SPIM
+
+#### Didaktische Simulationsmodelle für E-Learning in der IK-Ausbildung
+##### S. 76
+- Heutzutage gewinnt der Begriff E-Learning sehr stark an Bedeutung. Dazu hat neben der Verbreitung des Internets auch die zunehmende Modularisierung der Studiengänge sowie ein verstärkter Trend zum Selbststudium beigetragen
+- Man greift immer häufiger auf virtuelle Lernplattformen zurück, weil sie eine sinnvolle Ergänzung zu den traditionellen Lernmethoden darstellen

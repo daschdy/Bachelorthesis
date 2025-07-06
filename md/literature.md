@@ -19,7 +19,6 @@ date: 2025-26-04
 - SICOME 2.0:
     - https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8476041
     - SICOME 2.0: A teaching simulator for Computer Architecture already in Zotero
-
 - UCOMIPSIM 2.0: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8476063
 - Ramulator 2.0: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10321647
 - Parallel Simulator: https://ieeexplore.ieee.org/document/5662504
@@ -28,6 +27,7 @@ date: 2025-26-04
 
 ## Simulatoren in der Lehre
 - Didaktische Simulationsmodelle für E-Learning in der IK-Ausbildung: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=ec4c5dbacf125ed8049700e2695141ad90f78b63#page=77
+    - read
 
 - Entwicklung rechnergestützter Simulatoren aus der Perspektive eines erfahrungsbezogenen Lernkonzepts: https://www.cyberphysicals.de/artlabWWW/public_html/publications/artec-01-mueller-Simulatoren.pdf
 
