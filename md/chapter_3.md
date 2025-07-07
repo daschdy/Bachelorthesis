@@ -752,3 +752,19 @@ Nicht relevant
 ##### S. 5
 - Computersimulationen und digitale Lernspiele müssen sich an den Erfahrungs- und Wissensstand der Nutzer anpassen und deren intrinsische Motivation zum Spielen bzw. zur Interaktion für die Wissensvermittlungs ausnutzen
 - Primärziel: Lernerfolg zu erhöhen, indem die Nutzer während der Interaktion mit Lernspielen und Simulationen motiviert bleiben, d.h. sie sollen in die virtuelle Welt eingetaucht sein und dem Flow-Kanal folgen
+
+#### Interaktive Visualisierung dynamischer Vorgänge in Rechensystemen mittels Multimediatechniken
+##### S. 20
+- Eine der wesentlichen Einschränkungen traditioneller Medien (z.B. von Büchern) beim Einsatz in der Lehre ist das Fehlen von Visualisierungsmöglichkeiten eines dynamischen Verhaltens von Systemen
+- Interaktivität zu realisieren ist allerdings schwierig, denn sie erfordert im Wesentlichen eine Simulation des zu visualisierenden Systems
+- Entwurf von Simulatoren erfordert dabei in der Regen einen Aufwand, der nicht innerhalb des üblichen Zeitrahmens für die Erstellung von Multimediamaterial geleistet werden kann, geschweige denn innerhalb des üblichen Zeitrahmens für die Vorbereitung einer Vorlesung
+- Auf der anderen Seite sind die verfügbaren Simulatoren in der Regel nicht für den Einsatz in der Lehre (insbesondere nicht in Vorlesungen) konzipiert worden. Hauptziel ihres Entwurfs ist häufig eine hohe Simulationsgeschwindigkeit und die Nutzbarkeit in komplexen Entwurfsobjekten
+- Einfache Benutzung, ausgezeichnete Visualisierung und Portierbarkeit sind üblicherweise nicht die Hauptziele beim Entwurf von Simulatoren
+- Leistungsfähige Simulatoren stehen darüber hinaus häufig nur in Form von teuren kommerziellen Software-Paketen zur Verfügung. Dies verhindert den Einsatz in Vorlesungen und durch die Studierenden selbst
+- RaVi = Rechnerarchitektur-Visualisierung. Teil des größten Simba-Projekts, welches die Erstellung von mulitmedialen Komponenten für Schlüsselkonzepte der Informatik zum Ziel hat, wobei frauenspezifische Lerninteressen besonders berücksichtigt werden sollen
+- RaVi Ziel: Dynamische Abläufe in Rechensystemen leichter verständlich zu machen. Hierzu wurde eine Reihe von multimedialen Komponenten entwickelt, die jeweils aus einem Lernbeispiel der Rechnerarchitektur bestehen. Alle ausgewählten Lernbeispiele haben die Gemeinsamkeit, dass mit ihnen relativ komplexe, dynamische Lehrbuch zur Rechnerarchitektur von Hennessy und Patterson
+- Es wurden Multimediakomponenten zu folgenden Beispielen erstellt:
+    - Befehlsausführung in einem mikroprogrammierten MIPS-Prozessor
+    - Befehlsausführung bei einer Fließbandarchitektur
+    - MESI-Protokoll zur Vermeidung von Speicherkohärenz
+    - Befehlsausführung unter dem Einsatz von Techniken zum dynamischen Scheduling

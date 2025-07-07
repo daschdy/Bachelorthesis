@@ -33,9 +33,10 @@ date: 2025-26-04
     - done
 
 - Interoperable Adaptivität für Serious Games und Simulationen in der Bildauswertung: https://publica-rest.fraunhofer.de/server/api/core/bitstreams/82ada106-946e-4ae7-913c-afa0653831c2/content
-    - read
+    - done
 
 - Interaktive Visualisierung dynamischer Vorgänge in Rechensystemen mittels Multimediatechniken: https://eldorado.tu-dortmund.de/server/api/core/bitstreams/74a0f740-3c5d-4b9a-8f63-b804a03d62a9/content#page=21
+    - read
 
 - Inhalte und Ergebnisse des Verbundprojekts Wissenswerkstatt Rechensysteme (WWR): https://www.researchgate.net/profile/Djamshid-Tavangarian/publication/237427004_Inhalte_und_Ergebnisse_des_Verbundprojekts_Wissenswerkstatt_Rechensysteme_WWR/links/0c9605266c23e276bb000000/Inhalte-und-Ergebnisse-des-Verbundprojekts-Wissenswerkstatt-Rechensysteme-WWR.pdf
 
