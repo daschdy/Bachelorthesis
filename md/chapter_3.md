@@ -738,3 +738,17 @@ Nicht relevant
 - Komplexe Systeme werden durch die Zahl unterscheidbarer Relationen bestimmt.
 - Je komplizierter bzw. komplexer ein zu modellierendes System aufgebaut ist, desto schwieriger ist es, den inneren Aufbau oder die Funktion eines solchen Systems zu erfassen und in ein Simmulationsmodell abzubilden
 - Dabei werden von Anfängern Sachverhalte als äußerst kompliziert bzw. komplex wahrgenommen, die hingegen von Erfahrenen einfach erscheinen
+
+
+#### Interoperable Adaptivität für Serious Games und Simulationen in der Bildauswertung
+##### S. 1
+- Computersimulationen und digitale Lernspiele (Serious Games) für Ausbildung und Training sind in den letzten Jahren verstärkt in den Ausbildungsprogrammen von Institutionen und Firmen anzutreffen
+- Während das Lernen früher mit Tafel und Papier stattfand, gibt es heute beeindrucken realistische Computersimulationen, die das Wissen für die junge, computerspielaffine Generation auf selbstmotivierende Art und Weise vermitteln
+- Mithilfe von Serious Games soll die Wissensvermittlung effektiver werden, indem die natürliche Motivation zu spielen und zu interagieren für das Lernen ausgenutzt wird
+- Computersimulationen und Serious Games können die Nutzer auch über längere Zeit beschäftigt und motiviert halten. Indem Computerspiele an die Bedürfnisse und den Interaktionsfortschritt bzw. Lernfortschritt der Nutzer angepasst werden, bleiben die Nutzer in der virtuellen Welt eingetaucht - sie sind also im sog. Flow-Kanal in der Balance zwischen der individuellen Herausforderung und Fähigkeit
+- Serious Games stellen dabei eine Sonderform von Simulationen dar. Während bei Simulationen realitätsgetreue Prozesse udn Abbildungen im Vordergrund stehen, sind es bei Serious Games die Story und didaktischen Elemente
+- Adaptivität: Interaktionsmechanismen, Inhalte oder Vorschläge werden durch eine intelligente Tutoring-Komponente personalisiert - analog zu den Mechanismen bei Intelligenten Tutorsystemen (ITS)
+
+##### S. 5
+- Computersimulationen und digitale Lernspiele müssen sich an den Erfahrungs- und Wissensstand der Nutzer anpassen und deren intrinsische Motivation zum Spielen bzw. zur Interaktion für die Wissensvermittlungs ausnutzen
+- Primärziel: Lernerfolg zu erhöhen, indem die Nutzer während der Interaktion mit Lernspielen und Simulationen motiviert bleiben, d.h. sie sollen in die virtuelle Welt eingetaucht sein und dem Flow-Kanal folgen

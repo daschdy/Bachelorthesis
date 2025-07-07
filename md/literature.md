@@ -27,11 +27,13 @@ date: 2025-26-04
 
 ## Simulatoren in der Lehre
 - Didaktische Simulationsmodelle für E-Learning in der IK-Ausbildung: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=ec4c5dbacf125ed8049700e2695141ad90f78b63#page=77
-    - read
+    - done
 
 - Entwicklung rechnergestützter Simulatoren aus der Perspektive eines erfahrungsbezogenen Lernkonzepts: https://www.cyberphysicals.de/artlabWWW/public_html/publications/artec-01-mueller-Simulatoren.pdf
+    - done
 
 - Interoperable Adaptivität für Serious Games und Simulationen in der Bildauswertung: https://publica-rest.fraunhofer.de/server/api/core/bitstreams/82ada106-946e-4ae7-913c-afa0653831c2/content
+    - read
 
 - Interaktive Visualisierung dynamischer Vorgänge in Rechensystemen mittels Multimediatechniken: https://eldorado.tu-dortmund.de/server/api/core/bitstreams/74a0f740-3c5d-4b9a-8f63-b804a03d62a9/content#page=21
 
