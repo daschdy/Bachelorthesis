@@ -652,3 +652,40 @@ Nicht relevant
 ##### S. 76
 - Heutzutage gewinnt der Begriff E-Learning sehr stark an Bedeutung. Dazu hat neben der Verbreitung des Internets auch die zunehmende Modularisierung der Studiengänge sowie ein verstärkter Trend zum Selbststudium beigetragen
 - Man greift immer häufiger auf virtuelle Lernplattformen zurück, weil sie eine sinnvolle Ergänzung zu den traditionellen Lernmethoden darstellen
+- Das E-Learning ermöglicht das netzwerkbasierte, kooperatuve Lernen
+- Anfangs Mail, Newsforen, Chat oder Videokonferenzen, aber fehlende Anpassung an didaktische Anforderungen. Zusätzlich war die jeweilige Lernmethode nicht den Werkzeugen angepasst
+- Man verwendet daher Kooperationsformen wie virtuelle Vorlesungen, virtuelle Seminare oder virtuelle Arbeitsgruppen
+- Hier greift man auf programmierte Tools, kommerzielle Entwicklungswerkzeuge zurück, wie z.B. WebSite, WebMaster oder NetObjects Fusion
+- Nachteil ist, dass die neuen Kooperationsformen über keine offenen Schnittstellen verfügen. Sie sind also heterogren, wen den Austausch von Lernmmodulen zwischen unterschiedlichen Systemen schwierig oder sogar unmöglich macht
+- heutiger Trend geht in die Richtung, komplexe, netzwerkbasierte Lernsysteme aufzubauen und anzubieten (Bsp.: Cisco Networking Academy, webNurse, Dabei greift man auf weltweit verbreitete, kommerzielle Werkzeuge wie ILIAS, OLAT, WebCT oder Blackboard zurück
+- Open Source Lösungen: Sie arbeiten mit offenen Schnittstellen und erlauben und fest definierten Lizenzbedinungen (General Public License [GPL]) die kommerzielle Nutzung und Modifikation der Systeminhalte. Sie werden auch CampusSource genannt.
+- Weiterer Trend: Blended Learning, in dem fließende Übergänge zwischen E-Learning und Präsentsphasen das Hauptmerkmal bilden
+
+##### S. 77
+- beim multimedialen Lernen (Lernprozess, der Inhalte unter Verwendung mehrerer Medien wie Audi, TV/ Video, PC, Hypertext und/ oder Internet vermittelt) spielt die Visualisierung des Lernstoffes eine wichtige Rolle. Um dies zu erreichen benutzt man Simulationsmodelle
+- Problem: Zum größten Zeil werden in Didaktikprozessen Simulationsmodelle verwendet, die für Benutzer ausgelegt sind, die schon über ein breites Wissen verfügen.
+- Ursache: Man versucht (oft aus Kostengründen) existierende, oft sehr komplexe Softwaretools, die ursprünglich für andere Zwecke entwickelt wurden, in einen didaktischen Prozess einzubinden.
+- Es gibt auch Modelle, bei denen didaktische Aspekte im Vordergrund stehen. Diese sind für Benutzer von großer Bedeutung, die nur über ein Grundwissen verfügen und ihr Wissen in ihrem eigenen Lernrhythmus vertiefen, Zusammenhänge zwischen Systemkomponenten und Teilsystemen kennen lernen und Prozessabläufe verfolgen bzw. analysieren $\rarr$ Didaktische Simualtionsmodelle
+- Hier ist es wichtig, dass die Modelle übersichtlich, intuitiv und einfach in der Benutzung und Darstellung der Ergebnisse sind
+- Hauptziel: Steigerung der Effektivität des Lernprozesses, wohingegen Simulationsgenauigkeit in Kauf genommen wird.
+
+
+| Klassisches Modell                                 | Didaktisches Modell                                 |
+|----------------------------------------------------|-----------------------------------------------------|
+| Simulation mit hohem Detaillierungsgrad            | Simulation mit niedrigem Detaillierungsgrad         |
+| Ziel: quantitative Analyse des Systems             | Ziel: funktionelle Analyse des Systems              |
+| Voraussetzung: gute Kenntnisse über das modellierte System | Voraussetzung: niedrige oder keine Kenntnisse über das modellierte System |
+| Eingabemodul: komplex und vielseitig               | Eingabemodul: einfach und übersichtlich             |
+| Ausgabemodul: sehr elastisch                       | Ausgabemodul: beinhaltet Vereinfachungen            |
+| Anzahl der möglichen Optionen: umfangreich         | Anzahl der möglichen Optionen: geschränkt           |
+| Simulationsergebnisse: sehr genau                  | Simulationsergebnisse: beschränkt auf das didaktisch sinnvolle |
+
+- Unterteilung der didaktischen Simulationsmodelle in zwei Gruppen:
+    - Modelle zur Verdeutlichung der Funktionalität der einzelnen Systemkomponenten, Mechanismen, physikalischen Erscheinungen
+    - Modelle zur Verdeutlichung der Funktionalität der Gesamtsysteme
+
+##### S. 80
+**Ergebnisse**
+- Zur Visualisierung der theoretischen Informationen: Gute Ergänzung zu den klassischen Lernmethoden
+- Vorbereitung zu den praktischen Übungen
+- Im Selbststudium kann die Wirkungsweise von reellen Komponenten anhand mehrerer Beispiele erprobt und mit Komponenten experimentiert werden.
