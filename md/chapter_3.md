@@ -689,3 +689,52 @@ Nicht relevant
 - Zur Visualisierung der theoretischen Informationen: Gute Ergänzung zu den klassischen Lernmethoden
 - Vorbereitung zu den praktischen Übungen
 - Im Selbststudium kann die Wirkungsweise von reellen Komponenten anhand mehrerer Beispiele erprobt und mit Komponenten experimentiert werden.
+
+#### Entwicklung rechnergestützter Simulatoren aus der Perspektive eines erfahrungsbezogenen Lernkonzepts
+##### S. 255
+- Die Simulation ist eine experimentelle Methode. Sie umfasst die Abbildung eines real existierenden oder ideellen Systems (Originals) in einem Modell und das Experimentieren mit diesem Modell zum Zwecke der Erfahrungs- oder Erkenntnisgewinnung
+- Eine rechnergestützte Simulation beinhaltet entsprechend das Experimentieren mit einem rechnerbasierten Modell oder, wie Fishwick es definiert, die Ausführung eines Modells auf einem Digitalrechner: "„Computer simulation is the discipline of designing a model of an actual or theoretical physical system, executing the model on a digital computer, and analyzing the execution output“ (Fishwick 1995, S. 1)"
+- Wesentliches Potential der Simulation ist der risikolose Umgang mit Modellen existierender oder gedachter 'Wirklichkeiten'
+- Modelle stellen in diesem Sinne die Basis dar, um diese Wirklichkeiten in der Simulation antizipieren und erfahren zu können
+- Vorteilhaft ist bei der Simulation die prinzipielle Möglichkeit, ein Modell auf unterschiedlichen Abstraktionsebenen zu betrachten und zu steuern, es aus einer selbstgewählten Perspektive zu analysieren sowie in alternative Systemzusammenhänge zu stellen und in der Zeitdimension variieren zu können
+
+##### S. 256
+- Einsatzbereiche und Ziele von Simulationen:
+    - Simulationen zum Zwecke der Theoriebildung, Konstruktion, Planung oder Prognose und
+    - Simulationen zum Zwecke der Ausbildung bzw. Qualifizierung
+- Beim Einsatz der Simulation zum Zweck der Theoriebildung, Konstruktion, Planung oder Prognose diesen Simulationen in erster Linie als Optimierungsinstrument, Entscheidungs- oder Prognosehilfe
+- Bei Simulationen zum Zwecke der Ausbildung bzw. Qualifizierung steht der Lernfortschritt, der sich aus dem Umgang mit der Simulation selbst ergibt. Der Vorteil der Simulation ist hier vor allem darin zu sehen, dass durch Modellbildung und Simulationsexperiment ein besonders tiefes Problemverständnis über das zu modellierende Original entwickelt wird und hierdurch neue Einsichten über die Wirklichkeit entstehen können
+- Darüber hinaus unterstützen Simulationen den Erfahrungsprozess und das Lernen aus Erfahrungen im Umgang mit Möglichkeiten und Perspektiven vorhandener oder ideeller Systeme
+- Aus solchen Perspektiven betrachtet, haben Simulationen also nicht nur eine wichtige Funktion im Forschungs-, Planungs- oder Konstruktionsprozess, spndern auch eine didaktische
+- Bodendorf unterscheidet drei Simulationstypen, nämlich Experimentiersysteme, Mikrowelten und Trainingssysteme
+- *Experimentiersysteme* erlauben ein aktives Verwenden, Manipulieren und Testen einer modellhaften Abbildung von realen Objekten oder Prozessen
+- Mit *Mikrowelten* wird eine weitere Kategorie simulationsbasierter Systeme bezeichnet, die "... dem freien, entdeckenden Lernen in einem künstlichen Abbild der Wirklichkeit noch einen Schritt näher kommen" als Experimentiersysteme
+- *Trainingssysteme* dienen dazu, den Umgang mit Geräten, Maschinen, technischen Anlagen oder sonstigen Apparaten einzuüben
+
+##### S. 257
+- Zwei Ursachen, die einen lernförderlichen Umgang mit vielen Simulatoren erschweren:
+    - Vorerfahrung beim Umgang mit Lernsimulatoren kann häufig nicht hinreichend genutzt oder eingebracht werden. Auf diese Weise erzwingen Simulationssysteme - wie rechnerbasierte Techniken generell - häufig einen Bruch in den Nutzungsgewohnheiten, Vorerfahrungen und Qualifikationen der Lernenden. Dementsprechend werden vorhandene Erfahrungen wertlos, weil viele der vorfindlichen Systeme keine Übergänge zwischen erworbenen Erfahrungen und neuen Anforderungen zulassen
+    - Im Zusammenhang mit der Simulation gewonnene Erkenntnisse können nur selten in Handeln umgesetzt und deren Konsequenzen sinnlich 'erfahren' werden. Angesprochen wird hiermit der Problem, dass existierende Simulatoren selten darauf ausgelegt sind, in Kombination mit Realsysteme im Arbeitsprozess eingesetzt zu werden.
+- Daraus ergibt sich also die pädagogische Notwendigkeit einer stärker an den Erfahrungen ihrer Benutzer orientierten Konzeption und Gestaltung rechnergestützter Simulationssysteme und deren Integration in erfahrungsförderliche Lernkontexte
+- Gelingt es, stärker als bisher durch entsprechende Lernsysteme erfahrungsbezogenes Lernen zu unterstützen, dann können die kreativen, schöpferischen Stärken der Benutzer (Lernende und Lehrende) im Umgang mit Simulatoren produktiver genutzt werden. Damit wird die Erfahrung - im spezifisch pädagogischen Sinne - zu einer zentralen Gestaltungskategorie für rechnergestützte Simulationen
+
+##### S. 258
+- Lernen ist ein zirkulärer Prozess, der sich durch die Nutzung vorhandener und die Integration neuer Erfahrungen auszeichnet. Erfahrung hat in diesem Verständnis eine doppelte Funktion. Zum einen bildet sie den Ausgangspunkt neuer Lernprozesse und zum anderen führen Lernergebnisse wieder zu neuen Erfahrungen.
+    - Vor-Erfahrungsorientierung
+    - Neu-Erfahrungsorientierung
+- Das Kriterium der *Vor-Erfahrungsorientierung* beinhaltet im wesentlichen die Forderung nach Simulationssysteme, die an den vorhandenen Erfahrungen der Benutzer orientiert sind. Aus lernpsychologischer Sicht geht es hierbei im Kern um das Anknüpfen an und Integrieren von (Vor-)Erfahrungen, Kenntnissen und Fähigkeiten
+- Das Kriterium der *Neu-Erfahrungsförderlichkeit* beinhaltet im wesentlichen die Forderung nach Simulationssystemen, die die Erfahrungsbildung, das heißt das Machen neuer Erfahrungen im besonderen Maßen fördern
+- Simulationsumgebungen sollen eine möglichst große Vielfalt an (vor-)erfahrungsorientierten Zugängen und (neu-)erfahrungsförderlichen Übergängen eröffnen, damit Lernende entsprechend ihrer unterschiedlichen subjektiven Voraussetzungen vielfältige Lernmöglichkeiten haben
+- Die Abstraktheit von Modellen drückt sich unmittelbar in der Art ihrer Stofflichkeit, ihrer Repräsentation aus. Zu unterscheiden sind hier gegenständliche, grafische und textuelle Modelle.
+- Abstrakte Modellrepräsentationen sind dadurch charakterisiert, dass sie individuelle Merkmale eines Systems vernachlässogen und eher gemeinsame Eigenschaften von Systemklassen hervorheben
+- Grundlegendes Prinzip der Abstraktion ist die Generalisierung, ihre Umkehrung die Spezialisierung
+
+##### S. 259
+- Generalisierung beinhaltet immer eine Induktion, das heißt eine Schlussfolgerung vom besonderen konkreten Einzelfall auf einen allgemeinen Fall
+- Konkretion mit Hilfe der Spezialisierung, beinhaltet eine deduktive Vorgehensweise
+
+##### S. 260
+- Das Maß der Kompliziertheit wird durch die absolute Zahl unterscheidbarer Subsysteme angegeben
+- Komplexe Systeme werden durch die Zahl unterscheidbarer Relationen bestimmt.
+- Je komplizierter bzw. komplexer ein zu modellierendes System aufgebaut ist, desto schwieriger ist es, den inneren Aufbau oder die Funktion eines solchen Systems zu erfassen und in ein Simmulationsmodell abzubilden
+- Dabei werden von Anfängern Sachverhalte als äußerst kompliziert bzw. komplex wahrgenommen, die hingegen von Erfahrenen einfach erscheinen
