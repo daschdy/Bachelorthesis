@@ -768,3 +768,45 @@ Nicht relevant
     - Befehlsausführung bei einer Fließbandarchitektur
     - MESI-Protokoll zur Vermeidung von Speicherkohärenz
     - Befehlsausführung unter dem Einsatz von Techniken zum dynamischen Scheduling
+
+##### S. 22
+**Zielgruppen**
+- Lehrende, die die Komponenten in der Präsenzveranstaltung vorführen
+- Studierende, die die Komponenten zur Nachbereitung der Vorlesung bzw. zum Studium zu Hause benutzen können
+- Explizit werden auch Studentinnen genannt, da diese im Studiengang stark unterrepräsentiert sind. Hierzu wurde der Kriterienkatalog erweitert:
+    - Sensibilisierung des Sprachgebrauchs
+    - Technikbegriffe erklären
+    - Einsatz von Feedback
+    - Praxisbezug herstellen
+
+
+#### Inhalte und Ergebnisse des Verbundprojekts Wissenswerkstatt Rechensysteme (WWR)
+##### S. 1
+- Baukasten von multimedialen, skalier- und rekombinierbaren Lehr- und Lernmmodule
+- Folgende Aspekte stehen hier im Vordergrund:
+    - Kombinierbarkeit
+    - Wiederverwendbarkeit
+    - indivuellen Adaptierbarkeit
+    - Interoperabilität
+- Multimediales Lehr- bzw. Lernmaterial muss flexbibel an den jeweiligen Kontext anpassbar sein, um die vergleichsweise hohen Kosten für seine Entwicklung zu rechtfertigen. Dieser Forderung wird heute weitgehend durch den Einsatz von XML begegnen
+- flexiblen Modulbeschreibung mit Berücksichtigung von drei vordefinierten Dimensionen: Intensität, Zielgruppe, Ausgabemedium
+
+##### S. 8
+- Beispiel: Schaltungsentwurf mit VHDL als Modul
+- Simulatoren:
+    - LogiFlash: Praktischer Simulation elektronischer Schaltungen in Theorie- und Übungseinheiten
+    - Betriebssysteme
+    - Mikroprogramming
+
+
+#### Expedition in das Datenreich: Exploratives Erlernen von Internetdiensten
+##### S. 271
+- unter dem Begriff "exploratives Lernen" werden Ansätze der selbstgesteuerten Wissenskonstruktion auf Basis von Versuch und Irrtum zusammengefasst, deren Wurzeln im Konstruktivismus liegen. In einem hochgradig interaktiven, fast spielerischen Prozess löst der Lernende ein unmittelbar in den Anwendungskontext eingebettetes Problem
+- Der Lehrende tritt dabei in die Rolle eines Beobachters zurück und gibt außer initialen oder gelegentlichen begleitenden Stimuli keine Anweisungen
+- Direkte Anwendungsbezug wird von Lernenden meist als motivationssteigernd empfunden. Die intensive praktische Auseinandersetzung mit einer realistischen Problemstellung führt zu einem tieferen Verständnis als bei einer passiven Konsumierung von Informationen
+- Kritik: Exploratives Lernen wird vor allem die schwierige Prüfbarkeit der erworbenen praktischen Fertigkeiten angeführt. Individueller Lernerfolg ist zudem stark von der intrinsischen Motivation der Lernenden abhängig
+
+##### S. 272
+- Didaktisch motivierende Werkzeuge zur Unterstützung des explorativen Lernens sind in der Informatik bislang weniger verbreitet
+- Entwicklung von Software, Datenbanken oder Computergraphiken wird meist am "lebenden" Rechner erlernt; die Studierenden werden sozusagen "ins kalte Wasser geworfen"
+- Geeignete Visualisierungen sind ein wichtiges Element solcher Umgebungen

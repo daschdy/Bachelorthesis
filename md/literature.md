@@ -36,13 +36,15 @@ date: 2025-26-04
     - done
 
 - Interaktive Visualisierung dynamischer Vorgänge in Rechensystemen mittels Multimediatechniken: https://eldorado.tu-dortmund.de/server/api/core/bitstreams/74a0f740-3c5d-4b9a-8f63-b804a03d62a9/content#page=21
-    - read
+    - done
 
 - Inhalte und Ergebnisse des Verbundprojekts Wissenswerkstatt Rechensysteme (WWR): https://www.researchgate.net/profile/Djamshid-Tavangarian/publication/237427004_Inhalte_und_Ergebnisse_des_Verbundprojekts_Wissenswerkstatt_Rechensysteme_WWR/links/0c9605266c23e276bb000000/Inhalte-und-Ergebnisse-des-Verbundprojekts-Wissenswerkstatt-Rechensysteme-WWR.pdf
+    - done
 
 - Mehrdimensionale Lehr- und Lerninhalte und ihre Beschreibung in der Sprache <ML>3: https://d1wqtxts1xzle7.cloudfront.net/52696017/Structured_eLearning_Wissenswerkstatt_Re20170419-14378-8vk3yr-libre.pdf?1492617085=&response-content-disposition=inline%3B+filename%3DStructured_eLearning_Wissenswerkstatt_Re.pdf&Expires=1745681864&Signature=ZtSylEPRDGUL9ebLELTDPeNXf66AG8YMN4CuJUroA-nuEhasBr2fIheQaCq8Z3N8HKx97Z6VbxL8Sreg5lppQilnEDgaRLxxrdrO1hHhnFoFJ7VMXBhPymi0gK456UwpvsXnwLkMAKZCpv2WGg1xuSznO3QUm1Mjs3kT5-dvXZDBfdflt~ge860BwSMLoPtSNdKejM9SLzQNMJ4PliuY2OqpczgggaY-2PNo8HQGzGa9NQVYVnCWpUTh0U3rjot06ilQICz9SWb-D4G5Umf6bH1Fjd4PYHmyQrh1mW0Gzq9iviW4c1Gq6pnLutIDL1BZt1R8ieV7drZK42Pzc2k0Hw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA#page=13
 
 - Expedition in das Datenreich: Exploratives Erlernen von Internetdiensten: https://dl.gi.de/server/api/core/bitstreams/81e3cabf-b4df-4233-99d9-437f980415a1/content
+    - read
 
 - Blended Learning im Informatikstudium: https://dl.gi.de/server/api/core/bitstreams/37884f2f-49e9-4c5a-bc7d-8b27a1657a69/content
 
