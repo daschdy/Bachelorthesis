@@ -809,4 +809,42 @@ Nicht relevant
 ##### S. 272
 - Didaktisch motivierende Werkzeuge zur Unterstützung des explorativen Lernens sind in der Informatik bislang weniger verbreitet
 - Entwicklung von Software, Datenbanken oder Computergraphiken wird meist am "lebenden" Rechner erlernt; die Studierenden werden sozusagen "ins kalte Wasser geworfen"
-- Geeignete Visualisierungen sind ein wichtiges Element solcher Umgebungen
+- Geeignete Visualisierungen sind ein wichtiges Element solcher Umgebungen. Sie können nicht nur im Rahmen des selbstgesteuerten, explorativen Lernens eingesetzt werden, sondern stellen auch eine sinnvolle Bereicherung des Frontalunterrichts dar
+- Nachteile des explorativen Lernens werden umgangen:
+    - Digitale Umgebungen können im Gegensatz zu materiellen Experimenten nahezu beliebig repliziert werden
+    - Dank Internet auch bei zahlreichen oder entfernten Lernenden eingesetzt werden
+    - Beim Einsatz von Simulatoren verschwinden zunehmend die Grenzen zwischen realem und virtuellem Experiment
+    - Versuchen können individuell parametrisiert werden und weisen somit für heterogene Zielgruppen eine hohe inhärente Vielfalt unter Wahrung der Konsistenz auf
+    - Durch eine Kopplung an bestehende Lehr- und Lernmaterialien wird zudem direkt im Lernprozess eine Homogenisierung des Vorwissens der Lernenden möglich
+    - Das Nutzerverhalten bzw. die am Rechner ausgeführten Aktionen können automatisch erfasst und evaluiert werden, womit die Lernergebnisse unmittelbar in eine rechnergestützte Lernplattform übertragbar sind
+
+##### S. 273
+- Voraussetzung: durchgängiger und strukturierter Entwurf von Materialien und Werkzeugen
+- Erstellung interaktiver, multimedialer Komponenten ist mit einem immensen Ressourcenaufwand verbundenA
+- Wesentliches Prinzipien sind ein modularer Aufbau aus voneinander weitgehend unabhängigen Softwarekomponenten sowie insbesondere in verteilten Systemen eine abstrahierende mehrschichtige Architektur
+
+
+##### S. 279
+- DNS Framework kann nicht nur für reale Internetdienste, sondern auch in Verbindung mit Simulatoren eingesetzt werden
+- Beispiel: Java-basierte DNS-Simulator der Universität of New South Wales und Modellierung von IP-basierten Netzen an der Universität Hamburg
+- Einsatzbedingungen wie die Verfügbarkeit bzw. Qualität der Internetanbindung dürfen kein Ausschlusskriterium für den Einsetz eines eLearning-Werkzeugs bilden.
+
+#### Blended Learning im Informatikstudium
+##### S. 73
+- Das Lernen in der Wissensgesellschaft erfordert die Ausgestaltung neuer Lernarrangements. Idealvorstellungen von vernetzten Datenbeständen, die über Lernplattformen für Exploration, Kommunikation und Kooperation zeit- und ortsunabhängig eingesetzt werden, stoßen in der Realität auf handfeste Probleme
+- BMBF-Verbundprojekt: "SIMBA - Schlüsselkonzepte der Informatik in verteilten multimedialen Bausteien unter besonderer Berücksichtigung der spezifischen Lerninteressen von Frauen"
+- AG Didaktik der Informatik der Universität Paderborn ist aks Partner an dem BMBF-Verbundprojekt: "MuSofT - Multimedia in der Softwaretechnik" beteiligt, dessen Ziel es ist, für Teilbereiche der Software Engineering Ausbildung nicht nur multimediale Materialien sondern auch ein Konzept von Blended Learning zu entwickeln
+
+##### S. 74
+- Mit Blended Learning sollen Formen des Lernens gefördert werden, die eine effektive Integration von multimedialen Materialien in individuelle und kooperative Lernprozesse gestattem und auf diese Weise Methoden der Präsenzlehre mit Konzepten des E-Learning verbinden
+
+##### S. 78
+- Vier Schwerpunkte, bei denen Lerntätigkeiten mit E-Learning besonders gefördert werden können:
+    1. Übung: Der Übungsprozess kann vielfältiger und attraktiver werden
+    2. Test: Lernende können ihren Lernfortschritt selbst kontrollieren bzw. Prüfungungen trainieren
+    3. Exploration und Experiment
+    4. Projektarbeit
+
+
+#### Ein strukturiertes Modell für Mobile Blended Learning
+##### S. 306

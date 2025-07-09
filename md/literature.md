@@ -44,11 +44,13 @@ date: 2025-26-04
 - Mehrdimensionale Lehr- und Lerninhalte und ihre Beschreibung in der Sprache <ML>3: https://d1wqtxts1xzle7.cloudfront.net/52696017/Structured_eLearning_Wissenswerkstatt_Re20170419-14378-8vk3yr-libre.pdf?1492617085=&response-content-disposition=inline%3B+filename%3DStructured_eLearning_Wissenswerkstatt_Re.pdf&Expires=1745681864&Signature=ZtSylEPRDGUL9ebLELTDPeNXf66AG8YMN4CuJUroA-nuEhasBr2fIheQaCq8Z3N8HKx97Z6VbxL8Sreg5lppQilnEDgaRLxxrdrO1hHhnFoFJ7VMXBhPymi0gK456UwpvsXnwLkMAKZCpv2WGg1xuSznO3QUm1Mjs3kT5-dvXZDBfdflt~ge860BwSMLoPtSNdKejM9SLzQNMJ4PliuY2OqpczgggaY-2PNo8HQGzGa9NQVYVnCWpUTh0U3rjot06ilQICz9SWb-D4G5Umf6bH1Fjd4PYHmyQrh1mW0Gzq9iviW4c1Gq6pnLutIDL1BZt1R8ieV7drZK42Pzc2k0Hw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA#page=13
 
 - Expedition in das Datenreich: Exploratives Erlernen von Internetdiensten: https://dl.gi.de/server/api/core/bitstreams/81e3cabf-b4df-4233-99d9-437f980415a1/content
-    - read
+    - done
 
 - Blended Learning im Informatikstudium: https://dl.gi.de/server/api/core/bitstreams/37884f2f-49e9-4c5a-bc7d-8b27a1657a69/content
+    - done
 
 - Ein strukturiertes Modell für Mobile Blended Learning: https://dl.gi.de/server/api/core/bitstreams/7764c0fc-e090-46a9-badf-6c7cc3954f87/content
+    - read
 
 - Strukturierte Lehr- und Lernmodelle für die Ausbildung im Fachgebiet Technische Informatik: https://www.degruyterbrill.com/document/doi/10.1524/itit.47.3.140.65614/html
 
