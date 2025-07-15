@@ -4,36 +4,40 @@ date: 05.06.2025
 ---
 
 # Kapitel 3 - Theoretische Grundlagen
-## Kapitel 3.1 - Didaktische Simulatoren in der Lehre
+
+## Tags
+  - *#rel_her*: Didaktische Simulatoren in der Lehre - Relevanz und Herausforderungen
+  - *#konz_ziel*: Konzepte und Lernziele (Gamification, ...)
+  - *#def_art*: Definition und Arten von Simulatoren
 
 #### Gamification synchroner Lernaktivitäten in der Hochschullehre
 ##### S.451
-- Gamification = Lernprozesse werden mit motivationsfördernden Spielelementen angereichert
-- Gamification in asynchronen Lerneinheiten, das heißt zur Vor-/ Nachbereitung oder Begleitung von Präsenzlerneinheiten
+- Gamification = Lernprozesse werden mit motivationsfördernden Spielelementen angereichert #konz_ziel
+- Gamification in asynchronen Lerneinheiten, das heißt zur Vor-/ Nachbereitung oder Begleitung von Präsenzlerneinheiten #konz_ziel
 
 ##### S. 452
-- Gamification im Marketing schon seit den 1980er Jahren
-- Gamification im Hochschulkontext wesentlich später
-- Definition von Gamification: "Ist ein Ansatz, der versucht, Designelemente aus (Video-)Spielen, kurz Spielelemente, in nicht-spielerische Kontexte einzufügen."
-- Ziel: Lernprozesse durch den Einsatz von motivationsfördernden Spielelementen attraktiver für die Lernenden zu gestalten und damit besere Lernergebnisse zu erzielen
-- Ein höheres Maß an kognitivem Engagement ("Involvement") bedeutet aus hochschuldidaktischer Sicht auch ein aktiveres, ansprechenderes Lernen
-- Instruktionsformen, die dies erreichen, bezeichnet Prince als aktives Lernen. Es kann sich dabei auf soziale Interaktionen, individuelles Agieren sowie auf eine mentale Auseinandersetzung beziehen.
-- Vier Modi von Lernen: passiv, aktiv, konstruktiv und interaktiv. Diese geben jeweils Aufschluss pber den Grad der kognitiven Aktivität
-- Gerade bei Vorlesungen mit teils mehreren Hundert Lernenden wird traditionell auf passive Vermittlungsformen gesetzt, die Lernende kaum in das Unterrichtsgeschehen involvieren
-- Forschungsarbeiten zur Wirksamkeit von gamifizierten Lernaktivitäten liegen bereits vor (siehe Referenzen hier)
-- Kaum Ergebnisse aus synchronen Lernszenarien sind kaum zu finden
+- Gamification im Marketing schon seit den 1980er Jahren #konz_ziel
+- Gamification im Hochschulkontext wesentlich später #konz_ziel
+- Definition von Gamification: "Ist ein Ansatz, der versucht, Designelemente aus (Video-)Spielen, kurz Spielelemente, in nicht-spielerische Kontexte einzufügen." #konz_ziel
+- Ziel: Lernprozesse durch den Einsatz von motivationsfördernden Spielelementen attraktiver für die Lernenden zu gestalten und damit besere Lernergebnisse zu erzielen #konz_ziel
+- Ein höheres Maß an kognitivem Engagement ("Involvement") bedeutet aus hochschuldidaktischer Sicht auch ein aktiveres, ansprechenderes Lernen #rel_her
+- Instruktionsformen, die dies erreichen, bezeichnet Prince als aktives Lernen. Es kann sich dabei auf soziale Interaktionen, individuelles Agieren sowie auf eine mentale Auseinandersetzung beziehen. #konz_ziel
+- Vier Modi von Lernen: passiv, aktiv, konstruktiv und interaktiv. Diese geben jeweils Aufschluss über den Grad der kognitiven Aktivität #konz_ziel
+- Gerade bei Vorlesungen mit teils mehreren Hundert Lernenden wird traditionell auf passive Vermittlungsformen gesetzt, die Lernende kaum in das Unterrichtsgeschehen involvieren #konz_ziel
+- Forschungsarbeiten zur Wirksamkeit von gamifizierten Lernaktivitäten liegen bereits vor (siehe Referenzen hier) #konz_ziel
+- Kaum Ergebnisse aus synchronen Lernszenarien sind kaum zu finden #konz_ziel
 
 ##### S. 453
 **Gamification**
-- Gamification existiert schon seit ca. 20 Jahren und ist auf Nick Pelling (Software-Entwickler) zurückzuführen, der eine spieleähnliche Benutzeroberfläche für Bank- und Verkaufsautomaten konzipierte
-- Ähnliche Begriffe: "gamefulness" oder auch "gameful design" existieren parallel oder wie der Begriff "playful interaction design" auch davor
-- Gamifizierungswerkzeuge:
+- Gamification existiert schon seit ca. 20 Jahren und ist auf Nick Pelling (Software-Entwickler) zurückzuführen, der eine spieleähnliche Benutzeroberfläche für Bank- und Verkaufsautomaten konzipierte #konz_ziel
+- Ähnliche Begriffe: "gamefulness" oder auch "gameful design" existieren parallel oder wie der Begriff "playful interaction design" auch davor #konz_ziel
+- Gamifizierungswerkzeuge: #konz_ziel
     - Punktesysteme
     - Ranglisten
     - Belohnungen
     - Erfolge und Abzeichen
     - Fortschritt
-- Ziel: Positive Auswirkung auf Motivation, Arbeits- und Lernerfolg
+- Ziel: Positive Auswirkung auf Motivation, Arbeits- und Lernerfolg #konz_ziel
 
 **Gamified learning**
 - vier Komponenten, die das Zusammenspiel von Lernen und Gamifizierung beschreiben:
@@ -366,7 +370,6 @@ Nicht relevant
 - Durch die Strukturierung von Materialien, Verfahren und Werkzeugen sowie Einsatzszenarien ist eine deutliche Effizenzsteuerung erreichbar
 - Unterstützung durch neuartige Verfahren der automatischen Generierung nutzerdefinierter Manuskripte. So wird learning on demand ermöglicht
 
-## Kapitel 3.2 - Geschichte
 #### Kompendium Multimediales Lernen
 ##### S. 3
 - Maschine, die Lernen erleichtern soll von Agostino Ramelli (1588). Er konzipierte ein Leserad
@@ -454,7 +457,6 @@ Nicht relevant
 - Adaptives Lernen steht sowohl bei der mit E-Learning befassten Informatik als auch in der pädagogischen Psychologie wieder hoch im Kurs
 - Web 2.0, Lernspiele, "Semantic Web" und KI im E-Learning könnten sinnvoll kombiniert die technische Basis neuer psychologisch-didaktischer Änsätze bilden
 
-## Kapitel 3.2 - Konzepte und Lernziele
 ##### S. 17
 - Dem 2002 verstorbenen Robert M. Gagné - unbestrittener Vater der "Instructional Design" Idee - ging es in erster Linie um die Ablösung der Vorstellungen von "der richtigen Lehrmethode" durch eine Konzeption, die versucht, für unterschiedliche Kategorien von Lernaufgaben und unterschiedlichen Lernvoraussetzungen und Rahmenbedingungen die jeweils (relativ) bestgeeignete Lernumgebung zu finden
 
