@@ -11,8 +11,8 @@ germanthesis
 
 \usepackage{multirow}
 \usepackage{floatflt}
-%\usepackage[babel=true]{csquotes}
-%\usepackage[backend=biber,style=ieee]{biblatex}
+\usepackage[babel=true]{csquotes}
+\usepackage[backend=biber,style=ieee]{biblatex}
 
 \author{Dustin Heither}
 \title{Best Practices und Trends bei didaktischen Simulatoren für Rechnerarchitektur:
@@ -20,50 +20,33 @@ Eine systematische Literaturrecherche}
 \thesistype{Bachelorarbeit}
 \thesiscite{Bachelor's Thesis~(Bachelorarbeit)}
 \birthday{10. Mai 1992}
-\birthplace{Oberhausem}
+\birthplace{Oberhausen}
 \thesisstart{30. April 2025}
 \advisors{M.Sc. Tobias Baumeister}
 
 \addbibresource{thesis.bib}
 \graphicspath{{images/},{pictures/}}
 
-%%%---------ADD EVALUATION-----------------------------------
-%\newcommand*{\WITHEVALUATION}{}%
-%%%
 \begin{document}
-%%%----------------------------------------------------------
-
 \pagenumbering{roman}
 
 \maketitle
-
-% Uncomment \input macros as required
-%\input{abstract}
 \acresetall
-
 \cleardoublepage
+
 \tableofcontents
 
 \cleardoublepage
 \pagenumbering{arabic}
 
-\input{introduction}
-
-%\input{fundamentals}
-
-%\input{method}
-
-%\input{implementation}
-
-\ifdefined\WITHEVALUATION
-%\input{evaluation}
-\fi
-
-%\input{conclusion}
+\input{paper/introduction}
+\input{paper/methodology}
+\input{paper/fundamentals}
+\input{paper/results}
+\input{paper/discussion}
+\input{paper/conclusion}
 
 \cleardoublepage
-
-%\input{glossary}
 \clearpage
 
 \listoffigures
@@ -73,10 +56,8 @@ Eine systematische Literaturrecherche}
 \clearpage
 
 \appendix
-%\include{appendix_a}
-%\include{curriculum_vitae}
 
-%\printbibliography
+\printbibliography
 \MakeBibliography[nosplit]
 
 \end{document}
