@@ -50,11 +50,12 @@ date: 2025-26-04
     - done
 
 - Ein strukturiertes Modell für Mobile Blended Learning: https://dl.gi.de/server/api/core/bitstreams/7764c0fc-e090-46a9-badf-6c7cc3954f87/content
-    - read
+    - done
 
 - Strukturierte Lehr- und Lernmodelle für die Ausbildung im Fachgebiet Technische Informatik: https://www.degruyterbrill.com/document/doi/10.1524/itit.47.3.140.65614/html
 
 - Computerunterstützter Unterricht (CUU) und interaktives Lernen: https://books.google.de/books?hl=de&lr=&id=wdV8AQAAQBAJ&oi=fnd&pg=PP5&dq=didaktische+simulatoren+rechnerarchitektur&ots=ZWfY6IyQeK&sig=1bH4GqcmY-Wz7HzGVIEDX40LFg4&redir_esc=y#v=onepage&q&f=false
+    - read
 
 - Adaptive Lehrvideos: https://dl.gi.de/server/api/core/bitstreams/52fada81-a9c2-4c25-9fb1-1491129252fb/content
 

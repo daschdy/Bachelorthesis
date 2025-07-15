@@ -848,3 +848,26 @@ Nicht relevant
 
 #### Ein strukturiertes Modell für Mobile Blended Learning
 ##### S. 306
+- Mobile Geräte durchdringen mehr und mehr das mediengestützte Lehren und Lernen und universitären Alltag, wodurch sowohl fachlich als auch mediendidaktisch hochqualitative Konzepte erforderlich werden, um eine Kontinuität des Lernens, Arbeitens und schließlich auch Kommunizierens losgelöst von Zeit und Raum "at the precise moment when it is necessarcy" zu erzielen
+- Modulare und skalierbare Inhalte sollen die Wiederverwendbarkeit verstärken, die Nachhaltigkeit sichern und Entwicklungskosten des Unterrichtsmaterials reduzieren
+- Die mobilen Geräte dienen als personenbezogene Lern- und Arbeitswerkzeuge, wodurch das lernerzentrierte Lernen, d.h. eine an den jeweiligen Lernstil und Lebenssituation angepasste Wissensaneignung stärker in den Vordergrund rücken kann
+- Eine Strukturierung des Mobile Blended Learninh in didaktisch motivierte Lernphasen verstärkt die Lernintensität
+- Strukturierung durch *Dreiphasen-Modell*
+
+##### S. 307
+- Die drei Phasen: Prä-, Präsenz- und Postphase
+- *Präphase*:
+    - Homogenisierung der heterogenen Gruppe von Studierenden
+    - Ohne bereits an den späteren Lehrort gebunden zu sein, können Lernende so Leerlaufzeiten vor Beginn der Lehrveranstaltung nutzen, um sich losgelöst von Zeit und Ort vorzubereiten
+    - stufenweise und selektive Bearbeitung des Lernmaterials durch entsprechende Hinweise
+    - Defizite werden anhand dieser Lehrmaterialien schneller durch die Studierenden erkannt und so entweder durch geeignete Übungen oder in der Lehrveranstaltung artikuliert und durch den Dozenten beseitigt
+- *Präsenzphase*:
+    - dient der Stoffvermittlung, in der Regel in der Form einer Face-to-Face-Veranstaltung bzw. einer Vorlesung
+    - Vermittlung von theoretischem Wissen
+- *Postphase*:
+    - Anwendung und Vertiefung des erworbenen theoretischen Wissens mit Hilfe von Übungsmodulen
+    - Fokus aufs orts- und zeitunabhängige Lernen
+    - Hohe Mobilität der Studierenden trägt hier entscheidend zur Akzeptanz des Angebots, zum persönlichen Engagement und damit zum Lernerfolg bei
+
+
+#### Computerunterstützter Unterricht (CUU) und interaktives Lernen
