@@ -11,7 +11,7 @@
 %
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{i3thesis}[2011/04/01 The I3 Thesis Class]  % YYYY/MM/DD
+\ProvidesClass{i3thesis}[2011/04/01 The I3 Thesis Class]  % YYYY/MM/DDc
 
 
 % -----------------------------------------------------------------------------

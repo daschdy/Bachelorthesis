@@ -29,6 +29,7 @@ germanthesis
 }
 
 % acronyms
+\iffalse
 \newcommand{\listofacronyms}{%
   \chapter*{\glossarytitlename}%
   \addcontentsline{toc}{chapter}{\glossarytitlename}%
@@ -42,6 +43,7 @@ germanthesis
 \setlength{\acronymindent}{0em}
 \setlength{\acronymlabelwidth}{4em}
 \setlength{\acronymlabelsep}{1em}
+\fi
 
  % ------------------------------
 
@@ -67,9 +69,11 @@ Eine systematische Literaturrecherche}
 \cleardoublepage
 \tableofcontents
 
+\iffalse
 \cleardoublepage
 \listofacronyms
 \input{paper\acronym}
+\fi
 
 \cleardoublepage
 \pagenumbering{arabic}
