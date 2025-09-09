@@ -14,6 +14,37 @@ germanthesis
 \usepackage[babel=true]{csquotes}
 \usepackage[backend=biber,style=ieee]{biblatex}
 
+%% CUSTOM
+% ------------------------------
+
+% for figures
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tocloft}
+
+% subchapters in capital
+\newcommand{\sh}[1]{%
+  \vspace{1em}%
+  \noindent\MakeUppercase{#1}\\%
+}
+
+% acronyms
+\newcommand{\listofacronyms}{%
+  \chapter*{\glossarytitlename}%
+  \addcontentsline{toc}{chapter}{\glossarytitlename}%
+  \begin{acronym}[XXXX] % Longest acronym for alignment
+    % The acronyms will be listed here
+  \end{acronym}%
+}
+
+\renewcommand{\acronymname}{\glossarytitlename}
+\renewcommand{\acronymfont}[1]{\textbf{#1}}
+\setlength{\acronymindent}{0em}
+\setlength{\acronymlabelwidth}{4em}
+\setlength{\acronymlabelsep}{1em}
+
+ % ------------------------------
+
 \author{Dustin Heither}
 \title{Best Practices und Trends bei didaktischen Simulatoren für Rechnerarchitektur:
 Eine systematische Literaturrecherche}
@@ -32,19 +63,23 @@ Eine systematische Literaturrecherche}
 
 \maketitle
 \acresetall
-\cleardoublepage
 
+\cleardoublepage
 \tableofcontents
+
+\cleardoublepage
+\listofacronyms
+\input{paper\acronym}
 
 \cleardoublepage
 \pagenumbering{arabic}
 
-\input{paper/introduction}
-\input{paper/methodology}
-\input{paper/fundamentals}
-\input{paper/results}
-\input{paper/discussion}
-\input{paper/conclusion}
+\input{paper/1-0-introduction}
+\input{paper/2-0-methodology}
+\input{paper/3-0-fundamentals}
+\input{paper/4-0-results}
+\input{paper/5-0-discussion}
+\input{paper/6-0-conclusion}
 
 \cleardoublepage
 \clearpage
