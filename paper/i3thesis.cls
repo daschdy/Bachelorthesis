@@ -11,7 +11,7 @@
 %
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{i3thesis}[2011/04/01 The I3 Thesis Class]  % YYYY/MM/DDc
+\ProvidesClass{i3thesis}[2011/04/01 The I3 Thesis Class]  % YYYY/MM/DD
 
 
 % -----------------------------------------------------------------------------
@@ -134,7 +134,7 @@
 \RequirePackage[font=small, labelfont=bf, labelsep=endash, margin=1cm]{caption}
 
 % Subfigures
-\RequirePackage[margin=0cm]{subfig}
+%\RequirePackage[margin=0cm]{subfig}
 
 % The "SI" and "num" commands for typesetting units
 %\RequirePackage[sepfour=true,tophrase=\dots,per=slash,obeyall]{siunitx}
@@ -372,7 +372,7 @@
 	\renewcommand{\lstlistlistingname}{List of Listings}
 }
 \lstset{
-	language=C,
+	language=C,      
 	frame=lines,
 	framesep=5pt,
 	captionpos=b,
@@ -490,9 +490,9 @@
 }{%
 	\href{http://www3.cs.fau.de/}{www3.cs.fau.de}%
 }{%
-	\includegraphics[scale=1]{paper/i3/logo-tf_neu.pdf}%
+	\includegraphics[scale=0.25]{i3/logo-tf}%
 }{%
-	\includegraphics[scale=1]{paper/i3/logo-fau_neu.pdf}%
+	\includegraphics[scale=0.2]{i3/logo-fau}%
 }
 
 % Title pages use single line spacing, no parindent and no parskips
