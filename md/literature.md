@@ -8,12 +8,16 @@ date: 2025-26-04
 ## Simulatoren
 - Cache Simulator in Java: https://www.morgenstern.net/Cache/
 - MMIX: https://dl.gi.de/server/api/core/bitstreams/86f6584e-1815-47c7-80c8-997add9b3d2d/content
-- Grafischer Prozessor-Simulator: https://eprints.ost.ch/id/eprint/920/1/HS%202020%202021-SA-EP-Schmidli-Boillat-Grafischer%20Prozessor-Simulator.pdf
+- Grafischer Prozessor-Simulator: https://eprints.ost.ch/id/eprint/920/1/HS%202020%202021-SA-EP-Schmidli-Boillat-Grafischer%20Prozessor-Simulator.pdf --> Studienarbeit, nicht nutzbar
 - MikroSim: http://www.mikrocodesimulator.de/Detailinfo/cebit95_faltblatt.pdf
 - Bonsai Computer: https://old.imst.ac.at/files/projekte/2045/berichte/2045_Langfassung_Gatterer.pdf
-- PoCiLet: https://eldorado.tu-dortmund.de/bitstream/2003/21401/1/pg433.eb.pdf
-- DCMSIM: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1264669
-- SIME: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6403198
+- MurmelRechner
+- PoCiLet: https://eldorado.tu-dortmund.de/bitstream/2003/21401/1/pg433.eb.pdf --> nur Projekt
+- DCMSIM: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1264669 --> keine Quelle
+- SIME: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6403198 --> keine Quelle
+
+ hier weiter:
+
 - MSCSim: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4117042
 - CREATOR: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10540579
 - SICOME 2.0:

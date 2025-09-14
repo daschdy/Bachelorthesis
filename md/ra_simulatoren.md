@@ -8,7 +8,7 @@ tags: "bachelor"
 
 - MMIX
 - Johnny: Funktionsweise des Rechners mit der Von-Neumann-Architektur
-- COMPI16: 
+- COMPI16 --> noch nicht
 - MOPS: Modellrechnr mit Pseudoassembler
 - Logism: Digitaler Schaltungssimulator
 - CPUlator: Simuliert eine MIPS oder ARM CPU
@@ -16,6 +16,12 @@ tags: "bachelor"
 - MARS: MIPS Assembler und Simulator
 - Gem5: Simulator für Computerarchitektur
 - QEMU: Emulator und Virtualizer
+- QtSPIM
+- ARMSim#
+- HDLBits
+- ASMBits
+- Verilog Simulator https://www.01xz.net/wiki/Project:About
+
 
 ### Famous_Simulators
 - Logisim
@@ -23,9 +29,9 @@ tags: "bachelor"
 - MARS
 - SPIM/ QtSPIM
 - DineroIV
-- Childers Cache Simulator
-- University of Toronto VM Simulator
-- OSTEP Labs
+- Childers Cache Simulator --> Nicht eingetragen
+- University of Toronto VM Simulator --> Nicht eingetragen
+- OSTEP Labs --> Nicht eingetragen
 - Pintos
 - Nachos
 - Gem5

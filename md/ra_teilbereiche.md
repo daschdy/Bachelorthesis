@@ -1,4 +1,4 @@
----
+--- --> Nicht eingetragen
 title: "Teilgebiete Rechnerarchitektur"
 date: 25.02.2025
 tags: "bachelor"
