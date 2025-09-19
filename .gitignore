@@ -5,3 +5,7 @@ py/.env
 .venv
 
 unpublished/*
+
+unread/*
+
+Literaturuebersicht/*

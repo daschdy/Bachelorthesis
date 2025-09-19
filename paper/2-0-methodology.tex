@@ -2,26 +2,36 @@
 
 \section{Recherche und Auswahl der Simulatoren}
 
-Die Suche erfolgte nach dem PRISMA-Schema und fand in den Datenbanken Google Scholar,
-SpringerLink, IEEEXPlore, ERIC und Scopus statt
+Das Ziel der Recherche bestand darin, aktuelle Trends und Best Practices didaktischer Simulatoren in der Rechnerarchitektur zu identifizieren. Hierfür wurde ein systematisches Vorgehen gewählt, um sowohl wissenschaftliche Publikationen als auch einschlägige Fachliteratur und konkrete Werkzeuge zu erfassen.
 
-FAU Katalog
+Die Suche nach relevanter Literatur erfolgte in den technisch ausgerichteten Datenbanken \textit{IEEE Xplore} und \textit{ACM Digital Library}, ergänzt durch die Universitätskataloge der \textit{Friedrich-Alexander-Universität Erlangen-Nürnberg} sowie der \textit{Otto-Friedrich-Universität Bamberg}. Zusätzlich wurde \textit{Google Scholar} herangezogen, um die Suche durch weitere Quellen wie technische Dokumentationen, Konferenzbeiträge oder Abschlussarbeiten zu erweitern. Diese sogenannte „graue Literatur“, die nicht durch klassische Verlage veröffentlicht und in der Regel nicht peer-reviewed ist, wurde insbesondere zur Identifikation aktueller Trends berücksichtigt. Eingeschlossen wurden nur Quellen, die frei zugänglich oder im Rahmen des studentischen Abonnements verfügbar waren.
 
-Bamberg Katalog
+Als Suchstrings wurden Kombinationen aus den Begriffen \textit{"computer architecture"}, \textit{"education"}, \textit{"simulator"}, \textit{"teaching"}, \textit{"Rechnerarchitektur"} und \textit{"Lehre"} verwendet.
 
-IEEE
+Die Suchergebnisse wurden nach Relevanz sowie nach der didaktischen Ausrichtung der beschriebenen Simulatoren gefiltert. Um die Vielzahl potenzieller Simulatoren einzugrenzen, wurden folgende Kriterien definiert:
 
-ACM
+\begin{itemize}
+  \item \textit{Didaktische Ausrichtung}: Der Simulator sollte primär für Lehr- und Lernzwecke in Hochschulen oder anderen Bildungseinrichtungen entwickelt oder eingesetzt worden sein. Zusätzlich wurden ausgewählte Simulatoren mit Relevanz für die Forschung berücksichtigt.
+  \item \textit{Abdeckung der Lerninhalte}: Es wurde geprüft, welche Teilgebiete der Rechnerarchitektur (z. B. Pipeline, Cache, Mikroarchitektur) abgedeckt werden.
+\end{itemize}
+
+Insgesamt wurden im Rahmen der Recherche rund 150 Simulatoren identifiziert, die thematisch der Rechnerarchitektur zugeordnet werden können. Diese Grundgesamtheit umfasst sowohl didaktisch orientierte als auch forschungsnahe Simulatoren, die in der Literatur, in Lehrmaterialien oder als Open-Source-Werkzeuge dokumentiert sind.
+
+Neben der systematischen Literaturrecherche wurde zusätzlich eine Aufstellung bereits veröffentlichter und frei verfügbarer Simulatoren erstellt. Hierbei wurden insbesondere Simulatoren berücksichtigt, die im Rahmen von Lehrveranstaltungen an Hochschulen oder als Open-Source-Projekte verbreitet sind, jedoch nicht zwingend in wissenschaftlichen Publikationen beschrieben wurden.
+
+Diese parallele Erfassung diente dazu, die Grundgesamtheit zu erweitern und auch praxisrelevante Werkzeuge in die Analyse einzubeziehen, die in der wissenschaftlichen Literatur unter Umständen keine oder nur geringe Beachtung gefunden haben.
+
+Im Kapitel 4~\ref{results} werden die Ergebnisse der Recherche untersucht und entsprechend gefiltert.
+
+\section{Kriterienkatalog}
 
 \TODO{Beschreiben, wie die Clustereinteilung vergeben wurde. Bspw. FPGA = 1}
 
 \TODO{Bei mehreren Simulatoren den Querschnitt}
 
-\section{Kriterienkatalog}
+\TODO{Unterscheidung zwischen Simulatoren und Literaturrecherche}
 
 Tabelle~\ref{tab:kriterien} fasst die für die Analyse herangezogenen Kriterien zusammen.
-
-\TODO{Nochmal überarbeiten}
 
 Ein zentrales Kriterium ist der \textit{Zugriff}. Je nach organisatorischem Kontext ist entscheidend, ob ein Simulator online oder offline verfügbar ist. Während eine Online-Lösung eine Internetverbindung erfordert und dadurch eingeschränkt nutzbar sein kann, setzt ein Offline-Simulator häufig eine Installation voraus, die wiederum von Betriebssystem oder Hardwareanforderungen abhängt.
 
