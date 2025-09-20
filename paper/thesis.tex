@@ -16,43 +16,29 @@ germanthesis
 
 %% CUSTOM
 % ------------------------------
-
 % for figures
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{tocloft}
 
+% tables
+\usepackage{longtable}
+\usepackage{pdflscape}
+
 % subchapters in capital
-\newcommand{\sh}[1]{%
-  \vspace{1em}%
-  \noindent\MakeUppercase{#1}\\%
+\newcommand{\sh}[1]{
+  \vspace{1em}
+  \noindent\MakeUppercase{#1}\\
 }
 
 % acronyms
-\iffalse
 \newcommand{\listofacronyms}{%
   \chapter*{\glossarytitlename}%
   \addcontentsline{toc}{chapter}{\glossarytitlename}%
-  \begin{acronym}[XXXX] % Longest acronym for alignment
-    % The acronyms will be listed here
+  \begin{acronym}[XXXX]
   \end{acronym}%
 }
-
-\renewcommand{\acronymname}{\glossarytitlename}
-\renewcommand{\acronymfont}[1]{\textbf{#1}}
-\setlength{\acronymindent}{0em}
-\setlength{\acronymlabelwidth}{4em}
-\setlength{\acronymlabelsep}{1em}
-\fi
-
-% tables
-\usepackage{csvsimple}
-\usepackage{booktabs}
-\usepackage{longtable}
-\usepackage{pdflscape}
-\usepackage{adjustbox} % in preamble
-
- % ------------------------------
+% ------------------------------
 
 \author{Dustin Heither}
 \title{Best Practices und Trends bei didaktischen Simulatoren für Rechnerarchitektur:
@@ -76,11 +62,9 @@ Eine systematische Literaturrecherche}
 \cleardoublepage
 \tableofcontents
 
-\iffalse
 \cleardoublepage
 \listofacronyms
-\input{paper\acronym}
-\fi
+\input{paper/paperacronym}
 
 \cleardoublepage
 \pagenumbering{arabic}
@@ -102,7 +86,7 @@ Eine systematische Literaturrecherche}
 \clearpage
 
 \appendix
-\include{paper/appendix}
+\input{paper/appendix-a}
 
 \printbibliography
 \MakeBibliography[nosplit]
