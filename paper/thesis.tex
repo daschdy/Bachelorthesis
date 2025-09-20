@@ -45,9 +45,12 @@ germanthesis
 \setlength{\acronymlabelsep}{1em}
 \fi
 
-% for tables
+% tables
 \usepackage{csvsimple}
 \usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{pdflscape}
+\usepackage{adjustbox} % in preamble
 
  % ------------------------------
 
@@ -99,6 +102,7 @@ Eine systematische Literaturrecherche}
 \clearpage
 
 \appendix
+\include{paper/appendix}
 
 \printbibliography
 \MakeBibliography[nosplit]
