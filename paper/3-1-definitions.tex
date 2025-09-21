@@ -1,28 +1,36 @@
 \section{Definition und Begrifflichkeiten}
 
 \subsection{Didaktische Simulatoren}
-Um den Begriff (didaktischer) \textit{Simulator} zu definieren, muss zunächst das zugrundeliegende Konzept des \textit{Modells} betrachtet werden. White und Ingalls beschreiben ein Modell als eine vereinfachte Abstraktion der Realität, die durch die Auswahl des geeigneten Umfangs und Detaillierungsgrades die relevanten Eigenschaften eines Untersuchungsgegenstands abbildet. Modelle kommen insbesondere dann zum Einsatz, wenn das reale System zu komplex, zu unpraktisch oder zu kostenintensiv wäre, um es direkt zu untersuchen \parencite[S.~12]{white_introduction_2009}\parencite[S.~5]{banks_what_2008}.
+Um den Begriff (didaktischer) \textit{Simulator} zu definieren, muss zunächst das zugrundeliegende Konzept des \textit{Modells} betrachtet werden. White und Ingalls beschreiben ein Modell als eine vereinfachte Abstraktion der Realität, die durch die Auswahl des geeigneten Umfangs und Detaillierungsgrades die relevanten Eigenschaften eines Untersuchungsgegenstands abbildet. Modelle kommen insbesondere dann zum Einsatz, wenn das reale System zu komplex, zu unpraktisch oder zu kostenintensiv wäre, um es direkt zu untersuchen \parencites[S.~12]{white_introduction_2009}[S.~5]{banks_what_2008}.
 
-Darauf aufbauend stellt die \textit{Simulation} ein Teilgebiet der Modellbildung dar. Unter Simulation versteht man die Durchführung von Experimenten mit einem Modell, das die wesentlichen Eigenschaften des zugrundeliegenden Systems nachahmt, um dessen Verhalten unter verschiedenen Bedingungen untersuchen zu können \parencite[S.~12]{white_introduction_2009}\parencite[S.~6]{banks_what_2008}.
+Darauf aufbauend stellt die \textit{Simulation} ein Teilgebiet der Modellbildung dar. Unter Simulation versteht man die Durchführung von Experimenten mit einem Modell, das die wesentlichen Eigenschaften des zugrundeliegenden Systems nachahmt, um dessen Verhalten unter verschiedenen Bedingungen untersuchen zu können \parencites[S.~12]{white_introduction_2009}[S.~6]{banks_what_2008}.
 
 Ein \textit{Simulator} schließlich ist das Werkzeug oder System -- meist in Form von Software --, das diese Simulationen ermöglicht. Er implementiert das Modell und bietet eine Benutzungsumgebung, in der Interaktionen und Experimente mit dem Modell durchgeführt werden können \parencite[S.~304f]{duran_what_2020}.
 
 Die Definition des Begriffs \textit{Simulator} ist eindeutig abzugrenzen von der Bezeichnung \textit{Emulator}. Ein Emulator hingegen strebt eine möglichst detailgetreue Nachbildung eines Zielsystems an, sodass Software oder Peripheriegeräte, die für das Originalsystem entwickelt wurden, unverändert darauf ausgeführt werden können \parencite[S.~1683]{mcgregor_relationship_2002}.
 
-Besonders im Kontext der Lehre kommen sogenannte \textit{didaktische Simulatoren} zum Einsatz. Diese unterscheiden sich von hochgradig präzisen Forschungs- oder Industriesimulatoren dadurch, dass sie in erster Linie auf Verständlichkeit, Visualisierung und Interaktivität ausgerichtet sind. Ziel ist nicht die vollständige, detailgetreue Nachbildung eines Systems, sondern die Förderung von Lernprozessen durch eine für die Lernenden zugängliche Abstraktion komplexer Sachverhalte.\parencite[S.~256]{muller_entwicklung_2020}\parencite[S.~1]{nystrom_teaching_2024}
+Besonders im Kontext der Lehre kommen sogenannte \textit{didaktische Simulatoren} zum Einsatz. Diese unterscheiden sich von hochgradig präzisen Forschungs- oder Industriesimulatoren dadurch, dass sie in erster Linie auf Verständlichkeit, Visualisierung und Interaktivität ausgerichtet sind. Ziel ist nicht die vollständige, detailgetreue Nachbildung eines Systems, sondern die Förderung von Lernprozessen durch eine für die Lernenden zugängliche Abstraktion komplexer Sachverhalte.\parencites[S.~256]{muller_entwicklung_2020}[S.~1]{nystrom_teaching_2024}
 
 \subsection{Konzepte digitalen Lernens}
+
+Da im Rahmen der Literaturrecherche verschiedene Konzepte des digitalen Lernens identifiziert wurden, werden diese nachfolgend kurz vorgestellt und im Hinblick auf ihre Relevanz für den Einsatz didaktischer Simulatoren erläutert.
 
 \subsubsection{Organisationsformen des digitalen Lernens}
 
 \sh{E-Learning}
+Der Begriff \textit{E-Learning} dient als Oberbegriff für alle Formen des Lernens, die digitale Medien sowie Informations- und Kommunikationstechnologien zur Unterstützung oder Durchführung von Lehr- und Lernprozessen einsetzen. Dazu zählen sowohl webbasierte Kurse und Lernplattformen als auch multimediale Materialien wie Videos, interaktive Übungen oder Simulationen \parencite[S.~6]{kerres_mediendidaktik_2018}. Zentrale Merkmale des E-Learning sind die Orts- und Zeitunabhängigkeit, die Möglichkeit zur Interaktivität sowie der multimediale Charakter \parencite[S.~186f]{sanderson_e-learning_2002}. 
+
+Andere Formen wie \textit{M-Learning} oder \textit{Blended Learning} stellen spezifische Ausprägungen dieses übergeordneten Begriffs dar \parencites[S.~74]{magenheim_blended_2003}[S.~3]{balaji_perspective_2016}.
 
 \sh{M-Learning}
+\textit{Mobile Learning} (kurz: M-Learning) wird in der Literatur häufig als eine Erweiterung bzw. neue Ausprägung des E-Learning verstanden, die durch den Einsatz mobiler Endgeräte wie Smartphones, Tablets, Notebooks oder PDAs über drahtlose Netzwerke ermöglicht wird \parencites[S.~3f]{balaji_perspective_2016}[S.~197]{basak_kumar_e-learning_2018}. 
+
+M-Learning bezeichnet damit den Einsatz mobiler Technologien zur Unterstützung von Lernprozessen und kann als Schnittstelle zwischen Online-Lernen und mobiler Computertechnologie betrachtet werden \parencite[S.~265]{traxler_defining_2005}. 
 
 \sh{Blended Learning}
+Blended Learning ist eine Lehr- und Lernform, die Methoden der Präsenzlehre mit Konzepten des E-Learning verbindet. Ziel ist die Förderung von Lernprozessen, in denen multimediale Materialien effektiv in individuelle und kooperative Lernphasen integriert werden können \parencite[S.~74]{magenheim_blended_2003}. Im deutschsprachigen Raum wird Blended Learning auch als \textit{hybrides Lernen} oder als \textit{vermischter Unterricht} bezeichnet \parencite[S.~29]{pfeffer_simulationsumgebungen_2008}.
 
-\sh{Blended Learning 2.0}
-Blended Learning~2.0 an Bedeutung: Klassische Präsenzformate wurden stärker mit digitalen, hybriden Komponenten verbunden, wodurch flexible, personalisierbare Lernsettings entstanden.\parencite{bonk2020}
+In der Weiterentwicklung zu \textit{Blended Learning~2.0} werden klassische Präsenzformate noch stärker mit digitalen und hybriden Komponenten verknüpft. Charakteristisch ist hier der verstärkte Einsatz von Web~2.0-Technologien und sozialen Medien, wodurch flexible, personalisierbare Lernsettings entstehen, die sowohl selbstgesteuertes als auch kooperatives Lernen unterstützen \parencites{seufert_schulleitertagung_2014}{news_aktuell_gmbh_e-learning_2025}.
 
 \sh{MOOC/ OER}
 
@@ -41,6 +49,7 @@ Blended Learning~2.0 an Bedeutung: Klassische Präsenzformate wurden stärker mi
 \sh{Gamified Learning}
 
 \sh{Game-Based Learning}
+"Digital Game Based Learning" order "Serious Games", also das Lernen mit Hilfe digitaler multimedialer Spiele mit "ernsthaften" Hintergrund \parencite[S.~14]{niegemann_kompendium_2008}
 
 \subsubsection{Individuelle \& adaptive Lernformen}
 
