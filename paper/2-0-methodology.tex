@@ -25,99 +25,114 @@ Im Kapitel ~\ref{results} werden die Ergebnisse der Recherche untersucht und ent
 
 \section{Kriterienkatalog}
 
-\TODO{Beschreiben, wie die Clustereinteilung vergeben wurde. Bspw. FPGA = 1}
+Um die vorhandene Forschung sowie veröffentlichte Simulatoren systematisch zu analysieren, wurden neben den bibliographischen Angaben (z.,B. \textit{Autor}, \textit{Titel}, \textit{Jahr}) auch zusätzliche Kriterien erfasst, die im Folgenden vorgestellt werden.
 
-\TODO{Bei mehreren Simulatoren den Querschnitt}
+\sh{Kriterien Tab.~\ref{tab:literatur}}
 
-\TODO{Unterscheidung zwischen Simulatoren und Literaturrecherche}
+Die Kriterien \textit{Typ} und \textit{Zeitschrift} sind gemeinsam zu betrachten, da sie eine genauere Einordnung der Veröffentlichungen ermöglichen. Anhand dieser Angaben lässt sich beispielsweise erkennen, ob die Grundgesamtheit der erfassten Arbeiten überwiegend aus Büchern, Journalartikeln oder Konferenzbeiträgen besteht und in welchen Fachzeitschriften didaktische Simulatoren häufiger diskutiert werden. Somit tragen diese Kriterien zu einer besseren Kontextualisierung der recherchierten Literatur bei.
 
-Tabelle~\ref{tab:kriterien} fasst die für die Analyse herangezogenen Kriterien zusammen.
+Anschließend wird das \textit{Thema} der jeweiligen Veröffentlichung dargestellt. Da einzelne Simulatoren mehrere Aspekte abdecken können, wurde in solchen Fällen auch die Kategorie \textit{„Grundkenntnisse“} eingeführt, unter der grundlegende Konzepte der Rechnerarchitektur zusammengefasst sind.
 
-Ein zentrales Kriterium ist der \textit{Zugriff}. Je nach organisatorischem Kontext ist entscheidend, ob ein Simulator online oder offline verfügbar ist. Während eine Online-Lösung eine Internetverbindung erfordert und dadurch eingeschränkt nutzbar sein kann, setzt ein Offline-Simulator häufig eine Installation voraus, die wiederum von Betriebssystem oder Hardwareanforderungen abhängt.
+Um die Analyse zu vereinheitlichen und die Vergleichbarkeit zu erhöhen, wurden die vielfältigen Themenbereiche der Rechnerarchitektur in inhaltliche Cluster (siehe Tab.~\ref{tab:cluster}) überführt. Diese thematische Gruppierung erleichtert es, Schwerpunkte und Trends in den Publikationen zu identifizieren.
 
-Die \textit{Programmiersprache} ist insbesondere für Studierende der Informatik von Relevanz. Sie kann die Möglichkeit eröffnen, Erweiterungen oder Plugins zu entwickeln und den Simulator an spezifische Bedürfnisse anzupassen.
-
-Unter dem Kriterium \textit{Simulatorart} wird der Abstraktionsgrad eingeordnet, also ob der Simulator didaktisch reduziert oder realitätsnah ist. Ergänzend werden auch die Visualisierung und der Grad der Interaktivität berücksichtigt.
-
-Das Kriterium \textit{Zielgruppe} erlaubt eine Zuordnung zu unterschiedlichen Bildungskontexten (z. B. Schule, Hochschule) und gibt Auskunft darüber, ob und in welchem Umfang Vorkenntnisse erforderlich sind.
-
-Für Lehrende spielt zudem der \textit{Preis} eine zentrale Rolle. Es wird unterschieden, ob es sich um freie oder lizenzpflichtige Software handelt, da der Kostenfaktor maßgeblich über den praktischen Einsatz entscheidet.
-
-Ein weiterer Aspekt ist die \textit{Gamification}. Studien zeigen, dass spielerische Elemente die Lernmotivation steigern können. Unterschieden werden hier insbesondere levelbasierte und storytelling-orientierte Ansätze.\parencite[S. 106f]{sailer_gamification_2020}\parencite[S. 13]{baah_enhancing_2024}
-
-Da die Rechnerarchitektur eine Vielzahl von \textit{Themenbereichen} abdeckt, wird erfasst, auf welchen inhaltlichen Schwerpunkt sich ein Simulator bezieht (z. B. Pipelining oder Caching).
-
-Unter \textit{Beschäftigungsdauer} wird die zu erwartende Nutzungszeit betrachtet. Dabei ist relevant, ob die Dauer der Auseinandersetzung mit dem Simulator die notwendige Einführungs- und Erklärungszeit übersteigt.
-\TODO{Bekanntheitsgrad = Menge der Literatur?}
-
-Die Qualität der \textit{Dokumentation} ist ein weiteres zentrales Kriterium. Eine klare und umfassende Dokumentation erleichtert Installation, Anwendung und Problemlösung und wirkt sich direkt auf die Nutzbarkeit des Simulators aus.
-
-Da die Arbeit auch Trends und Entwicklungen berücksichtigt, werden zudem der \textit{Bekanntheitsgrad}, der \textit{Wartungsstand} (letztes Update) sowie das Jahr der \textit{Veröffentlichung} aufgenommen, um den Stellenwert eines Simulators einzuordnen und veraltete Software zu identifizieren.
-
-\begin{table}
-
-\centering
-\caption{Kriterienkatalog}
-\label{tab:kriterien}
-\small
-
-\begin{tabular}{|l|l|l|}
-\hline
-
-\textbf{Nr.} & \textbf{Kriterien} & \textbf{Kategorie} \\
-\hline
-
-\multirow{4}{*}{1} & \multirow{4}{*}{Zugriff} & Offline \\
-                   &                          & Betriebssystem \\
-                   &                          & Online \\
-                   &                          & Hardwareanforderungen \\
-\hline
-
-\multirow{3}{*}{2} & \multirow{3}{*}{Programmiersprache} & Entwicklungssprache \\
-                   &                                     & Embedding von Programmiersprachen \\
-                   &                                     & Integration in Lernplattformen \\
-\hline
-
-\multirow{3}{*}{3} & \multirow{3}{*}{Simulatorart} & Abstraktionsgrad \\
-                   &                               & Visualisierung \\
-                   &                               & Interaktivität \\
-\hline
-
-\multirow{2}{*}{4} & \multirow{2}{*}{Zielgruppe} & Institution \\
-                   &                             & Vorkenntnisse \\
-\hline
-
-\multirow{2}{*}{5} & \multirow{2}{*}{Preis} & Freeware \\
-                   &                        & Open Source \\
-\hline
-
-\multirow{2}{*}{6} & \multirow{2}{*}{Gamification} & Level \\
-                   &                               & Storytelling \\
-\hline
-
-\multirow{2}{*}{7} & \multirow{2}{*}{Themenbereich} & Pipelining \\ 
-                   &                                & Caching \\
-\hline
-
-\multirow{3}{*}{8} & \multirow{3}{*}{Beschäftigungsdauer} & kurzfrisitg \\
-                   &                                      & mittelfristig \\
-                   &                                      & langfrisitig \\ 
-\hline
-
-\multirow{2}{*}{9} & \multirow{2}{*}{Dokumentation} & Verfügbarkeit \\
-                   &                                & Zugriff \\
-\hline
-
-10 & Bekanntheitsgrad & Skala von 0 - 10 \\
-\hline
-
-11 & Wartungsstand & letztes Update \\
-\hline
-
-12 & Veröffentlichung & Aktualität \\
-\hline
-
-\end{tabular}
+\begin{table}[h]
+  \centering
+  \caption{Themenbereiche und zugehörige Cluster}
+  \label{tab:cluster}
+  \begin{tabularx}{\textwidth}{lX}
+    \toprule
+    \textbf{Cluster} & \textbf{Themen} \\
+    \midrule
+    Grundlagen und Theorien & Allgemein, Grundkenntnisse, Von-Neumann-Architektur, Rechnerarchitektur, AIMC, ADL, Floating Point, Zahlensysteme, Multicore Prozessorarchitektur \\
+    \addlinespace
+    Prozessoren und Architekturen & Prozessor, CPU, Mikroprozessor, Mikroprogrammierung, MIPS, RISC, CISC, Superskalarität, Pipelining, NoC \\
+    \addlinespace
+    Speicher und Performance & Speicherhierarchie, Cache, TLB, Temperatur \\
+    \addlinespace
+    Hardware und Logik & Digitale Logik, HDL, VHDL, Verilog, FPGA, Einsatz echter Hardware \\
+    \addlinespace
+    Programmierung & Assembler, Compiler \\
+    \addlinespace
+    Systeme und Anwendungen & Cloud Computing, IoT, VR, Betriebssysteme \\
+    \addlinespace
+    Monitoring & Monitoring \\
+    \addlinespace
+    GPU & GPU \\
+    \addlinespace
+    AI & AI \\
+    \bottomrule
+  \end{tabularx}
 \end{table}
 
+Ein weiterer untersuchter Aspekt ist die \textit{Gamification}. Studien zeigen, dass spielerische Elemente die Lernmotivation signifikant steigern können. Besonders verbreitet sind dabei levelbasierte sowie storytelling-orientierte Ansätze.\parencite[S. 106f.]{sailer_gamification_2020}\parencite[S. 13]{baah_enhancing_2024}
+
+Zur Auswertung wurde das Vorhandensein von Gamification-Elementen dichotom codiert: Ein Wert von \enquote{0} kennzeichnet Simulatoren ohne spielerische Komponenten, während \enquote{1} angibt, dass entsprechende Elemente integriert sind.
+
+Das Kriterium \textit{Abstraktion} beschreibt den Grad der didaktischen Vereinfachung. Simulatoren wurden dichotom codiert: \enquote{1} kennzeichnet eine stark reduzierte Darstellung, während \enquote{0} für eine realitätsnahe Abbildung steht.
+
+Eng damit verknüpft ist das Kriterium \textit{Institution}, das den Kontext erfasst, in dem ein Simulator entwickelt oder eingesetzt wird. Auf diese Weise lässt sich unterscheiden, ob die Lerninhalte und der Anforderungsgrad primär auf den schulischen Bereich, die hochschulische Lehre oder andere Bildungskontexte ausgerichtet sind.
+
+Eine Übersicht der hierfür verwendeten Codierungen ist in Tab.~\ref{tab:legende_codierung} dargestellt.
+
+\begin{table}[h]
+  \centering
+  \caption{Legende der Codierungen für die Kriterien}
+  \label{tab:legende_codierung}
+  \begin{tabularx}{\textwidth}{lXXXXX}
+    \toprule
+    \textbf{Kriterium} & \textbf{0} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} \\
+    \midrule
+    Abstraktion       & realitätsnah & didaktisch reduziert & -- & -- & -- \\
+    Institution       & Schule & Hochschule & Forschung, Beruf & Weiterbildung & -- \\
+    Gamification      & keine Elemente & Elemente vorhanden & -- & -- & -- \\
+    Zugriff           & online & offline & keine Information & on- und offline & -- \\
+    Preis             & kostenlos & nicht kostenlos & keine Information & -- & -- \\
+    Dokumentation     & Dokumentation vorhanden & keine Dokumentation & keine Information & -- & -- \\
+    OS                & Linux & Windows & MacOS & VM, Docker & unabhängig \\
+    Vorwissen         & kein Vorwissen & Grundkenntnisse & fortgeschritten & -- & -- \\
+    Beschäftigungsdauer & kurzfristig & mittelfristig & langfristig & -- & -- \\
+    Bekanntheitsgrad  & niedrig & mittel & hoch & -- & -- \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+Ein zentrales Kriterium ist der \textit{Zugriff}. Je nach organisatorischem Kontext spielt es eine wichtige Rolle, ob ein Simulator online oder offline verfügbar ist. Online-Lösungen erfordern eine dauerhafte Internetverbindung und können dadurch in ihrer Nutzbarkeit eingeschränkt sein, während Offline-Simulatoren zwar unabhängig vom Netz funktionieren, jedoch meist eine Installation sowie bestimmte Hard- oder Betriebssystemvoraussetzungen benötigen.
+
+Insbesondere im Rahmen der Analyse der veröffentlichten Simulatoren (vgl. Tabelle~\ref{simulatoren}) spielen die Hardwareanforderungen eine zentrale Rolle.
+
+Für Lehrende stellt der \textit{Preis} ein zentrales Kriterium dar. Zur Codierung wurde unterschieden, ob es sich um frei verfügbare Software (\enquote{0}) oder um kostenpflichtige Software (\enquote{1}) handelt. Der Kostenfaktor ist dabei ein maßgebliches Kriterium für den praktischen Einsatz in der Lehre.
+
+Die Qualität der \textit{Dokumentation} ist ein weiteres zentrales Kriterium.Eine klare und umfassende Dokumentation erleichtert Installation, Anwendung und Problemlösung und beeinflusst damit unmittelbar die Nutzbarkeit eines Simulators. Zur Codierung wurde festgelegt: \enquote{0} kennzeichnet das Vorhandensein einer Dokumentation, \enquote{1} das Fehlen entsprechender Unterlagen. Fehlende Angaben wurden mit \enquote{2} vermerkt.
+
+Die Anzahl der \textit{Zitationen} dient als Indikator für die Bekanntheit und Rezeption einer Veröffentlichung. Die Werte wurden für jede Publikation über \href{https://scholar.google.de/}{Google Scholar} erhoben. Als Beispiel dient Abbildung~\ref{fig:anzahl_zitationen} für die Veröffentlichung unter ID~#6
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.90\textwidth]{img/Anzahl_Zitationen.png}
+    \caption{Bsp.: Anzahl Zitationen}
+    \label{fig:anzahl_zitationen}
+\end{figure}
+
+\section{Kriterien Tab.~\ref{tab:simulatoren}}
+
+Die zuvor beschriebenen Kriterien lassen sich auch auf die Tabelle der veröffentlichten Simulatoren anwenden. Für diese Analyse wurden jedoch zusätzliche Merkmale definiert, die im Folgenden erläutert werden.
+
+Ein erster Aspekt ist das \textit{Vorwissen}. Es berücksichtigt den Kenntnisstand der Lernenden und zeigt auf, wie viel fachliches Wissen notwendig ist, um den Simulator sinnvoll einsetzen zu können. Zur Codierung wurde unterschieden zwischen \enquote{0} = kein Vorwissen, \enquote{1} = Grundkenntnisse und \enquote{2} = fortgeschrittenes Wissen.
+
+Darüber hinaus spielt die \textit{Bekanntheit} eines Simulators eine Rolle. Sie dient als Indikator für Verbreitung und Rezeption und wurde gestuft codiert: \enquote{0} = niedrige Bekanntheit, \enquote{1} = mittlere Bekanntheit, \enquote{2} = hohe Bekanntheit. Grundlage dieser Einstufung sind Faktoren wie Erwähnungen in der Literatur, Zitationshäufigkeit oder die Sichtbarkeit in der Lehrpraxis.
+
+Ein weiteres Kriterium ist die \textit{Beschäftigungsdauer}, die angibt, über welchen Zeitraum ein Simulator typischerweise genutzt wird. Dabei wird unterschieden zwischen \enquote{0} = kurzfristige Nutzung, \enquote{1} = mittelfristige Nutzung und \enquote{2} = langfristige Nutzung. So kann ermittelt werden, ob ein Simulator vor allem für einzelne Übungen,für ein Semester oder für längerfristige Lehrszenarien konzipiert ist.
+
+Besondere Bedeutung kommt schließlich den Kriterien \textit{Veröffentlichung} und \textit{Wartungsstand} zu, die eng miteinander verknüpft sind. Während die \textit{Veröffentlichung} das Jahr der Erstpublikation eines Simulators angibt und damit eine zeitliche Einordnung in den Kontext der didaktischen und technischen Entwicklung ermöglicht, verweist der \textit{Wartungsstand} auf das Jahr der letzten Aktualisierung. In Kombination erlauben beide Kriterien die Einschätzung, ob ein Simulator kontinuierlich gepflegt wird oder ob er seit längerer Zeit nicht mehr aktualisiert und somit nur eingeschränkt einsetzbar ist.
+
 \section{Limitierungen}
+
+Trotz des systematischen Vorgehens weist die vorliegende Arbeit einige Limitierungen auf, die bei der Interpretation der Ergebnisse berücksichtigt werden sollten.
+
+Zunächst ist die \textit{Literaturauswahl} zu nennen. Relevante Arbeiten könnten aufgrund eingeschränkter Datenbanken oder fehlender Zugangsrechte unberücksichtigt geblieben sein. Damit besteht die Möglichkeit, dass das tatsächliche Spektrum an Veröffentlichungen nicht vollständig abgebildet wird.
+
+Darüber hinaus betreffen Einschränkungen die \textit{Bewertungskriterien}. Die verwendeten Codierungen stellen eine notwendige Reduktion komplexer Eigenschaften dar. Zudem beruhen einige Einschätzungen, beispielsweise zum Bekanntheitsgrad einzelner Simulatoren, auf subjektiver Bewertung.
+
+Ein weiterer Punkt betrifft die \textit{zeitliche Dynamik}. Die Analyse stellt eine Momentaufnahme dar, da Veröffentlichungsjahre und Wartungsstände sich stetig verändern können. Somit besteht die Möglichkeit, dass die hier dargestellten Ergebnisse im Zeitverlauf an Aktualität verlieren.
+
+Schließlich ist die \textit{Generalisierbarkeit} der Ergebnisse eingeschränkt. Die Arbeit konzentriert sich ausschließlich auf didaktische Simulatoren in der Rechnerarchitektur. Eine Übertragung der Ergebnisse auf andere Fachbereiche oder didaktische Werkzeuge ist daher nur bedingt möglich.
