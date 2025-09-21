@@ -18,6 +18,7 @@ Best Practices und Trends bei didaktischen Simulatoren für Rechnerarchitektur: 
   - Kriterienkatalog vorstellen
   - Abgrenzung/ Limitierung der Recherche/ Simulatoren
 3. Theoretische Grundlagen
+  - Chronologische Entwicklung didaktischer Simulatoren
   - Didaktische Simulatoren in der Lehre - Relevanz und Herausforderungen
   - Konzepte und Lernziele (Gamification, ...)  
   - Definition und Arten von Simulatoren
