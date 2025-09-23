@@ -33,12 +33,12 @@ Die 2010er Jahre waren geprägt von der Ausbreitung großskaliger Rechenzentren 
 Gleichzeitig veränderte sich die Softwarelandschaft: Produktivität rückte stärker in den Vordergrund, wodurch Sprachen wie Java oder Python populärer wurden, auch wenn dies auf Kosten der maximalen Performance ging \parencite[S.~2]{hennessy_computer_2011}. Mit dem Aufkommen von \textit{\ac{SaaS}} verschoben sich zentrale Rechenprozesse in die Cloud, was neue Anforderungen an Architektur und Skalierbarkeit stellte \parencites[S.~158]{kanev_profiling_2015}[S.~29]{mars_heterogeneity_2011}.
 
 \sh{Aktuelle Entwicklungen: Heterogenität, GPUs und KI (2020er)}
-In der Gegenwart zeichnet sich ab, dass \ac{ILP} weitgehend ausgereizt ist. Stattdessen rücken neue Formen der Parallelisierung in den Vordergrund:
+In der Gegenwart zeichnet sich ab, dass \ac{ILP} weitgehend ausgereizt ist. Stattdessen rücken neue Formen der Parallelisierung in den Vordergrund \parencite[S.~10]{hennessy_computer_2019}:
 
 \begin{itemize}
-    \item \textit{\ac{DLP}} wird durch Vektorprozessoren und \ac{SIMD}-Instruktionen realisiert.
-    \item \textit{\ac{TLP}} bleibt durch Multi-Core- und Many-Core-Architekturen bedeutend.
-    \item \textit{\ac{DSA}} wie GPUs oder \ac{TPU}s sind auf spezifische Anwendungsfelder optimiert – insbesondere auf das Training und die Inferenz von künstlichen neuronalen Netzen.
+    \item \textit{\ac{DLP}} wird durch Vektorprozessoren und \ac{SIMD}-Instruktionen realisiert \parencite[S.~1]{israel_high_2024}
+    \item \textit{\ac{TLP}} bleibt durch Multi-Core- und Many-Core-Architekturen bedeutend \parencite[S.~10]{hennessy_computer_2019}
+    \item \textit{\ac{DSA}} wie GPUs oder \ac{TPU}s sind auf spezifische Anwendungsfelder optimiert – insbesondere auf das Training und die Inferenz von künstlichen neuronalen Netzen \parencite[S.~10]{hennessy_computer_2019}
 \end{itemize}
 
-GPUs, ursprünglich für Grafikberechnungen konzipiert, haben sich als hocheffiziente Plattformen für massiv parallele Berechnungen etabliert und bilden heute das Rückgrat des \textit{Deep Learning}. Spezialisierte KI-Beschleuniger, etwa von Google, NVIDIA oder Apple, treiben die Entwicklung weiter voran. Parallel dazu experimentiert die Forschung mit neuromorphen Architekturen und Quantencomputern, die langfristig völlig neue Paradigmen versprechen.
+GPUs, ursprünglich für Grafikberechnungen konzipiert, haben sich als hocheffiziente Plattformen für massiv parallele Berechnungen etabliert und bilden heute das Rückgrat des \textit{Deep Learning}. Spezialisierte KI-Beschleuniger, etwa von Google, NVIDIA oder Apple, treiben die Entwicklung weiter voran. Parallel dazu experimentiert die Forschung mit neuromorphen Architekturen \parencite[S.~22]{schuman_survey_2017} und Quantencomputern \parencite[S.~2--3]{preskill_quantum_2018}, die langfristig völlig neue Paradigmen versprechen.
