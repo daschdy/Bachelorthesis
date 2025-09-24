@@ -36,6 +36,7 @@ if not collection_key:
     print(f"Collection '{COLLECTION_NAME}' not found.")
     exit(1)
 
+
 # Helper function for fetching all paginated results
 def fetch_all_items(url, headers):
     items = []
@@ -53,12 +54,13 @@ def fetch_all_items(url, headers):
             next_link = None
             for link in links:
                 if 'rel="next"' in link:
-                    next_link = link[link.find("<")+1:link.find(">")]
+                    next_link = link[link.find("<") + 1 : link.find(">")]
                     break
             url = next_link
         else:
             url = None
     return "".join(items)
+
 
 # Step 3: Export items from the collection (all, not just top-level)
 export_url = f"https://api.zotero.org/users/{USER_ID}/collections/{collection_key}/items?format={EXPORT_FORMAT}"
