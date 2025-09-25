@@ -2,9 +2,10 @@
 
 Das folgende Kapitel fasst die Ergebnisse der systematischen Literaturanalyse zusammen (vgl. Tab.~\ref{tab:literatur}). Dabei werden die in Kap.~\ref{chap:kriterienkatalog} definierten Kriterien auf die identifizierten Publikationen angewendet.
 
-Insgesamt umfasst die Analyse 151 Veröffentlichungen, die in Tab.~\ref{tab:literatur} aufgeführt sind. Abb.~\ref{fig:1-veroeffentlichungen-jahr} zeigt die jährliche Verteilung der Publikationen. Von den insgesamt 151 Arbeiten wurden 58 im Zeitraum von 2020 bis 2025 veröffentlicht, was einem Anteil von ca. 38~\% entspricht, während weitere 55~% der Publikationen in den Jahren 2000 bis 2020 erschienen.
+\newline
+Insgesamt umfasst die Analyse 151 Veröffentlichungen, die in Tab.~\ref{tab:literatur} aufgeführt sind. Abb.~\ref{fig:1-veroeffentlichungen-jahr} zeigt die jährliche Verteilung der Publikationen. Von den insgesamt 151 Arbeiten wurden 58 im Zeitraum von 2020 bis 2025 veröffentlicht, was einem Anteil von ca. 38~\% entspricht, während weitere 55~\% der Publikationen in den Jahren 2000 bis 2020 erschienen.
 
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.90\textwidth]{graphics/1-veroeffentlichungen-jahr.png}
     \caption{Übersicht der Veröffentlichungen pro Jahr}
@@ -13,7 +14,7 @@ Insgesamt umfasst die Analyse 151 Veröffentlichungen, die in Tab.~\ref{tab:lite
 
 Aus Abb.~\ref{fig:2-typ} ist ersichtlich, dass 98~\% der Veröffentlichungen auf Journalartikel (ca. 36~\%) und Konferenzbeiträge (ca. 62~\%) entfallen. Während Journalartikel in Fachzeitschriften mit ausführlicherem Begutachtungsprozess erscheinen, werden Konferenzbeiträge überwiegend in Tagungsbänden veröffentlicht und dienen der schnellen Verbreitung aktueller Forschungsergebnisse. Beide Publikationstypen sind daher für eine Trendanalyse sowie zur Ableitung von Best Practices geeignet.
 
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.90\textwidth]{graphics/2-typ.png}
     \caption{Übersicht des Typs aller Veröffentlichungen}
@@ -22,8 +23,11 @@ Aus Abb.~\ref{fig:2-typ} ist ersichtlich, dass 98~\% der Veröffentlichungen auf
 
 Tab.~\ref{tab:pub-typen} bietet eine Übersicht über die Zeitschriften und Konferenzen, in denen die meisten der untersuchten Publikationen veröffentlicht wurden. Die drei genannten Zeitschriften vereinen 44~\% aller Journalartikel, während die drei aufgeführten Konferenzen rund 22~\% der Konferenzbeiträge ausmachen.
 
-\begin{table}[htbp]
-\centering
+\begin{table}[!htbp]
+    \centering
+    \caption{Übersicht der meistgenutzten Journals und Konferenzen in der Literaturauswahl}
+    \label{tab:pub-typen}
+    \tiny
     \begin{tabularx}{\textwidth}{X c}
         \hline
         \multicolumn{2}{l}{\textbf{Journals}} \\
@@ -39,14 +43,12 @@ Tab.~\ref{tab:pub-typen} bietet eine Übersicht über die Zeitschriften und Konf
         Annual International Symposium on Computer Architecture & 6 \\
         \hline
     \end{tabularx}
-\caption{Übersicht der meistgenutzten Journals und Konferenzen in der Literaturauswahl}
-\label{tab:pub-typen}
 \end{table}
 
 In Abb.~\ref{fig:3-anzahl-themen} ist ersichtlich, dass die häufigsten Themen der untersuchten Publikationen \enquote{Prozessoren und Architekturen} (44~\%), \enquote{Speicher und Performance} (11~\%) sowie \enquote{Hardware und Logistik} (10~\%) sind. Diese drei Themen umfassen zusammen rund 70~\% aller Publikationen. Dicht darauf folgen die Themen \enquote{Grundlagen und Theorien} sowie \enquote{Programmierung} mit jeweils 9~\% der Arbeiten.
 
 
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.90\textwidth]{graphics/3-anzahl-themen.png}
     \caption{Anzahl der Veröffentlichungen pro Thema}
@@ -55,15 +57,18 @@ In Abb.~\ref{fig:3-anzahl-themen} ist ersichtlich, dass die häufigsten Themen d
 
 Eine detaillierte Untersuchung der drei am häufigsten vertretenen Themen ist in Abb.~\ref{fig:4-top3-themen} dargestellt. Die Abbildung zeigt die Verteilung dieser Themen über verschiedene Zeitspannen. Die zugrunde liegenden Werte sind in Tab.~\ref{tab:themen-zeit} aufgeführt.
  
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.90\textwidth]{graphics/4-top3-themen-jahr.png}
     \caption{Jährliche Aufteilung Top 3 Themen}
     \label{fig:4-top3-themen}
 \end{figure}
 
-\begin{table}[htbp]
+\begin{table}[!htbp]
     \centering
+    \caption{Jährliche Aufteilung Top 3 Themen - detailliert}
+    \label{tab:themen-zeit}
+    \tiny
     \begin{tabularx}{\textwidth}{lXXX}
         \hline
         \textbf{Zeitraum} & \textbf{Hardware und Logik} & \textbf{Prozessoren und Architekturen} & \textbf{Speicher und Performance} \\
@@ -74,22 +79,21 @@ Eine detaillierte Untersuchung der drei am häufigsten vertretenen Themen ist in
         nach 2020     & 7  & 22 & 4 \\
         \hline
     \end{tabularx}
-    \caption{Jährliche Aufteilung Top 3 Themen - detailliert}
-    \label{tab:themen-zeit}
 \end{table}
 
 Für die Themen \enquote{Grundlagen und Theorien} sowie \enquote{Programmierung} zeigt Abb.~\ref{fig:5-top5-themen} die jährliche Verteilung. Die entsprechenden Werte sind in Tab.~\ref{tab:themen-zeit-2} aufgeführt.
 
-
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.90\textwidth]{graphics/5-top5-themen-jahr.png}
     \caption{Jährliche Aufteilung Top 4 und 5 Thema}
     \label{fig:5-top5-themen}
+    \includegraphics[width=0.90\textwidth]{graphics/5-top5-themen-jahr.png}
 \end{figure}
 
-\begin{table}[htbp]
+\begin{table}[!htbp]
     \centering
+    \caption{Jährliche Aufteilung Top 4 und 5 Thema - detailliert}
+    \label{tab:themen-zeit-2}
     \tiny
     \begin{tabularx}{\textwidth}{lXX}
         \hline
@@ -101,14 +105,14 @@ Für die Themen \enquote{Grundlagen und Theorien} sowie \enquote{Programmierung}
         nach 2020     & 6 & 4 \\
         \hline
     \end{tabularx}
-    \caption{Jährliche Aufteilung Top 4 und 5 Thema - detailliert}
-    \label{tab:themen-zeit-2}
 \end{table}
 
 Hinsichtlich der Frage, ob die untersuchten Simulatoren spielerische Elemente enthalten, gibt Tab.~\ref{tab:gamification} einen Überblick.
 
-\begin{table}[htbp]
+\begin{table}[!htbp]
     \centering
+    \caption{Verteilung der Publikationen in Bezug auf enthaltene Gamification-Elemente}
+    \label{tab:gamification}
     \tiny
     \begin{tabularx}{\textwidth}{lXX}
         \hline
@@ -120,7 +124,215 @@ Hinsichtlich der Frage, ob die untersuchten Simulatoren spielerische Elemente en
         \textbf{Summe}     & 151 & 100\% \\
         \hline
     \end{tabularx}
-    \caption{Verteilung der Publikationen in Bezug auf enthaltene Gamification-Elemente}
-    \label{tab:gamification}
 \end{table}
+
+Von den 151 Simulatoren der untersuchten wissenschaftlichen Publikationen wurden 15~\% als realitätsnah und 85~\% als didaktisch reduziert eingestuft. Die Verteilung bezogen auf die einzelnen Themenbereiche ist in Abb.~\ref{fig:7-abstraktion-themen} dargestellt.
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Verteilung Abstraktionslevel auf Themenbereiche}
+    \label{fig:7-abstraktion-themen}
+    \includegraphics[width=0.90\textwidth]{graphics/7-abtraktion-themen.png}
+\end{figure}
+
+Die nachfolgnde Abb.~\ref{fig:8-abstraktions-jahr} verdeutlicht die zeitliche Entwicklung des Abstraktionslevels.
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Zeitliche Entwicklung des Abstraktionslevels}
+    \label{fig:8-abstraktion-jahr}
+    \includegraphics[width=0.90\textwidth]{graphics/8-abstraktion-jahr.png}
+\end{figure}
+
+Anhand von Abb.~\ref{fig:9-institution} ist zu erkennen, dass 89~\% der Publikationen die Hochschulbildung als Zielgruppe adressieren. 9~\% der untersuchten Simulatoren sind für Forschung und Beruf bestimmt, während sich die verbleibenden 2~\% auf schulische Bildung und Weiterbildungen verteilen.
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Aufteilung Institutionen}
+    \label{fig:9-institution}
+    \includegraphics[width=0.90\textwidth]{graphics/9-institution2.png}
+\end{figure}
+
+Untersucht man die Verteilung der Zielgruppen genauer, so zeigt Abb.~\ref{fig:10-institution-themen} die Aufteilung der einzelnen Zielgruppen (\enquote{Schule}, \enquote{Hochschule}, \enquote{Forschung/Beruf}, \enquote{Weiterbildung}) auf die jeweiligen Themenbereiche. Dabei wird zum Beispiel deutlich, dass sich alle GPU-bezogenen Simulatoren der Forschungs- bzw. Berufsgruppe zuordnen lassen.
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Aufteilung Institutionen nach Themen}
+    \label{fig:10-institution-themen}
+    \includegraphics[width=0.90\textwidth]{graphics/10-institution-themen.png}
+\end{figure}
+
+Hinsichtlich des Zugriffs zeigt Abb.~\ref{fig:11-zugriff} eine detaillierte Aufteilung. Die meisten Simulatoren (ca. 66~\%) sind offline nutzbar, während 11~\% entweder ausschließlich online oder sowohl online als auch offline verfügbar sind. In 19 Publikationen (ca. 13~\%) finden sich keine Angaben zur Art der Nutzung.
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Aufteilung Zugriff}
+    \label{fig:11-zugriff}
+    \includegraphics[width=0.90\textwidth]{graphics/11-zugriff2.png}
+\end{figure}
+
+Die zeitliche Verteilung der verschiedenen Zugriffsarten ist in Abb.~\ref{fig:12-zugriff-jahr} dargestellt, die entsprechenden Werte sind in Tab.~\ref{tab:zugriff-zeit} aufgeführt.
+
+\begin{figure}[!htbp]
+    \centering
+    % --- linke Seite: Grafik ---
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/12-zugriff-jahr.png}
+        \caption{Jährliche Aufteilung Zugriff (grafisch)}
+        \label{fig:12-zugriff-jahr}
+    \end{subfigure}
+    \hfill
+    % 
+    % --- rechte Seite: Tabelle ---
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \tiny
+        \begin{tabularx}{\textwidth}{lXXXX}
+            \hline
+            \textbf{Zeitraum} & \textbf{online} & \textbf{offline} & \textbf{keine Info} & \textbf{on-/offline} \\
+            \hline
+            vor 2000      & 0  & 9  & 1 & 0 \\
+            2000--2010    & 6  & 25 & 5 & 4 \\
+            2010--2020    & 2  & 28 & 5 & 8 \\
+            nach 2020     & 8  & 37 & 8 & 5 \\
+            \hline
+        \end{tabularx}
+        \caption{Jährliche Aufteilung Zugriff (detailliert)}
+        \label{tab:zugriff-zeit}
+    \end{subfigure}
+    %
+    \caption{Darstellung der Zugriffsarten pro Zeitraum}
+    \label{fig:zugriff-gesamt}
+\end{figure}
+
+\iffalse
+\begin{figure}[!htbp]
+    \centering
+    \caption{Jährliche Aufteilung Zugriff}
+    \label{fig:12-zugriff-jahr}
+    \includegraphics[width=0.90\textwidth]{graphics/12-zugriff-jahr.png}
+\end{figure}
+
+\begin{table}[!htbp]
+    \centering
+    \begin{tabularx}{\textwidth}{lXXXX}
+        \hline
+        \textbf{Zeitraum} & \textbf{online} & \textbf{offline} & \textbf{keine Information} & \textbf{on- und offline} \\
+        \hline
+        vor 2000      & 0  & 9  & 1 & 0 \\
+        2000--2010    & 6  & 25 & 5 & 4 \\
+        2010--2020    & 2  & 28 & 5 & 8 \\
+        nach 2020     & 8  & 37 & 8 & 5 \\
+        \hline
+    \end{tabularx}
+    \caption{Jährliche Aufteilung Zugriff - detailliert}
+    \label{tab:zugriff-zeit}
+\end{table}
+\fi
+
+Abb.~\ref{fig:13-zugriff-thema} zeigt die Verteilung der verschiedenen Zugriffsarten in Bezug auf die einzelnen Themenbereiche. \textit{Hinweis: Simulatoren, die auf Hardware wie \ac{FPGA}s basieren, werden der Kategorie \enquote{offline} zugeordnet.}
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Zugriffsart pro Thema}
+    \label{fig:13-zugriff-thema}
+    \includegraphics[width=0.90\textwidth]{graphics/13-zugriff-thema.png}
+\end{figure}
+
+Als zusätzliches Kriterium wurde der Preis untersucht, wobei zwischen \enquote{kostenlos} und \enquote{kostenpflichtig} unterschieden wird. Der Anteil der kostenlos verfügbaren didaktischen Simulatoren beträgt 57~\%, während 7~\% kostenpflichtig sind. Für die übrigen Simulatoren liegen keine Angaben zur preislichen Gestaltung vor (vgl. Abb.~\ref{fig:14-preis2}). 
+
+Darüber hinaus werden die Preiskategorien nach Zeiträumen aufgeschlüsselt, um einen Überblick über mögliche Veränderungen des Verhältnisses von kostenlosen zu kostenpflichtigen Simulatoren zu erhalten (vgl. Abb.~\ref{fig:15-preis-gesamt}).
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Aufteilung Preis}
+    \label{fig:14-preis2}
+    \includegraphics[width=0.90\textwidth]{graphics/14-preis3.png}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    % --- linke Seite: Grafik ---
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{graphics/15-preis-jahr.png}
+        \caption{Aufteilung Preis (grafisch)}
+        \label{fig:15-preis-jahr}
+    \end{subfigure}
+    \hfill
+    % --- rechte Seite: Tabelle ---
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \tiny
+        \begin{tabularx}{\textwidth}{lXXX}
+            \hline
+            \textbf{Zeitraum} & \textbf{kostenlos} & \textbf{kostenpflichtig} & \textbf{k.A.} \\
+            \hline
+            vor 2000      & 4  & 0 & 6  \\
+            2000--2010    & 19 & 4 & 17 \\
+            2010--2020    & 26 & 3 & 14 \\
+            nach 2020     & 37 & 4 & 17 \\
+            \hline
+        \end{tabularx}
+        \caption{Aufteilung Preis (detailliert)}
+        \label{tab:15-preis-zeit}
+    \end{subfigure}
+    %
+    \caption{Darstellung der Preisgestaltung der Simulatoren über verschiedene Zeiträume}
+    \label{fig:15-preis-gesamt}
+\end{figure}
+
+In Bezug auf das Kriterium \enquote{Dokumentation} gibt Abb.~\ref{fig:16-dokumentation} genauere Einblicke. In 87~\% der analysierten Publikationen verfügen die verwendeten bzw. beschriebenen Simulatoren über eine Dokumentation, während 5~\% keine Dokumentation erwähnen und in 7~\% der Publikationen hierzu keine Angaben vorliegen.
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Aufteilung Dokumentation}
+    \label{fig:16-dokumentation}
+    \includegraphics[width=0.90\textwidth]{graphics/16-dokumentation3.png}
+\end{figure}
+
+Als abschließendes Kriterium wird die Anzahl der Zitationen untersucht. Tab.~\ref{tab:zitationen} zeigt die am häufigsten zitierten Publikationen pro Thema, da diese für weiterführende oder aufbauende Untersuchungen in den jeweiligen Bereichen als maßgeblich gelten. Die Auswahl der dargestellten Publikationen erfolgte auf Grundlage des Durchschnitts aller Zitationen, der bei etwa 35 liegt. Publikationen mit mehr als 35 Zitationen werden nachfolgend dargestellt.
+
+\begin{table}[htbp]
+    \centering
+    \tiny
+    \begin{tabularx}{\textwidth}{r X l c}
+        \hline
+        \textbf{Zitationen} & \textbf{Titel} & \textbf{Autor(en)} & \textbf{Jahr} \\
+        \hline
+        \multicolumn{4}{l}{\textbf{AI}} \\
+        211 & Teaching CS50 with AI: Leveraging Generative Artificial Intelligence in Computer Science Education & R. Liu, C. Zenke, C. Liu, A. Holmes, P. Thornton, D. J. Malan & 2024 \\
+        \hline
+        \multicolumn{4}{l}{\textbf{GPU}} \\
+        146 & MGPUSim: Enabling Multi-GPU Performance Modeling and Optimization & Y. Sun, T. Baruah, S. A. Mojumber, S. Dong, X. Gong, S. Treadway & 2019 \\
+        397 & Accel-Sim: An Extensible Simulation Framework for Validated GPU Modeling & M. Khairy, Z. Shen, T. M. Aamodt, T. G. Rogers & 2020 \\
+        \hline
+        \multicolumn{4}{l}{\textbf{Grundlagen und Theorien}} \\
+        117 & Flexible Web-Based Educational System for Teaching Computer Architecture and Organization & J. Djordjevic, B. Nikolic, A. Milenkovic & 2005 \\
+        \hline
+        \multicolumn{4}{l}{\textbf{Hardware und Logik}} \\
+        46 & Harnessing FPGAs for Computer Architecture Education & M. Holland, J. Harris, S. Hauck & 2003 \\
+        \hline
+        \multicolumn{4}{l}{\textbf{Programmierung}} \\
+        41 & Using Simulators for Teaching Computer Organization and Architecture & P. W. C. Prasad, A. Alsadoon, A. Beg, A. Chan & 2016 \\
+        51 & MarieSim: The MARIE Computer Simulator & L. Null, J. Lobur & 2003 \\
+        \hline
+        \multicolumn{4}{l}{\textbf{Prozessoren und Architekturen}} \\
+        162 & Control Flow Modeling in Statistical Simulation for Accurate and Efficient Processor Design Studies & L. Eeckhout, R. H. Bell, B. Stougie, K. De Bosschere, L. K. John & 2004 \\
+        172 & Applying a Constructivist and Collaborative Methodological Approach in Engineering Education & L. Moreno, C. Gonzalez, I. Castilla, E. Gonzalez, J. Sigue & 2007 \\
+        327 & Measuring Experimental Error in Microprocessor Simulation & R. Desikan, D. Burger, S. W. Keckler & 2001 \\
+        \hline
+        \multicolumn{4}{l}{\textbf{Speicher und Performance}} \\
+        53 & Cryogenic Computer Architecture Modeling with Memory-Side Case Studies & L. Gyu-Hyeon, M. Dongmoon, B. Ilkwon, K. Jangwoo & 2019 \\
+        205 & A Simulation Based Study of TLB Performance & A. Borg, J. B. Chen, N. P. Jouppi & 1992 \\
+        \hline
+        \multicolumn{4}{l}{\textbf{Systeme und Anwendungen}} \\
+        139 & Virtual Reality in Computer Science Education: A Systematic Review & J. Priker, A. Dengel, M. Holly, S. Safikani & 2020 \\
+        \hline
+    \end{tabularx}
+    \caption{Häufig zitierte Publikationen pro Themengebiet}
+    \label{tab:zitationen}
+\end{table}
+
 
