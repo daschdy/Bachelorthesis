@@ -1,8 +1,6 @@
 \section{Ergebnisse aus der Literaturrecherche}\label{chap:results_lit}
 
-Das folgende Kapitel fasst die Ergebnisse der systematischen Literaturanalyse zusammen (vgl. Tabelle~\ref{tab:literatur}). Dabei werden die in Kapitel~\ref{chap:kriterienkatalog} definierten Kriterien auf die identifizierten Publikationen angewendet.
-
-\vspace{1em}
+\subsection{Allgemeine Informationen}
 
 Insgesamt umfasst die Analyse 151 Veröffentlichungen, die in Tabelle~\ref{tab:literatur} aufgeführt sind. Abbildung~\ref{fig:1-veroeffentlichungen-jahr} zeigt die jährliche Verteilung der Publikationen. Von den insgesamt 151 Arbeiten wurden 58 im Zeitraum von 2020 bis 2025 veröffentlicht, was einem Anteil von ca. 38~\% entspricht, während weitere 55~\% der Publikationen in den Jahren 2000 bis 2020 erschienen.
 
@@ -55,6 +53,7 @@ Aus Abbildung~\ref{fig:2-typ} ist ersichtlich, dass insgesamt 98~\% der Veröffe
 
 Tabelle~\ref{tab:2-typ-detail} bietet eine Übersicht über die Zeitschriften und Konferenzen, in denen die meisten der untersuchten Publikationen veröffentlicht wurden. Die drei genannten Zeitschriften vereinen 44~\% aller Journalartikel, während die drei aufgeführten Konferenzen rund 22~\% der Konferenzbeiträge ausmachen.
 
+\subsection{Chronologische Entwicklungen}
 Abbildung~\ref{fig:3-anzahl-themen} verdeutlicht, dass die häufigsten Themen der untersuchten Publikationen \enquote{Prozessoren und Architekturen} (44~\%), \enquote{Speicher und Performance} (11~\%) sowie \enquote{Hardware und Logistik} (10~\%) sind. Diese drei Themen umfassen zusammen rund 70~\% aller Publikationen. Dicht darauf folgen die Themen \enquote{Grundlagen und Theorien} sowie \enquote{Programmierung} mit jeweils 9~\% der Arbeiten.
 
 \begin{figure}[!h]
@@ -134,6 +133,20 @@ Für die Themen \enquote{Grundlagen und Theorien} sowie \enquote{Programmierung}
     \label{fig:pub-typen}
 \end{figure}
 
+Aus Abbildung~\ref{fig:3-anzahl-themen} und Abbildung~\ref{fig:4-top3-themen} wird ersichtlich, dass die Themenbereiche \enquote{Prozessoren und Architekturen} sowie \enquote{Hardware und Logik} in den vergangenen 15 Jahren besonders häufig in wissenschaftlichen Publikationen zu didaktischen Simulatoren der Rechnerarchitektur aufgegriffen wurden.  
+
+Im Themenbereich \enquote{Prozessoren und Architekturen} sind die Subthemen \textit{CPU}, \textit{MIPS}, \textit{Mikroprozessor}, \textit{Prozessor} und \textit{RISC} in annähernd gleicher Häufigkeit vertreten. Auch wenn diese Einordnung zunächst klassische Architekturkonzepte widerspiegelt, zeigt sich insbesondere beim Subthema \textit{RISC} eine aktuelle Relevanz in der Rechnerarchitektur.  
+
+Wie in Kapitel~\ref{chap:3-3-development_ca} beschrieben, erfährt das \ac{RISC}-Paradigma durch die weite Verbreitung von ARM-basierten Systemen sowie durch die zunehmende Bedeutung von energieeffizienten Architekturen eine neue Aktualität. Somit spiegelt sich in den didaktischen Simulatoren ein Themenfeld wider, das auch in den jüngsten Entwicklungen der Rechnerarchitektur von zentraler Bedeutung ist.
+
+Obwohl die Themenbereiche \enquote{AI} und \enquote{GPU} nur einen geringen Anteil der untersuchten Publikationen ausmachen (etwa 5~\%), ist erkennbar, dass entsprechende Simulatoren zu 88~\% in Veröffentlichungen nach 2020 thematisiert werden. Diese Beobachtung lässt sich in den Kontext zentraler Entwicklungen der Rechnerarchitektur einordnen: Große Technologieunternehmen investieren verstärkt in die Forschung zu \ac{AI}, während GPUs im Zuge paralleler Datenverarbeitung zunehmend an Bedeutung gewinnen. Auch in der Entwicklung didaktischer Simulatoren (vgl. Kapitel~\ref{chap:3-2-development-sim}) wird in jüngerer Zeit der Einsatz von \ac{AI} als didaktisches Instrument diskutiert.
+
+Die Themenbereiche \enquote{Grundlagen und Theorien}, \enquote{Programmierung} sowie \enquote{Speicher und Performance} zeigen in Bezug auf die zeitliche Entwicklung keine besonderen Auffälligkeiten. Über die Zeiträume \enquote{vor 2000}, \enquote{2000--2010}, \enquote{2010--2020} und \enquote{nach 2020} sind diese Themen relativ gleichmäßig verteilt. Das Themenfeld \enquote{Monitoring} ist hingegen so gering vertreten, dass hierzu keine belastbaren Aussagen getroffen werden können.
+
+Verbleibend ist die zeitliche Analyse des Themenbereichs \enquote{Systeme und Anwendungen}, der einen Anteil von 8~\% an den gesamten wissenschaftlichen Publikationen ausmacht. Innerhalb dieses Clusters wird im Wesentlichen \ac{VR} behandelt. Immersive Technologien finden zunehmend auch in modernen didaktischen Simulatoren Anwendung und sind seit den 2010er-Jahren als Lern- und Lehrmethode erkennbar (vgl. Kapitel~\ref{chap:3-2-development-sim}). Die im Rahmen der Literaturrecherche identifizierten Publikationen zu \ac{VR}-Simulatoren stammen überwiegend aus dem Zeitraum 2020 bis 2025.
+
+\subsection{Gamification}
+
 Hinsichtlich der Frage, ob die untersuchten Simulatoren spielerische Elemente (\textit{Gamification}) enthalten, bietet die Tabelle~\ref{tab:gamification} einen Überblick.
 
 \begin{table}[!htbp]
@@ -151,6 +164,12 @@ Hinsichtlich der Frage, ob die untersuchten Simulatoren spielerische Elemente (\
     \caption{Verteilung der Publikationen in Bezug auf enthaltene Gamification-Elemente}
     \label{tab:gamification}
 \end{table}
+
+Wie in Kapitel~\ref{chap:3-2-development-sim} erläutert, stellt \textit{Gamification} ein zentrales Konzept didaktischen Lernens sowie didaktischer Lehr- und Lernsysteme dar. Aus Tabelle~\ref{tab:gamification} geht jedoch hervor, dass lediglich 4~\% der untersuchten Publikationen über didaktische Simulatoren der Rechnerarchitektur Gamification-Elemente berücksichtigen.
+
+Das Konzept wird in den Themenbereichen \enquote{Grundlagen und Theorien}, \enquote{Prozessoren und Architekturen} sowie \enquote{Systeme und Anwendungen} aufgegriffen und in Publikationen aus dem Zeitraum 2007 bis 2024 behandelt. Die zeitliche Einordnung dieser Veröffentlichungen steht somit im Einklang mit der Chronologie der didaktischen Simulatoren.
+
+\subsection{Abstraktionslevel}
 
 Von den 151 Simulatoren der untersuchten wissenschaftlichen Publikationen wurden 15~\% als realitätsnah und 85~\% als didaktisch reduziert eingestuft. Die Verteilung bezogen auf die einzelnen Themenbereiche ist in Abbildung~\ref{fig:7-abstraktion-themen} dargestellt.
 
@@ -179,6 +198,16 @@ Die Abbildung~\ref{fig:8-abstraktion-jahr} verdeutlicht die zeitliche Entwicklun
     \label{fig:abstaktion-analysen}
 \end{figure}
 
+Für den Einsatz von Simulatoren als Lehr- und Lernmethode ist das Abstraktionsniveau beziehungsweise der Grad der didaktischen Reduktion von zentraler Bedeutung. Unter Bezug auf die \ac{CTML} nach Mayer, die auf den drei Kernprinzipien \textit{Dual-Channel Processing}, \textit{Limited Capacity} und \textit{Active Processing} basiert, lässt sich ableiten, dass realitätsnahe Simulatoren tendenziell zu einer Überlastung der verfügbaren kognitiven Ressourcen führen können. Die Vielzahl simultaner Reize und irrelevanter Details in hochrealistischen Umgebungen erschwert die Selektion und Organisation relevanter Informationen und reduziert dadurch die Effektivität des Lernprozesses. Demgegenüber unterstützen didaktisch reduzierte Simulationen die Einhaltung zentraler \ac{CTML}-Prinzipien und erweisen sich insbesondere in den Bildungskontexten \enquote{Schule} und \enquote{Hochschule} als lernförderlicher \parencites[S.~169]{tremblay_task_2023}[S.~955]{haji_thrive_2016}[S.~360]{reedy_using_2015}~\footnote{Hinweis: Die wissenschaftlichen Quellen, die diese Aussage bestätigen, behandeln didaktische Simulatoren im medizinischen Kontext.}.
+
+Der Anteil der didaktisch reduzierten Simulatoren innerhalb der untersuchten Publikationen beläuft sich auf 85~\%. Eine detailliertere Betrachtung zeigt, dass 99~\% dieser Simulatoren der Hochschulbildung zugeordnet werden können. Damit wird ersichtlich, dass in der Hochschullehre die Prinzipien der \ac{CTML} Anwendung finden und Studierende nicht durch übermäßig komplexe Aufgabenstellungen oder Simulatoren überlastet werden.
+
+Über nahezu alle Themenbereiche hinweg sind realitätsnahe Simulatoren in weniger als 30~\% der Fälle vertreten. Lediglich in den Bereichen \enquote{AI} und \enquote{GPU} treten sie häufiger auf.
+
+Der Zeitverlauf in Abbildung~\ref{fig:8-abstraktion-jahr} zeigt keine besonderen Auffälligkeiten. Die kumulierte Entwicklung realitätsnaher und didaktisch reduzierter Simulatoren entspricht dem bereits zuvor beschriebenen zeitlichen Verlauf.
+
+\subsection{Institutionen}
+
 Anhand von Abbildung~\ref{fig:9-institution} ist zu erkennen, dass 89~\% der Publikationen die Hochschulbildung als Zielgruppe adressieren. 9~\% der untersuchten Simulatoren sind für Forschung und Beruf bestimmt, während sich die verbleibenden 2~\% auf schulische Bildung und Weiterbildungen aufteilen.
 
 Untersucht man die Verteilung der Zielgruppen genauer, so zeigt Abbildung~\ref{fig:10-institution-themen} die Aufteilung der einzelnen Zielgruppen (\enquote{Schule}, \enquote{Hochschule}, \enquote{Forschung, Beruf}, \enquote{Weiterbildung}) auf die jeweiligen Themenbereiche. Dabei wird zum Beispiel deutlich, dass sich alle GPU-bezogenen Simulatoren der Forschungs- bzw. Berufsgruppe zuordnen lassen.
@@ -205,6 +234,8 @@ Untersucht man die Verteilung der Zielgruppen genauer, so zeigt Abbildung~\ref{f
     \caption{Analysen zu Institutionen}
     \label{fig:institution-analysen}
 \end{figure}
+
+\subsection{Zugriff}
 
 Hinsichtlich des Zugriffs zeigt Abbildung~\ref{fig:11-zugriff} eine detaillierte Aufteilung. Die meisten Simulatoren (ca. 66~\%) sind offline nutzbar, während 11~\% entweder ausschließlich online oder sowohl online als auch offline verfügbar sind. In 19 Publikationen (ca. 13~\%) finden sich keine Angaben zur Art der Nutzung.
 
@@ -268,6 +299,14 @@ Die zeitliche Verteilung der verschiedenen Zugriffsarten ist in Abbildung~\ref{f
 
 Abbildung~\ref{fig:13-zugriff-thema} zeigt die Verteilung der verschiedenen Zugriffsarten in Bezug auf die einzelnen Themenbereiche. Simulatoren, die auf Hardware wie \ac{FPGA}s basieren, werden der Kategorie \enquote{offline} zugeordnet.
 
+Die Literaturrecherche hat ergeben, dass der überwiegende Teil der vorgestellten Simulatoren offline einsetzbar ist (vgl. Abbildung~\ref{fig:11-zugriff}). Lediglich 22~\% der untersuchten Publikationen verfolgen einen Online-Ansatz\footnote{Hier wurden die Kategorien \enquote{online} und \enquote{on- und offline} zusammengefasst.}.
+
+Abbildung~\ref{fig:zugriff-analysen} verdeutlicht, dass der Anteil der online nutzbaren Simulatoren in den Jahren nach 2010 höher liegt als in den Jahren davor. Dabei ist jedoch zu berücksichtigen, dass 64~\% der betrachteten Publikationen ebenfalls aus dem Zeitraum nach 2010 stammen.
+
+Der in Kapitel~\ref{chap:3-2-development-sim} beschriebene Effekt des \textit{M-Learning} ab den 2000er-Jahren kann daher nicht eindeutig bestätigt werden. Simulatoren, die eine spezifische Hardware wie beispielsweise \ac{FPGA}s voraussetzen, werden in dieser Untersuchung ebenfalls der Kategorie \enquote{offline} zugeordnet, auch wenn der eigentliche Simulator potenziell unabhängig davon wäre.
+
+\subsection{Preis}
+
 Als zusätzliches Kriterium wurde der Preis untersucht, wobei zwischen \enquote{kostenlos} und \enquote{kostenpflichtig} unterschieden wird. Der Anteil der kostenlos verfügbaren didaktischen Simulatoren beträgt 57~\%, während 7~\% kostenpflichtig sind. Für die übrigen Simulatoren liegen keine Angaben zur preislichen Gestaltung vor (vgl. Abbildung~\ref{fig:14-preis2}). 
 
 Darüber hinaus werden die Preiskategorien nach Zeiträumen aufgeschlüsselt, um einen Überblick über mögliche Veränderungen des Verhältnisses von kostenlosen zu kostenpflichtigen Simulatoren zu erhalten (vgl. Abbildung~\ref{fig:15-preis-gesamt}).
@@ -311,6 +350,14 @@ Darüber hinaus werden die Preiskategorien nach Zeiträumen aufgeschlüsselt, um
     \label{fig:15-preis-gesamt}
 \end{figure}
 
+Aufgrund des steigenden finanziellen Drucks auf Studierende~\parencite[S.~1]{meier_bedeutung_2023} sowie auf die deutschen Hochschulen~\cite{von_stuckrad_hochschulfinanzierung_nodate}, die wesentliche Zielgruppe der Simulatoren darstellen, erscheint der Preis aus Sicht von Lehrenden und Lernenden als zentrales Kriterium.
+
+Abbildung~\ref{fig:15-preis-jahr} zeigt die Verteilung zwischen kostenlosen und kostenpflichtigen Simulatoren. 57~\% werden als kostenlos und 7~\% als kostenpflichtig angegeben. Für den verbleibenden Anteil von 36~\% enthalten die untersuchten Publikationen keine Angaben zur Preisgestaltung. Eine nähere Betrachtung der kostenpflichtigen Simulatoren zeigt, dass diese nahezu gleichmäßig auf die Themenbereiche \enquote{Hardware und Logik} sowie \enquote{Prozessoren und Architekturen} entfallen. Insbesondere bei Subthemen wie \ac{FPGA} oder dem \textit{Einsatz echter Hardware} sind die initialen Kosten zu berücksichtigen.
+
+Der zeitliche Verlauf in Abbildung~\ref{fig:15-preis-jahr} bzw. Tabelle~\ref{tab:15-preis-zeit} entspricht dem bereits zuvor beschriebenen allgemeinen Muster. Hieraus lassen sich daher keine eigenständigen Trends oder neuen Erkenntnisse ableiten.
+
+\subsection{Dokumentation}
+
 In Bezug auf das Kriterium \textit{Dokumentation} gibt Abbildung~\ref{fig:16-dokumentation} genauere Einblicke. In 87~\% der analysierten Publikationen verfügen die verwendeten bzw. beschriebenen Simulatoren über eine Dokumentation, während 5~\% keine Dokumentation erwähnen und in 7~\% der Publikationen hierzu keine Angaben vorliegen.
 
 \begin{figure}[!htbp]
@@ -319,6 +366,18 @@ In Bezug auf das Kriterium \textit{Dokumentation} gibt Abbildung~\ref{fig:16-dok
     \label{fig:16-dokumentation}
     \includegraphics[width=0.90\textwidth]{graphics_lit/16-dokumentation.png}
 \end{figure}
+
+Die Bedeutung einer begleitenden Dokumentation für didaktische Simulatoren lässt sich auf mehrere lernpsychologische Theorien zurückführen, die in Kapitel~\ref{chap:3-1-psychology} ausführlich dargestellt werden:
+
+\begin{itemize}
+    \item \textit{\ac{CTML}}: Eine Dokumentation unterstützt das Kernprinzip des \textit{Active Processing}, da Lernende neue Informationen mit vorhandenem Wissen verknüpfen und erweitern können.
+    \item \textit{Exploratives Lernen}: Die Dokumentation dient als Leitfaden im selbstgesteuerten Lernprozess.
+    \item \textit{Erfahrungsbasiertes Lernen}: In der Phase der \textit{reflektierenden Beobachtung} ermöglicht eine Dokumentation, gemachte Erfahrungen aufzuarbeiten, einzuordnen und in neue Konzepte zu überführen. Sie wirkt dabei unterstützend wie eine Anleitung.
+\end{itemize}
+
+Abbildung~\ref{fig:16-dokumentation} verdeutlicht, dass die Mehrheit der untersuchten didaktischen Simulatoren über eine entsprechende Dokumentation verfügt, sodass die die Relevanz aus lernpsychologischer Sicht unterstützt wird.
+
+\subsection{Anzahl Zitationen}
 
 Als abschließendes Kriterium wird die Anzahl der Zitationen untersucht. Tabelle~\ref{tab:zitationen} zeigt die am häufigsten zitierten Publikationen pro Thema, da diese für weiterführende oder aufbauende Untersuchungen in den jeweiligen Bereichen als maßgeblich gelten. Die Auswahl der dargestellten Publikationen erfolgte auf Grundlage des Durchschnitts aller Zitationen, der bei etwa 35 liegt. Publikationen mit mehr als 35 Zitationen werden nachfolgend dargestellt.
 
@@ -385,6 +444,3 @@ Als abschließendes Kriterium wird die Anzahl der Zitationen untersucht. Tabelle
     \hline
 \end{longtable}
 }
-
-
-

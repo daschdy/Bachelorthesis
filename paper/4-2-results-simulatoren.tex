@@ -1,9 +1,6 @@
 \section{Ergebnisse aus Simulatorrecherche}}
 
-Dieses Kapitel präsentiert die Ergebnisse der Literaturrecherche in Bezug auf bereits veröffentlichte Simulatoren (vgl. Tabelle~\ref{tab:simulatoren}). Auch hier werden die in Kapitel~\ref{chap:kriterienkatalog} definierten Kriterien berücksichtigt. Da sich die zugrunde liegende Auswahl von Simulatoren von der in Kapitel~\ref{chap:results_lit} beschriebenen Grundgesamtheit innerhalb der Kriterien und im Umfang unterscheidet, werden die folgenden Analysen in angepasster Form dargestellt.
-
-\vspace{1em}
-
+\subsection{Allgemeine Informationen}
 Abbildung~\ref{fig:1-anzahl-jahr} verdeutlicht, dass der Großteil der untersuchten Simulatoren zu Beginn der 2000er-Jahre veröffentlicht wurde. Zwischen 2000 und 2020 lassen sich insgesamt 37 Veröffentlichungen identifizieren, was einem Anteil von 74~\% entspricht. Darüber hinaus konnte bei sieben Simulatoren kein Veröffentlichungsdatum ermittelt werden.
 
 Hinsichtlich des Wartungsstands der bereits veröffentlichten Simulatoren zeigt Abbildung~\ref{fig:2-veroeffentlichungen}, dass dieser im Zeitverlauf zunimmt. Etwa 71~\% der Simulatoren wurden in den vergangenen fünf Jahren aktualisiert und können somit als \enquote{aktuell} eingestuft werden.
@@ -31,6 +28,8 @@ Hinsichtlich des Wartungsstands der bereits veröffentlichten Simulatoren zeigt 
     \label{fig:veroeffentlichung_wartungsstand}
 \end{figure}
 
+\subsection{Chronologische Entwicklung}
+
 Die thematische Verteilung der Simulatoren ist Abbildung~\ref{fig:7-thema} zu entnehmen. Etwa 40~\% der Simulatoren befassen sich mit dem Themenbereich \enquote{Prozessoren und Architekturen}, gefolgt von 18~\% hardwarebezogenen und 14~\% grundlagenvermittelnden Simulatoren. Die übrigen Anwendungen verteilen sich auf die Themenbereiche \enquote{Speicher und Performance}, \enquote{Programmierung}, \enquote{Systeme und Anwendungen}, \enquote{GPU} sowie \enquote{Monitoring}.
 
 Die Zuordnung der Veröffentlichungsjahre zu den Zeiträumen \enquote{vor 2000}, \enquote{2000--2010}, \enquote{2010--2020} und \enquote{nach 2020} ist in Abbildung~\ref{fig:8-thema-jahr} dargestellt. Hier wird deutlich, dass die Mehrheit der Simulatoren zum Themenbereich \enquote{Prozessoren und Architekturen} im Zeitraum 2010 bis 2020 veröffentlicht wurde.
@@ -57,6 +56,96 @@ Die Zuordnung der Veröffentlichungsjahre zu den Zeiträumen \enquote{vor 2000},
     \caption{Analysen zur Themenverteilung}
     \label{fig:themen-gesamt}
 \end{figure}
+
+\subsection{Gamification}
+
+Hinsichtlich des Kriteriums \textit{Gamification} ist festzuhalten, dass die in Tabelle~\ref{tab:simulatoren} aufgeführten Simulatoren keine spielerischen Elemente enthalten und dieses Kriterium daher nicht weiter berücksichtigt werden kann.
+
+\subsection{Abstraktionslevel}
+
+Im Rahmen der Simulatorrecherche wird auch das Abstraktionsniveau erfasst (vgl. Abbildung~\ref{fig:5-abstraktion}). Der überwiegende Teil (ca. 72~\%) der Simulatoren ist dabei als \enquote{didaktisch reduziert} zu klassifizieren. Diese Simulatoren verteilen sich gemäß Abbildung~\ref{fig:6-abstraktion-thema} im Wesentlichen auf die Themenbereiche \enquote{Prozessoren und Architekturen} sowie \enquote{Hardware und Logik}.
+
+\begin{figure}[!htbp]
+    \centering
+    % --- linke Seite: Grafik ---
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=0.90\textwidth]{graphics_sim/5-abstraktion.png}
+        \caption{Übersicht der Abstraktionslevel}
+        \label{fig:5-abstraktion}
+    \end{subfigure}
+    \hfill
+    % 
+    % --- rechte Seite: Grafik ---
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=0.90\textwidth]{graphics_sim/6-abstraktion-thema.png}
+        \caption{Übersicht der Abstraktionslevel pro Thema}
+        \label{fig:6-abstraktion-thema}
+    \end{subfigure}
+    %
+    \caption{Analysen zum Abstraktionslevel}
+    \label{fig:abstraktion-gesamt}
+\end{figure}
+
+Neben dem Abstraktionsniveau wird auch die Zielgruppe der jeweiligen Simulatoren betrachtet. Dabei erfolgt eine Unterscheidung zwischen den Kategorien \enquote{Schule}, \enquote{Hochschule} sowie \enquote{Forschung, Beruf}. Da eine Anwendung potenziell für mehrere Zielgruppen relevant sein kann und somit mehreren Kategorien zugeordnet wird, wird auf eine grafische Darstellung verzichtet. Tabelle~\ref{tab:institutionen} bietet stattdessen eine Übersicht über die Verteilung der Simulatoren auf die jeweiligen Institutionstypen.
+
+\begin{table}[h]
+	\centering
+	\caption{Verteilung der Institutionstypen der Simulatoren}
+	\label{tab:institutionen}
+	\begin{tabular}{l r}
+		\toprule
+		\textbf{Institution(en)} & \textbf{Anzahl} \\
+		\midrule
+		Schule                        & 7  \\
+		Schule, Hochschule            & 2  \\
+		Hochschule                    & 31 \\
+		Hochschule, Forschung, Beruf  & 14 \\
+		Forschung, Beruf              & 3  \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+Analog zur Literaturrecherche sind auch innerhalb der untersuchten Simulatoren der überwiegende Teil, etwa 72~\%, didaktisch reduziert. In den Themenbereichen \enquote{GPU} und \enquote{Monitoring} besteht das Angebot hingegen ausschließlich aus realitätsnahen Simulatoren.
+
+Die Erkenntnis, dass Simulatoren für die Hochschulbildung überwiegend didaktisch reduziert sein sollten, wird durch die Grundgesamtheit der veröffentlichten Simulatoren bestätigt. Die 72~\% didaktisch reduzierten Simulatoren richten sich vollständig an die Zielgruppen \enquote{Schule} und \enquote{Hochschule}.
+
+Da in dieser Arbeit überwiegend didaktische Simulatoren vorgestellt werden, ist das Kriterium \enquote{Vorwissen} von besonderem Interesse. Etwa 77~\% der Simulatoren setzen Grundkenntnisse in den jeweiligen Themengebieten voraus (vgl. Abbildung~\ref{fig:10-vorwissen}). Rund 5~\% erfordern fortgeschrittene Kenntnisse, während lediglich 18~\% ohne Vorkenntnisse genutzt werden können. Die Verteilung nach Themengebieten in Verbindung mit dem erforderlichen Vorwissen ist in Abbildung~\ref{fig:11-vorwissen-thema} dargestellt.
+
+\begin{figure}[!htbp]
+    \centering
+    % --- linke Seite: Grafik ---
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=0.90\textwidth]{graphics_sim/10-vorwissen.png}
+        \caption{Verteilung Vorwissen}
+        \label{fig:10-vorwissen}
+    \end{subfigure}
+    \hfill
+    % 
+    % --- rechte Seite: Grafik ---
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=0.90\textwidth]{graphics_sim/11-vorwissen-thema.png}
+        \caption{Verteilung Vorwissen auf Themen}
+        \label{fig:11-vorwissen-thema}
+    \end{subfigure}
+    %
+    \caption{Analysen Vorwissen}
+    \label{fig:vorwissen-gesamt}
+\end{figure}
+
+Im Kontext schulischer und hochschulbezogener didaktischer Simulatoren ist das Vorwissen auch mit Blick auf lernpsychologische Theorien (vgl. Kapitel~\ref{chap:3-1-psychology}) von besonderem Interesse:
+
+\begin{itemize}
+    \item \textit{\ac{CTML}}: Innerhalb der \textit{Cognitive Theory of Multimedia Learning} gilt Vorwissen als entscheidender Faktor für das \textit{Active Processing}. Neue Informationen können nur dann sinnvoll verarbeitet werden, wenn sie an bestehende mentale Modelle anknüpfen.
+    \item \textit{Exploratives Lernen}: Für selbstgesteuerte und entdeckende Lernprozesse bildet Vorwissen eine notwendige Grundlage. Es ermöglicht Lernenden, Hypothesen zu entwickeln, Simulationen gezielt durchzuführen und daraus tragfähige Schlussfolgerungen zu ziehen.
+    \item \textit{Erfahrungsbasiertes Lernen}: In Kolbs Modell fungiert Vorwissen als Ausgangspunkt, auf dem neue Erfahrungen aufbauen. Es erleichtert die Phase der \textit{reflektierenden Beobachtung}, da neue Eindrücke mit vorhandenen Konzepten verglichen und kritisch eingeordnet werden können.
+    \item \textit{Konnektivismus}: Aus Sicht des Konnektivismus stellt Vorwissen ein Geflecht aus Wissensknoten dar. Dieses Netzwerk ermöglicht es, neue Informationen in bestehende Strukturen einzubetten und durch Verknüpfungen mit externen Ressourcen zu erweitern.
+\end{itemize}
+
+\subsection{Zugriff}
 
 Für den Einsatz didaktischer Simulatoren stellt die Zugriffsart ein wesentliches Kriterium dar. Daher wurde diese in Abbildung~\ref{fig:3-zugriff} dargestellt. Den größten Anteil bilden offline nutzbare Simulatoren (53~\%). Etwa 11~\% der Simulatoren sind sowohl online als auch offline verfügbar, während 37~\% ausschließlich online zugänglich sind.
 
@@ -106,51 +195,11 @@ Bezogen auf das Kriterium \ac{OS} wird keine Abbildung dargestellt, da einzelne 
 	\end{tabular}
 \end{table}
 
-Im Rahmen der Simulatorrecherche wird auch das Abstraktionsniveau erfasst (vgl. Abbildung~\ref{fig:5-abstraktion}). Der überwiegende Teil (ca. 72~\%) der Simulatoren ist dabei als \enquote{didaktisch reduziert} zu klassifizieren. Diese Simulatoren verteilen sich gemäß Abbildung~\ref{fig:6-abstraktion-thema} im Wesentlichen auf die Themenbereiche \enquote{Prozessoren und Architekturen} sowie \enquote{Hardware und Logik}.
+Die Verteilung von online- und offline-nutzbaren Simulatoren ist in dieser Recherche nahezu ausgeglichen (vgl. Abbildung~\ref{fig:3-zugriff}). Aus Abbildung~\ref{fig:4-zugriff-jahr} lassen sich keine eindeutigen zeitlichen Trends ableiten. Der in Kapitel~\ref{3-2-development-sim} beschriebene Effekt des \textit{M-Learning} kann daher auch hier nicht bestätigt werden.
 
-\begin{figure}[!htbp]
-    \centering
-    % --- linke Seite: Grafik ---
-    \begin{subfigure}[b]{0.48\textwidth}
-        \centering
-        \includegraphics[width=0.90\textwidth]{graphics_sim/5-abstraktion.png}
-        \caption{Übersicht der Abstraktionslevel}
-        \label{fig:5-abstraktion}
-    \end{subfigure}
-    \hfill
-    % 
-    % --- rechte Seite: Grafik ---
-    \begin{subfigure}[b]{0.48\textwidth}
-        \centering
-        \includegraphics[width=0.90\textwidth]{graphics_sim/6-abstraktion-thema.png}
-        \caption{Übersicht der Abstraktionslevel pro Thema}
-        \label{fig:6-abstraktion-thema}
-    \end{subfigure}
-    %
-    \caption{Analysen zum Abstraktionslevel}
-    \label{fig:abstraktion-gesamt}
-\end{figure}
+Tabelle~\ref{tab:os} zeigt, dass etwa 37~\% der offline-nutzbaren Simulatoren die gängigen Betriebssysteme \enquote{Linux}, \enquote{Windows} und \enquote{macOS} unterstützen. Überwiegend handelt es sich jedoch um betriebssystemagnostische Simulatoren. Die OS-unabhängigen Simulatoren wurden zu 51~\% in dem Zeitraum zwischen 2010 und 2020 veröffentlicht. Der Trend flacht in den darauffolgenden Jahren ab.
 
-Neben dem Abstraktionsniveau wird auch die Zielgruppe der jeweiligen Simulatoren betrachtet. Dabei erfolgt eine Unterscheidung zwischen den Kategorien \enquote{Schule}, \enquote{Hochschule} sowie \enquote{Forschung, Beruf}. Da eine Anwendung potenziell für mehrere Zielgruppen relevant sein kann und somit mehreren Kategorien zugeordnet wird, wird auf eine grafische Darstellung verzichtet. Tabelle~\ref{tab:institutionen} bietet stattdessen eine Übersicht über die Verteilung der Simulatoren auf die jeweiligen Institutionstypen.
-
-\begin{table}[h]
-	\centering
-	\caption{Verteilung der Institutionstypen der Simulatoren}
-	\label{tab:institutionen}
-	\begin{tabular}{l r}
-		\toprule
-		\textbf{Institution(en)} & \textbf{Anzahl} \\
-		\midrule
-		Schule                        & 7  \\
-		Schule, Hochschule            & 2  \\
-		Hochschule                    & 31 \\
-		Hochschule, Forschung, Beruf  & 14 \\
-		Forschung, Beruf              & 3  \\
-		\bottomrule
-	\end{tabular}
-\end{table}
-
-Hinsichtlich des Kriteriums \textit{Gamification} ist festzuhalten, dass die in Tabelle~\ref{tab:simulatoren} aufgeführten Simulatoren keine spielerischen Elemente enthalten und dieses Kriterium daher nicht weiter berücksichtigt werden kann.  
+\subsection{Preis}
 
 Der überwiegende Teil der Simulatoren ist kostenfrei verfügbar; lediglich 5~\% sind kostenpflichtig. Eine Übersicht der Verteilung zeigt Abbildung~\ref{fig:9-preis}.
 
@@ -161,30 +210,9 @@ Der überwiegende Teil der Simulatoren ist kostenfrei verfügbar; lediglich 5~\%
     \label{fig:9-preis}
 \end{figure}
 
-Da in dieser Arbeit überwiegend didaktische Simulatoren vorgestellt werden, ist das Kriterium \enquote{Vorwissen} von besonderem Interesse. Etwa 77~\% der Simulatoren setzen Grundkenntnisse in den jeweiligen Themengebieten voraus (vgl. Abbildung~\ref{fig:10-vorwissen}). Rund 5~\% erfordern fortgeschrittene Kenntnisse, während lediglich 18~\% ohne Vorkenntnisse genutzt werden können. Die Verteilung nach Themengebieten in Verbindung mit dem erforderlichen Vorwissen ist in Abbildung~\ref{fig:11-vorwissen-thema} dargestellt.
+Abbildung~\ref{fig:9-preis} zeigt, dass der wesentliche Teil der vorgestellten Simulatoren kostenlos nutzbar ist. Somit wird auch hier der finanzielle Druck auf Lehr- und Lernende reduziert.
 
-\begin{figure}[!htbp]
-    \centering
-    % --- linke Seite: Grafik ---
-    \begin{subfigure}[b]{0.48\textwidth}
-        \centering
-        \includegraphics[width=0.90\textwidth]{graphics_sim/10-vorwissen.png}
-        \caption{Verteilung Vorwissen}
-        \label{fig:10-vorwissen}
-    \end{subfigure}
-    \hfill
-    % 
-    % --- rechte Seite: Grafik ---
-    \begin{subfigure}[b]{0.48\textwidth}
-        \centering
-        \includegraphics[width=0.90\textwidth]{graphics_sim/11-vorwissen-thema.png}
-        \caption{Verteilung Vorwissen auf Themen}
-        \label{fig:11-vorwissen-thema}
-    \end{subfigure}
-    %
-    \caption{Analysen Vorwissen}
-    \label{fig:vorwissen-gesamt}
-\end{figure}
+\subsection{Zeit}
 
 Die Abbildungen~\ref{fig:12-zeit} und \ref{fig:13-vorwissen-thema} geben Aufschluss über die Nutzungsdauer der untersuchten Simulatoren. Der überwiegende Teil weist eine kurze Nutzungszeit auf, während lediglich 2~\% eine längere Nutzungsdauer vorsehen. In den Themenbereichen \enquote{Prozessoren und Architekturen} sowie \enquote{Hardware und Logik} finden sich ausschließlich Simulatoren mit kurzer Nutzungszeit.
 
@@ -211,6 +239,20 @@ Die Abbildungen~\ref{fig:12-zeit} und \ref{fig:13-vorwissen-thema} geben Aufschl
     \label{fig:nutzungsdauer-gesamt}
 \end{figure}
 
+Die benötigte Bearbeitungszeit eines Simulators lässt in Verbindung zu den lernpsychologischen Theorien aus Kapitel~\ref{chap:3-1-pychology}. Daher ist eine Analyse dieser ebenfalls entscheidend für zukünftige Trends und Best Practices.
+
+Die Analyse des erforderlichen Zeitaufwands (siehe Abbildung~\ref{fig:12-zeit}) zeigt, dass die meisten Simulatoren in kurzer Nutzungsdauer zu Ergebnissen führen. Aus lernpsychologischer Sicht hat dies unterschiedliche Implikationen:
+
+\begin{itemize}
+    \item \textit{\ac{CTML}}: Kurze Bearbeitungszeiten können kognitive Überlastung verringern, bergen jedoch die Gefahr, dass für \textit{Active Processing} zu wenig Zeit verbleibt.
+    \item \textit{Exploratives Lernen}: Eine geringe Nutzungsdauer schränkt die Möglichkeit ein, eigene Hypothesen ausführlich zu erproben.
+    \item \textit{Erfahrungsbasiertes Lernen}: Für die Phase der \textit{reflektierenden Beobachtung} könnte die kurze Dauer unzureichend sein, um Erlebtes nachhaltig zu verarbeiten.
+    \item \textit{Konnektivismus}: Die Integration neuer Informationen in bestehende Wissensnetzwerke erfordert mehr Zeit, als viele Simulatoren vorsehen.
+\end{itemize}
+
+Aus der Analyse der Nutzungsdauer in Bezug auf die Themen (vgl. Abbildung~\ref{fig:13-vorwissen-thema}) ergeben sich keine zusätzlichen Erkenntnisse. Die höhere Verteilung in den Kategorien \enquote{Hardware und Logik} sowie \enquote{Prozessoren und Architekturen} entspricht der bereits zuvor dargestellten allgemeinen Themenverteilung.
+
+\subsection{Dokumentation}
 86~\% der Simulatoren haben eine Dokumentation (siehe dazu Abbildung~\ref{fig:14-dokumentation}).
 
 \begin{figure}[!htbp]
@@ -219,6 +261,10 @@ Die Abbildungen~\ref{fig:12-zeit} und \ref{fig:13-vorwissen-thema} geben Aufschl
     \caption{Verteilung der Dokumentation}
     \label{fig:14-dokumentation}
 \end{figure}
+
+Hinsichtlich der Dokumentation der bereits veröffentlichten Simulatoren zeigt Abbildung~\ref{fig:14-dokumentation}, dass 88~\% der Applikationen über eine ausreichende Begleitdokumentation verfügen. Dieses Ergebnis bestätigt die zuvor dargestellte Relevanz lernpsychologischer Theorien, nach denen eine Dokumentation den Lernprozess wesentlich unterstützt.
+
+\subsection{Bekanntheit}
 
 Als abschließendes Kriterium wird die Bekanntheit der Simulatoren betrachtet. Insgesamt werden 78~\% der Simulatoren als mittel oder hoch bekannt eingestuft (vgl. Abbildung~\ref{fig:15-bekanntheit}). Eine Übersicht darüber, welche Themenbereiche vergleichsweise geringere Bekanntheit aufweisen, bietet Abbildung~\ref{fig:16-bekanntheit-thema}.
 
