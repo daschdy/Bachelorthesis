@@ -2,7 +2,9 @@
 
 Das nachfolgende Kapitel vereint die Ergebnisse aus der Literatur- und Simulatorrecherche (Kapitel~\ref{chap:4-results}) mit den lernpsychologischen Konzepten aus Kapitel~\ref{chap:3-1-psychology} und den jeweiligen historieschen Entwicklungen didaktischer Simulatoren (Kapitel~\ref{chap:3-2-development-sim}) und den historischen Enwicklungen der Rechnerarchitektur als Teilgebiet der Informatik~\ref{chap:3-3-development_ca}.
 
-\subsection{Trends und Best Practices: Literaturrecherche}
+Auf dieser Grundlage werden die identifizierten Trends aus der Literaturrecherche mit den Ergebnissen der Simulatorrecherche verglichen. Anschließend erfolgt eine Übersicht bewährter Praktiken (\textit{Best Practices}) im Kontext didaktischer Simulatoren.
+
+\subsection{Trends: Literaturrecherche}
 
 \sh{Chronologische Entwicklungen}
 Aus Abbildung~\ref{fig:3-anzahl-themen} und Abbildung~\ref{fig:4-top3-themen} wird ersichtlich, dass die Themenbereiche \enquote{Prozessoren und Architekturen} sowie \enquote{Hardware und Logik} in den vergangenen 15 Jahren besonders häufig in wissenschaftlichen Publikationen zu didaktischen Simulatoren der Rechnerarchitektur aufgegriffen wurden.  
@@ -43,7 +45,7 @@ Aufgrund des steigenden finanziellen Drucks auf Studierende~\parencite[S.~1]{mei
 
 Abbildung~\ref{fig:15-preis-jahr} zeigt die Verteilung zwischen kostenlosen und kostenpflichtigen Simulatoren. 57~\% werden als kostenlos und 7~\% als kostenpflichtig angegeben. Für den verbleibenden Anteil von 36~\% enthalten die untersuchten Publikationen keine Angaben zur Preisgestaltung. Eine nähere Betrachtung der kostenpflichtigen Simulatoren zeigt, dass diese nahezu gleichmäßig auf die Themenbereiche \enquote{Hardware und Logik} sowie \enquote{Prozessoren und Architekturen} entfallen. Insbesondere bei Subthemen wie \ac{FPGA} oder dem \textit{Einsatz echter Hardware} sind die initialen Kosten zu berücksichtigen.
 
-Der zeitliche Verlauf in Abbildung~\ref{fig:15-preis-jahr} bzw. Tabelle~\ref{15-preis-zeit} entspricht dem bereits zuvor beschriebenen allgemeinen Muster. Hieraus lassen sich daher keine eigenständigen Trends oder neuen Erkenntnisse ableiten.
+Der zeitliche Verlauf in Abbildung~\ref{fig:15-preis-jahr} bzw. Tabelle~\ref{tab:15-preis-zeit} entspricht dem bereits zuvor beschriebenen allgemeinen Muster. Hieraus lassen sich daher keine eigenständigen Trends oder neuen Erkenntnisse ableiten.
 
 \sh{Dokumentation}
 Die Bedeutung einer begleitenden Dokumentation für didaktische Simulatoren lässt sich auf mehrere lernpsychologische Theorien zurückführen, die in Kapitel~\ref{chap:3-1-psychology} ausführlich dargestellt werden:
@@ -54,6 +56,57 @@ Die Bedeutung einer begleitenden Dokumentation für didaktische Simulatoren läs
     \item \textit{Erfahrungsbasiertes Lernen}: In der Phase der \textit{reflektierenden Beobachtung} ermöglicht eine Dokumentation, gemachte Erfahrungen aufzuarbeiten, einzuordnen und in neue Konzepte zu überführen. Sie wirkt dabei unterstützend wie eine Anleitung.
 \end{itemize}
 
-Abbildung~\ref{fig:16-Dokumentation} verdeutlicht, dass die Mehrheit der untersuchten didaktischen Simulatoren über eine entsprechende Dokumentation verfügt, sodass die die Relevanz aus lernpsychologischer Sicht unterstützt wird.
+Abbildung~\ref{fig:16-dokumentation} verdeutlicht, dass die Mehrheit der untersuchten didaktischen Simulatoren über eine entsprechende Dokumentation verfügt, sodass die die Relevanz aus lernpsychologischer Sicht unterstützt wird.
 
-\subsection{Trends und Best Practices: Simulatorrecherche}
+\subsection{Trends: Simulatorrecherche}
+
+\sh{Chronologische Entwicklungen}
+Wie bereits in der Literaturrecherche sind auch in der Simulatorrecherche die Themenbereiche \enquote{Prozessoren und Architekturen} sowie \enquote{Hardware und Logik} am stärksten vertreten (vgl. Abbildung~\ref{fig:8-thema-jahr}). Unter den 49~\% der untersuchten Simulatoren treten insbesondere die Subthemen \enquote{RISC} und \enquote{Digitale Logik} am häufigsten auf. Damit lassen sich vergleichbare Entwicklungen in beiden Analysen feststellen.
+
+Die verbleibenden Themenbereiche liefern in Bezug auf die zeitliche Entwicklung anhand des Veröffentlichungsjahres keine weiterführenden Erkenntnisse. Auch aus dem Wartungsstand der untersuchten Simulatoren lassen sich keine eindeutigen Trends ableiten. Wie Abbildung~\ref{fig:2-veroeffentlichungen} zeigt, befinden sich die meisten Simulatoren im Wesentlichen auf einem aktuellen Entwicklungsstand. Das gewichtete arithmetische Mittel pro Themenbereich liegt nicht vor dem Jahr 2018.
+
+\sh{Gamification}
+Hinsichtlich des Aspekts \textit{Gamification} lassen sich keine Aussagen treffen, da keiner der 57 untersuchten Simulatoren spielerische Elemente integriert.
+
+\sh{Abstraktionslevel}
+Analog zur Literaturrecherche sind auch innerhalb der untersuchten Simulatoren der überwiegende Teil, etwa 72~\%, didaktisch reduziert. In den Themenbereichen \enquote{GPU} und \enquote{Monitoring} besteht das Angebot hingegen ausschließlich aus realitätsnahen Simulatoren.
+
+Die Erkenntnis, dass Simulatoren für die Hochschulbildung überwiegend didaktisch reduziert sein sollten, wird durch die Grundgesamtheit der veröffentlichten Simulatoren bestätigt. Die 72~\% didaktisch reduzierten Simulatoren richten sich vollständig an die Zielgruppen \enquote{Schule} und \enquote{Hochschule}.
+
+Im Kontext schulischer und hochschulbezogener didaktischer Simulatoren ist das Vorwissen auch mit Blick auf lernpsychologische Theorien (vgl. Kapitel~\ref{chap:3-1-psychology}) von besonderem Interesse:
+
+\begin{itemize}
+    \item \textit{\ac{CTML}}: Innerhalb der \textit{Cognitive Theory of Multimedia Learning} gilt Vorwissen als entscheidender Faktor für das \textit{Active Processing}. Neue Informationen können nur dann sinnvoll verarbeitet werden, wenn sie an bestehende mentale Modelle anknüpfen.
+    \item \textit{Exploratives Lernen}: Für selbstgesteuerte und entdeckende Lernprozesse bildet Vorwissen eine notwendige Grundlage. Es ermöglicht Lernenden, Hypothesen zu entwickeln, Simulationen gezielt durchzuführen und daraus tragfähige Schlussfolgerungen zu ziehen.
+    \item \textit{Erfahrungsbasiertes Lernen}: In Kolbs Modell fungiert Vorwissen als Ausgangspunkt, auf dem neue Erfahrungen aufbauen. Es erleichtert die Phase der \textit{reflektierenden Beobachtung}, da neue Eindrücke mit vorhandenen Konzepten verglichen und kritisch eingeordnet werden können.
+    \item \textit{Konnektivismus}: Aus Sicht des Konnektivismus stellt Vorwissen ein Geflecht aus Wissensknoten dar. Dieses Netzwerk ermöglicht es, neue Informationen in bestehende Strukturen einzubetten und durch Verknüpfungen mit externen Ressourcen zu erweitern.
+\end{itemize}
+
+Abbildung~\ref{fig:10-vorwissen} verdeutlicht, dass 95~\% der Simulatoren entweder ohne Vorwissen oder lediglich mit Grundkenntnissen bedienbar sind. Damit erfüllen die untersuchten Simulatoren zentrale lernpsychologische Anforderungen.
+
+\sh{Zugriff}
+Die Verteilung von online- und offline-nutzbaren Simulatoren ist in dieser Recherche nahezu ausgeglichen (vgl. Abbildung~\ref{fig:3-zugriff}). Aus Abbildung~\ref{fig:4-zugriff-jahr} lassen sich keine eindeutigen zeitlichen Trends ableiten. Der in Kapitel~\ref{3-2-development-sim} beschriebene Effekt des \textit{M-Learning} kann daher auch hier nicht bestätigt werden.
+
+Tabelle~\ref{tab:os} zeigt, dass etwa 37~\% der offline-nutzbaren Simulatoren die gängigen Betriebssysteme \enquote{Linux}, \enquote{Windows} und \enquote{macOS} unterstützen. Überwiegend handelt es sich jedoch um betriebssystemagnostische Simulatoren. Die OS-unabhängigen Simulatoren wurden zu 51~\% in dem Zeitraum zwischen 2010 und 2020 veröffentlicht. Der Trend flacht in den darauffolgenden Jahren ab.
+
+\sh{Preis}
+Abbildung~\ref{fig:9-preis} zeigt, dass der wesentliche Teil der vorgestellten Simulatoren kostenlos nutzbar ist. Somit wird auch hier der finanzielle Druck auf Lehr- und Lernende reduziert.
+
+\sh{Zeit}
+Die benötigte Bearbeitungszeit eines Simulators lässt in Verbindung zu den lernpsychologischen Theorien aus Kapitel~\ref{chap:3-1-pychology}. Daher ist eine Analyse dieser ebenfalls entscheidend für zukünftige Trends und Best Practices.
+
+Die Analyse des erforderlichen Zeitaufwands (siehe Abbildung~\ref{fig:12-zeit}) zeigt, dass die meisten Simulatoren in kurzer Nutzungsdauer zu Ergebnissen führen. Aus lernpsychologischer Sicht hat dies unterschiedliche Implikationen:
+
+\begin{itemize}
+    \item \textit{\ac{CTML}}: Kurze Bearbeitungszeiten können kognitive Überlastung verringern, bergen jedoch die Gefahr, dass für \textit{Active Processing} zu wenig Zeit verbleibt.
+    \item \textit{Exploratives Lernen}: Eine geringe Nutzungsdauer schränkt die Möglichkeit ein, eigene Hypothesen ausführlich zu erproben.
+    \item \textit{Erfahrungsbasiertes Lernen}: Für die Phase der \textit{reflektierenden Beobachtung} könnte die kurze Dauer unzureichend sein, um Erlebtes nachhaltig zu verarbeiten.
+    \item \textit{Konnektivismus}: Die Integration neuer Informationen in bestehende Wissensnetzwerke erfordert mehr Zeit, als viele Simulatoren vorsehen.
+\end{itemize}
+
+Aus der Analyse der Nutzungsdauer in Bezug auf die Themen (vgl. Abbildung~\ref{fig:13-vorwissen-thema}) ergeben sich keine zusätzlichen Erkenntnisse. Die höhere Verteilung in den Kategorien \enquote{Hardware und Logik} sowie \enquote{Prozessoren und Architekturen} entspricht der bereits zuvor dargestellten allgemeinen Themenverteilung.
+
+\sh{Dokumentation}
+Hinsichtlich der Dokumentation der bereits veröffentlichten Simulatoren zeigt Abbildung~\ref{fig:14-dokumentation}, dass 88~\% der Applikationen über eine ausreichende Begleitdokumentation verfügen. Dieses Ergebnis bestätigt die zuvor dargestellte Relevanz lernpsychologischer Theorien, nach denen eine Dokumentation den Lernprozess wesentlich unterstützt.
+
+\sh{Bekanntheit}
