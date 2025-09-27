@@ -4,13 +4,31 @@
 
 \subsection{Trends und Best Practices in wissenschaftlichen Publikationen}
 
+\sh{Chronologische Entwicklungen}
 Aus Abbildung~\ref{fig:3-anzahl-themen} und Abbildung~\ref{fig:4-top3-themen} wird ersichtlich, dass die Themenbereiche \enquote{Prozessoren und Architekturen} sowie \enquote{Hardware und Logik} in den vergangenen 15 Jahren besonders häufig in wissenschaftlichen Publikationen zu didaktischen Simulatoren der Rechnerarchitektur aufgegriffen wurden.  
 
 Im Themenbereich \enquote{Prozessoren und Architekturen} sind die Subthemen \textit{CPU}, \textit{MIPS}, \textit{Mikroprozessor}, \textit{Prozessor} und \textit{RISC} in annähernd gleicher Häufigkeit vertreten. Auch wenn diese Einordnung zunächst klassische Architekturkonzepte widerspiegelt, zeigt sich insbesondere beim Subthema \textit{RISC} eine aktuelle Relevanz in der Rechnerarchitektur.  
 
 Wie in Kapitel~\ref{chap:3-3-development_ca} beschrieben, erfährt das \ac{RISC}-Paradigma durch die weite Verbreitung von ARM-basierten Systemen sowie durch die zunehmende Bedeutung von energieeffizienten Architekturen eine neue Aktualität. Somit spiegelt sich in den didaktischen Simulatoren ein Themenfeld wider, das auch in den jüngsten Entwicklungen der Rechnerarchitektur von zentraler Bedeutung ist.
 
-
 Obwohl die Themenbereiche \enquote{AI} und \enquote{GPU} nur einen geringen Anteil der untersuchten Publikationen ausmachen (etwa 5~\%), ist erkennbar, dass entsprechende Simulatoren zu 88~\% in Veröffentlichungen nach 2020 thematisiert werden. Diese Beobachtung lässt sich in den Kontext zentraler Entwicklungen der Rechnerarchitektur einordnen: Große Technologieunternehmen investieren verstärkt in die Forschung zu \ac{AI}, während GPUs im Zuge paralleler Datenverarbeitung zunehmend an Bedeutung gewinnen. Auch in der Entwicklung didaktischer Simulatoren (vgl. Kapitel~\ref{chap:3-2-development-sim}) wird in jüngerer Zeit der Einsatz von \ac{AI} als didaktisches Instrument diskutiert.
 
+Die Themenbereiche \enquote{Grundlagen und Theorien}, \enquote{Programmierung} sowie \enquote{Speicher und Performance} zeigen in Bezug auf die zeitliche Entwicklung keine besonderen Auffälligkeiten. Über die Zeiträume \enquote{vor 2000}, \enquote{2000--2010}, \enquote{2010--2020} und \enquote{nach 2020} sind diese Themen relativ gleichmäßig verteilt. Das Themenfeld \enquote{Monitoring} ist hingegen so gering vertreten, dass hierzu keine belastbaren Aussagen getroffen werden können.
 
+Verbleibend ist die zeitliche Analyse des Themenbereichs \enquote{Systeme und Anwendungen}, der einen Anteil von 8~\% an den gesamten wissenschaftlichen Publikationen ausmacht. Innerhalb dieses Clusters wird im Wesentlichen \ac{VR} behandelt. Immersive Technologien finden zunehmend auch in modernen didaktischen Simulatoren Anwendung und sind seit den 2010er-Jahren als Lern- und Lehrmethode erkennbar (vgl. Kapitel~\ref{chap:3-2-development-sim}). Die im Rahmen der Literaturrecherche identifizierten Publikationen zu \ac{VR}-Simulatoren stammen überwiegend aus dem Zeitraum 2020 bis 2025.
+
+\sh{Gamification}
+Wie in Kapitel~\ref{chap:3-2-development-sim} erläutert, stellt \textit{Gamification} ein zentrales Konzept didaktischen Lernens sowie didaktischer Lehr- und Lernsysteme dar. Aus Tabelle~\ref{tab:gamification} geht jedoch hervor, dass lediglich 4~\% der untersuchten Publikationen über didaktische Simulatoren der Rechnerarchitektur Gamification-Elemente berücksichtigen.
+
+Das Konzept wird in den Themenbereichen \enquote{Grundlagen und Theorien}, \enquote{Prozessoren und Architekturen} sowie \enquote{Systeme und Anwendungen} aufgegriffen und in Publikationen aus dem Zeitraum 2007 bis 2024 behandelt. Die zeitliche Einordnung dieser Veröffentlichungen steht somit im Einklang mit der Chronologie der didaktischen Simulatoren.
+
+\sh{Abstraktionslevel}
+Für den Einsatz von Simulatoren als Lehr- und Lernmethode ist das Abstraktionsniveau beziehungsweise der Grad der didaktischen Reduktion von zentraler Bedeutung. Unter Bezug auf die \ac{CTML} nach Mayer, die auf den drei Kernprinzipien \textit{Dual-Channel Processing}, \textit{Limited Capacity} und \textit{Active Processing} basiert, lässt sich ableiten, dass realitätsnahe Simulatoren tendenziell zu einer Überlastung der verfügbaren kognitiven Ressourcen führen können. Die Vielzahl simultaner Reize und irrelevanter Details in hochrealistischen Umgebungen erschwert die Selektion und Organisation relevanter Informationen und reduziert dadurch die Effektivität des Lernprozesses. Demgegenüber unterstützen didaktisch reduzierte Simulationen die Einhaltung zentraler \ac{CTML}-Prinzipien und erweisen sich insbesondere in den Bildungskontexten \enquote{Schule} und \enquote{Hochschule} als lernförderlicher \parencites[S.~169]{tremblay_task_2023}[S.~955]{haji_thrive_2016}[S.~360]{reedy_using_2015}~\footnote{Hinweis: Die wissenschaftlichen Quellen, die diese Aussage bestätigen, behandeln didaktische Simulatoren im medizinischen Kontext.}.
+
+Der Anteil der didaktisch reduzierten Simulatoren innerhalb der untersuchten Publikationen beläuft sich auf 85~\%. Eine detailliertere Betrachtung zeigt, dass 99~\% dieser Simulatoren der Hochschulbildung zugeordnet werden können. Damit wird ersichtlich, dass in der Hochschullehre die Prinzipien der \ac{CTML} Anwendung finden und Studierende nicht durch übermäßig komplexe Aufgabenstellungen oder Simulatoren überlastet werden.
+
+Über nahezu alle Themenbereiche hinweg sind realitätsnahe Simulatoren in weniger als 30~\% der Fälle vertreten. Lediglich in den Bereichen \enquote{AI} und \enquote{GPU} treten sie häufiger auf.
+
+Der Zeitverlauf in Abbildung~\ref{fig:8-abstraktion-jahr} zeigt keine besonderen Auffälligkeiten. Die kumulierte Entwicklung realitätsnaher und didaktisch reduzierter Simulatoren entspricht dem bereits zuvor beschriebenen zeitlichen Verlauf.
+
+\sh{Zugriff}
