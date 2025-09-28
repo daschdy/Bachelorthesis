@@ -1,2 +1,53 @@
 \section{Trends und Best Practices}
 
+Aufbauend auf den Erkenntnissen aus Kapitel~\ref{chap:results_lit} und Kapitel~\ref{chap:results_sim} widmet sich dieser Abschnitt der Analyse von Best Practices und Trends. Ziel ist es herauszustellen, welche Kriterien ein didaktischer Simulator im Jahr 2025 nach aktuellen lernpsychologischen Theorien und Forschungsständen der Rechnerarchitektur erfüllen sollte.
+
+Da in den genannten Kapiteln sowohl wissenschaftliche Publikationen zu didaktischen Simulatoren der Rechnerarchitektur als auch bereits veröffentlichte Simulatoren selbst untersucht wurden, werden die Ergebnisse beider Recherchen hier zusammengeführt, um praxisnahe mit theoretischen Erkenntnissen zu verbinden.
+
+Aus den Analysen geht hervor, dass die Fachrichtung \enquote{Prozessoren und Architekturen}, insbesondere das Thema \enquote{RISC}, als besonders populär einzustufen ist. Sowohl in wissenschaftlichen Publikationen als auch in veröffentlichten Simulatoren wurde dieses Themenfeld in den vergangenen Jahren am häufigsten behandelt. Die entsprechenden Hintergründe werden in Kapitel~\ref{chap:result_lit} ausführlich dargestellt.
+
+Wenngleich die Themen \enquote{AI} und \enquote{GPU} vergleichsweise seltener Erwähnung finden, lässt sich auch hier ein zunehmender Trend der letzten Jahre feststellen. Dicht darauf folgt das Themenfeld \enquote{Speicher und Performance}, in dem insbesondere speicherbezogene Konzepte und Theorien behandelt werden. Der Anteil der Simulatoren, die immersive Technologien thematisieren oder einsetzen, ist zwar sehr gering, wird jedoch insbesondere in den vergangenen fünf Jahren verstärkt aufgegriffen.
+
+Diese Arbeit hat gezeigt, dass der Faktor \enquote{Gamification} zwar in der Theorie häufig dargestellt wird und lernpsychologische Theorien sowie empirische Studien einen positiven Effekt auf die Lernenden nahelegen, in der Literatur- wie auch in der Simulatorrecherche jedoch nur in geringem Umfang berücksichtigt wird.
+
+Werden didaktische Simulatoren für die schulische oder akademische Bildung entwickelt, zeigen die Analysen, dass diese zumeist didaktisch reduziert gestaltet sind, um den Kernprinzipien der \ac{CTML} zu entsprechen.
+
+Auf die Frage, ob ein Simulator offline, online oder in beiden Varianten angeboten werden sollte, liefern die Analysen keine eindeutige Empfehlung. Um den Entwicklungen didaktischer Simulatoren Rechnung zu tragen, ist jedoch festzustellen, dass das Online-Angebot in den vergangenen Jahren deutlich zugenommen hat. Die Wahl der Zugriffsform ist letztlich von der jeweiligen Thematik abhängig.
+
+Wird ein Simulator offline angeboten, zeigt die Analyse der veröffentlichten Simulatoren, dass eine Bereitstellung für alle gängigen Betriebssysteme erforderlich ist.
+
+Hinsichtlich der Kostenfrage verdeutlichen die Analysen sowie die Bedürfnisse von Lernenden und Lehrenden, dass eine kostenfreie Variante stets zu bevorzugen ist.
+
+Beim Design eines didaktischen Simulators spielt nicht nur der Grad der Komplexität, sondern auch die Dauer der Beschäftigung eine wesentliche Rolle. Innerhalb der Lernpsychologie wird verdeutlicht, dass Wissen in kleinen Einheiten zu höheren Lernerfolgen führt. Folglich sollte ein Simulator so entwickelt werden, dass den Lernenden Inhalte in kleinen Abschnitten präsentiert werden und die Bearbeitungszeit entsprechend gering ausfällt.
+
+Zudem ist es empfehlenswert, didaktische Simulatoren mit Anleitungen, das heißt mit entsprechender Dokumentation, zur Verfügung zu stellen. Diese unterstützt Lernende und Lehrende auf unterschiedlichen Ebenen.
+
+Eine Zusammenfassung der Ergebnisse bietet Tabelle~\ref{tab:best_practices}
+
+\begin{table}[ht]
+	\centering
+	\caption{Best Practices und Empfehlungen für didaktische Simulatoren der Rechnerarchitektur}
+	\label{tab:best_practices}
+	\begin{tabular}{p{4cm}p{10cm}}
+		\toprule
+		\textbf{Kategorie} & \textbf{Empfehlung / Best Practice} \\
+		\midrule
+		Cluster & Fokus auf \enquote{Prozessoren und Architekturen}, insbesondere \enquote{RISC}, da dieses Themenfeld am häufigsten adressiert wird. Trends in den Bereichen \enquote{AI}, \enquote{GPU} sowie \enquote{Cache} und \enquote{Immersive Technologien} sollten berücksichtigt werden. \\[0.3cm]
+
+		Gamification & Gamification-Elemente sollten verstärkt implementiert werden, da lernpsychologische Studien positive Effekte zeigen, obwohl diese bisher selten berücksichtigt werden. \\[0.3cm]
+
+		Abstraktion & Simulatoren sollten nach den Prinzipien der \ac{CTML} didaktisch reduziert gestaltet sein, um Überlastung zu vermeiden und Lernziele klar zu fokussieren. \\[0.3cm]
+
+		Zugriff & Online-Angebote nehmen an Bedeutung zu; die Wahl zwischen Offline-, Online- oder Hybrid-Varianten ist jedoch von der Thematik abhängig. \\[0.3cm]
+
+		OS & Offline-Simulatoren sollten für alle gängigen Betriebssysteme verfügbar gemacht werden. \\[0.3cm]
+
+		Preis & Kostenfreie Simulatoren sind zu bevorzugen, da sie die Bedürfnisse von Lernenden und Lehrenden bestmöglich unterstützen. \\[0.3cm]
+
+		Zeit & Inhalte sollten in kleinen Einheiten vermittelt werden; die Bearbeitungszeit ist entsprechend gering zu halten, um den Lernerfolg zu maximieren. \\[0.3cm]
+
+		Dokumentation & Simulatoren sollten mit klaren Anleitungen und begleitender Dokumentation bereitgestellt werden, um Lernende und Lehrende auf unterschiedlichen Ebenen zu unterstützen. \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
