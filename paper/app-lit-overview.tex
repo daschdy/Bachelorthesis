@@ -3,18 +3,21 @@
 \renewcommand{\headrulewidth}{0pt} 
 \fancyfoot[C]{\thepage} 
 \tiny
+\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
 
 % https://tableconvert.com/csv-to-latex
-\begin{longtable}{|c|p{2cm}|p{2cm}|c|c|p{2cm}|p{1cm}|p{1cm}|c|c|c|c|c|c|c|}
+\begin{longtable}{|c|L{2cm}|p{2cm}|c|c|L{1.75cm}|L{1.5cm}|L{1.25cm}|c|c|c|c|c|c|c|}
     \caption{Ergebnisse Literaturrecherche} \label{tab:literatur} \\
     \hline
-    \textbf{ID} & \textbf{Autor} & \textbf{Titel} & \textbf{Jahr} & \textbf{Typ} & \textbf{Zeitschrift} & \textbf{Thema} & \textbf{Cluster} & \textbf{Gamification} & \textbf{Abstraktion} & \textbf{Institution} & \textbf{Zugriff} & \textbf{Preis} & \textbf{Dokumentation} & \textbf{Zitationen} \\  
+    \textbf{ID} & \textbf{Autor} & \textbf{Titel} & \textbf{Jahr} & \textbf{Typ} & \textbf{Zeitschrift} & \textbf{Thema} & \textbf{Cluster} & \textbf{Gamification} & \textbf{Abstraktion} & \textbf{Institution} & \textbf{Zugriff} & \textbf{Preis} & \textbf{Dokumentation} & \textbf{Zitationen} \\ 
+    \hline
     \hline
     \endfirsthead
 
     % Kopf auf den Folgeseiten
     \hline
     \textbf{ID} & \textbf{Autor} & \textbf{Titel} & \textbf{Jahr} & \textbf{Typ} & \textbf{Zeitschrift} & \textbf{Thema} & \textbf{Cluster} & \textbf{Gamification} & \textbf{Abstraktion} & \textbf{Institution} & \textbf{Zugriff} & \textbf{Preis} & \textbf{Dokumentation} & \textbf{Zitationen} \\  
+    \hline
     \hline
     \endhead
 

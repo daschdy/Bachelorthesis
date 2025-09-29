@@ -1,101 +1,77 @@
 \section{Definitionen und Begrifflichkeiten}
 
-\TODO{Muss Rechnerarchitektur als Teilgebiet der Informatik hier ggf. auch noch eingeordnet werden?}
-
 \subsection{Didaktische Simulatoren}
 Um den Begriff (didaktischer) \textit{Simulator} zu definieren, muss zunächst das zugrundeliegende Konzept des \textit{Modells} betrachtet werden. White und Ingalls~\parencite[S.~12]{white_introduction_2009} beschreiben ein Modell als eine vereinfachte Abstraktion der Realität, die durch die Auswahl des geeigneten Umfangs und Detaillierungsgrades die relevanten Eigenschaften eines Untersuchungsgegenstands abbildet. Modelle kommen insbesondere dann zum Einsatz, wenn das reale System zu komplex, zu unpraktisch oder zu kostenintensiv wäre, um es direkt zu untersuchen \parencite[S.~5]{banks_what_2008}.
 
 Darauf aufbauend stellt die \textit{Simulation} ein Teilgebiet der Modellbildung dar. Unter Simulation versteht man die Durchführung von Experimenten mit einem Modell, das die wesentlichen Eigenschaften des zugrundeliegenden Systems nachahmt, um dessen Verhalten unter verschiedenen Bedingungen untersuchen zu können \parencites[S.~12]{white_introduction_2009}[S.~6]{banks_what_2008}.
 
-Ein \textit{Simulator} schließlich ist das Werkzeug oder System -- meist in Form von Software --, das diese Simulationen ermöglicht. Er implementiert das Modell und bietet eine Benutzungsumgebung, in der Interaktionen und Experimente mit dem Modell durchgeführt werden können \parencite[S.~304f]{duran_what_2020}.
+Ein \textit{Simulator} ist schließlich das Werkzeug oder System -- meist in Form von Software --, das diese Simulationen ermöglicht. Er implementiert das Modell und bietet eine Benutzungsumgebung, in der Interaktionen und Experimente mit dem Modell durchgeführt werden können \parencite[S.~304f]{duran_what_2020}.
 
 Die Definition des Begriffs \textit{Simulator} ist eindeutig abzugrenzen von der Bezeichnung \textit{Emulator}. Ein Emulator hingegen strebt eine möglichst detailgetreue Nachbildung eines Zielsystems an, sodass Software oder Peripheriegeräte, die für das Originalsystem entwickelt wurden, unverändert darauf ausgeführt werden können \parencite[S.~1683]{mcgregor_relationship_2002}.
 
-Besonders im Kontext der Lehre kommen sogenannte \textit{didaktische Simulatoren} zum Einsatz. Diese unterscheiden sich von hochgradig präzisen Forschungs- oder Industriesimulatoren dadurch, dass sie in erster Linie auf Verständlichkeit, Visualisierung und Interaktivität ausgerichtet sind. Ziel ist nicht die vollständige, detailgetreue Nachbildung eines Systems, sondern die Förderung von Lernprozessen durch eine für die Lernenden zugängliche Abstraktion komplexer Sachverhalte \parencites[S.~256]{muller_entwicklung_2020}[S.~1]{nystrom_teaching_2024}.
+Besonders im Kontext der Lehre kommen sogenannte \textit{didaktische Simulatoren} zum Einsatz. Diese unterscheiden sich von präzisen Forschungs- oder Industriesimulatoren dadurch, dass sie in erster Linie auf Verständlichkeit, Visualisierung und Interaktivität ausgerichtet sind. Ziel ist nicht die vollständige, detailgetreue Nachbildung eines Systems, sondern die Förderung von Lernprozessen durch eine für die Lernenden zugängliche Abstraktion komplexer Sachverhalte \parencites[S.~256]{muller_entwicklung_2020}[S.~1]{nystrom_teaching_2024}.
 
 \subsection{Konzepte digitalen Lernens}
 
-Da im Rahmen der Literaturrecherche verschiedene Konzepte des digitalen Lernens identifiziert wurden, werden diese nachfolgend kurz vorgestellt und im Hinblick auf ihre Relevanz für den Einsatz didaktischer Simulatoren erläutert.
+Da im Rahmen der Recherche verschiedene Konzepte des digitalen Lernens identifiziert wurden, werden diese nachfolgend kurz vorgestellt und im Hinblick auf ihre Relevanz für den Einsatz didaktischer Simulatoren erläutert.
 
 \sh{Organisationsformen des digitalen Lernens}
-Digitale Medien und Technologien haben in den letzten Jahrzehnten eine Vielzahl an Lernformen hervorgebracht, die sich in Reichweite, Methodik und Grad der Individualisierung unterscheiden.
+Digitale Medien und Technologien haben in den letzten Jahrzehnten eine Vielzahl an Lernformen hervorgebracht, die sich in Reichweite, Methodik und Grad der Individualisierung unterscheiden (siehe dazu Kapitel~\ref{chap:3-2-development-sim} und Kapitel~\ref{chap:3-3-development_ca}).
 
-Der Begriff \textit{E-Learning} dient als Oberbegriff für alle Formen des Lernens, die digitale Medien sowie Informations- und Kommunikationstechnologien zur Unterstützung oder Durchführung von Lehr- und Lernprozessen einsetzen. Dazu zählen sowohl webbasierte Kurse und Lernplattformen als auch multimediale Materialien wie Videos, interaktive Übungen oder Simulationen \parencite[S.~6]{kerres_mediendidaktik_2018}. Zentrale Merkmale des E-Learning sind die Orts- und Zeitunabhängigkeit, die Möglichkeit zur Interaktivität sowie der multimediale Charakter \parencite[S.~186f]{sanderson_e-learning_2002}. 
+Der Begriff \textit{E-Learning} dient als Oberbegriff für alle Formen des Lernens, die digitale Medien sowie Informations- und Kommunikationstechnologien zur Unterstützung oder Durchführung von Lehr- und Lernprozessen einsetzen. Dazu zählen sowohl webbasierte Kurse und Lernplattformen als auch multimediale Materialien wie Videos, interaktive Übungen oder Simulationen \parencite[S.~6]{kerres_mediendidaktik_2018}. Zentrale Merkmale des E-Learnings sind die Orts- und Zeitunabhängigkeit, die Möglichkeit zur Interaktivität sowie der multimediale Charakter \parencite[S.~186f]{sanderson_e-learning_2002}. 
 
-Andere Formen wie \textit{M-Learning} oder \textit{Blended Learning} stellen spezifische Ausprägungen dieses übergeordneten Begriffs dar \parencites[S.~74]{magenheim_blended_2003}[S.~3]{balaji_perspective_2016}.
+Andere Formen wie \textit{M-Learning} oder \textit{Blended Learning} stellen spezifische Ausprägungen dieses übergeordneten Begriffs dar \parencites[S.~74]{magenheim_blended_2003}[S.~3]{balaji_perspective_2016}. \textit{Mobile Learning} (kurz: M-Learning) wird in der Literatur häufig als eine Erweiterung bzw. neue Ausprägung des E-Learning verstanden, die durch den Einsatz mobiler Endgeräte wie Smartphones, Tablets oder Notebooks über drahtlose Netzwerke ermöglicht wird \parencites[S.~3f]{balaji_perspective_2016}[S.~197]{basak_kumar_e-learning_2018}. M-Learning bezeichnet damit den Einsatz mobiler Technologien zur Unterstützung von Lernprozessen und kann als Schnittstelle zwischen Online-Lernen und mobiler Computertechnologie betrachtet werden \parencite[S.~265]{traxler_defining_2005}.
 
-\textit{Mobile Learning} (kurz: M-Learning) wird in der Literatur häufig als eine Erweiterung bzw. neue Ausprägung des E-Learning verstanden, die durch den Einsatz mobiler Endgeräte wie Smartphones, Tablets, Notebooks oder \ac{PDA}s über drahtlose Netzwerke ermöglicht wird \parencites[S.~3f]{balaji_perspective_2016}[S.~197]{basak_kumar_e-learning_2018}. 
+Während \textit{M-Learning} in erster Linie die technische Mobilität des Lernens betont \parencites[S.~3f]{balaji_perspective_2016}[S.~197]{basak_kumar_e-learning_2018}, stellt \textit{Blended Learning} (im deutschsprachigen Raum auch als \textit{hybrides Lernen} oder \textit{vermischter Unterricht} bezeichnet \parencite[S.~29]{pfeiffer_simulationsumgebungen_2008}) eine Weiterentwicklung dar, indem Methoden der Präsenzlehre mit Ansätzen des E-Learning verknüpft werden. Ziel ist es, Lernprozesse zu fördern, in denen multimediale Materialien effektiv in individuelle sowie kooperative Lernphasen integriert werden \parencite[S.~74]{magenheim_blended_2003}. In der Weiterentwicklung zu \textit{Blended Learning~2.0} werden klassische Präsenzformate noch stärker mit digitalen und hybriden Komponenten kombiniert. Kennzeichnend ist dabei der verstärkte Einsatz von Web~2.0-Technologien und sozialen Medien, wodurch flexible und personalisierbare Lernsettings entstehen, die sowohl selbstgesteuertes als auch kooperatives Lernen unterstützen \parencites{seufert_schulleitertagung_2014}{news_aktuell_gmbh_e-learning_2025}.
 
-M-Learning bezeichnet damit den Einsatz mobiler Technologien zur Unterstützung von Lernprozessen und kann als Schnittstelle zwischen Online-Lernen und mobiler Computertechnologie betrachtet werden \parencite[S.~265]{traxler_defining_2005}.
+Im Gegensatz zum Blended Learning, das Präsenz- und Onlineformate kombiniert, stehen \textit{\acp{MOOC}}, die internetbasierte Lehrveranstaltungen für eine sehr große Zahl von Teilnehmenden anbieten. Charakteristisch sind multimediale Inhalte, Online-Übungen, Diskussionsforen sowie Peer- und Selbstbewertungen. Trotz ihrer Offenheit folgen MOOCs einem strukturierten Lehrplan mit klar definierten Lernzielen \parencites[S.~5]{yuan_moocs_2013}[S.~204]{liyanagunawardena_moocs_2013}.
 
-Während M-Learning also primär die technische Mobilität des Lernens hervorhebt, geht Blended Learning einen Schritt weiter und kombiniert digitale Formate mit klassischen Präsenzanteilen.
+Eng verknüpft mit diesem Konzept sind \textit{\acp{OER}}, die frei zugängliche und offen lizenzierte Lehr- und Lernmaterialien bereitstellen. Sie können kostenfrei genutzt, angepasst und weiterverbreitet werden und eröffnen damit vielfältige Möglichkeiten zur gemeinsamen Gestaltung von Lernangeboten. Maßgeblich sind hierbei die sogenannten \enquote{5R-Rechte} (\textit{retain, reuse, revise, remix, redistribute}), die den Grad der Offenheit bestimmen \parencite[S.~134f]{wiley_defining_2018}.
 
-\textit{Blended Learning} ist eine Lehr- und Lernform, die Methoden der Präsenzlehre mit Konzepten des E-Learning verbindet. Ziel ist die Förderung von Lernprozessen, in denen multimediale Materialien effektiv in individuelle und kooperative Lernphasen integriert werden können \parencite[S.~74]{magenheim_blended_2003}. Im deutschsprachigen Raum wird Blended Learning auch als \textit{hybrides Lernen} oder als \textit{vermischter Unterricht} bezeichnet \parencite[S.~29]{pfeiffer_simulationsumgebungen_2008}.
 
-In der Weiterentwicklung zu \textit{Blended Learning~2.0} werden klassische Präsenzformate noch stärker mit digitalen und hybriden Komponenten verknüpft. Charakteristisch ist hier der verstärkte Einsatz von Web~2.0-Technologien und sozialen Medien, wodurch flexible, personalisierbare Lernsettings entstehen, die sowohl selbstgesteuertes als auch kooperatives Lernen unterstützen \parencites{seufert_schulleitertagung_2014}{news_aktuell_gmbh_e-learning_2025}.
+\sh{Lerntechnologien \& -umgebungen}
+Neben didaktischen Konzepten spielt auch die technologische Entwicklung eine zentrale Rolle bei der Gestaltung digitaler Lernumgebungen. Neue Technologien eröffnen dabei nicht nur innovative Interaktionsmöglichkeiten, sondern auch datenbasierte Ansätze zur Analyse von Lernprozessen sowie virtuelle Räume, in denen praxisnahes Lernen ermöglicht wird \parencite[S.1]{celik_technology_2024}.
 
-Während Blended Learning den Schwerpunkt auf die Integration von Präsenz- und Onlineformaten legt, stehen bei \ac{MOOC} vollständig digitale, für eine große Zahl von Teilnehmenden offene Lernangebote im Vordergrund.
-      
-\textit{\ac{MOOC}s} sind internetbasierte Lehrveranstaltungen, die in der Regel für eine sehr große Zahl von Teilnehmenden konzipiert sind und ohne formale Zugangsbeschränkungen offen angeboten werden. Charakteristisch ist die Kombination aus multimedialen Inhalten, Online-Übungen, Diskussionsforen sowie Peer- oder Selbstbewertungen. Trotz der Offenheit verfolgen MOOCs einen strukturierten Lehrplan mit klar definierten Lernzielen \parencites[S.~5]{yuan_moocs_2013}[S.~204]{liyanagunawardena_moocs_2013}.
+\textit{Immersive Technologien} fassen Ansätze wie \acs{AR}, \acs{VR} und \acs{MR} zusammen, die es Lernenden ermöglichen, in digitale Umgebungen einzutauchen und dort interaktiv zu agieren. Häufig werden diese Technologien auch unter dem Oberbegriff \acs{XR} diskutiert \parencites[S.~82]{alnagrat_review_2022}[S.~256]{chen_information_2024}. In der Lehre finden immersive Technologien zunehmend Anwendung, da sie Motivation und Interaktivität fördern und hochgradig effektive Lernumgebungen schaffen können \parencite[S.~1]{izouaouen_education_2025}. Im Gegensatz zu dieser interaktiven Lernform, stehen die datengetriebenen \textit{Learning Analytics}.
 
-Während \ac{MOOC}s einen offenen, meist großskaligen Rahmen schaffen, fokussieren \ac{OER} stärker auf die Bereitstellung frei zugänglicher und wiederverwendbarer Lernmaterialien.
+Hierbei bezeichnen \textit{Learning Analytics} die Erfassung, Sammlung, Analyse und Berichterstattung von Daten über Lernende und deren Kontexte mit dem Ziel, Lernprozesse sowie die Lernumgebungen, in denen sie stattfinden, besser zu verstehen und zu optimieren. Besondere Potenziale ergeben sich aus der Aufdeckung bislang verborgener Informationen in den Daten sowie aus deren gezielter Nutzung, etwa für didaktische Interventionen oder zur Vorhersage von Lernverläufen \parencite[S.~294]{xiao_applying_2019}.
 
-\textit{\ac{OER}} bezeichnen Lehr- und Lernmaterialien, die sowohl frei zugänglich als auch offen lizenziert sind. Sie können ohne Kosten genutzt, angepasst und weiterverbreitet werden und eröffnen damit vielfältige Möglichkeiten zur gemeinsamen Gestaltung von Lernangeboten. Maßgeblich sind hierbei die sogenannten \enquote{5R-Rechte} (\textit{retain, reuse, revise, remix, redistribute}), die den Grad der Offenheit bestimmen \parencite[S.~134f]{wiley_defining_2018}.
-
-\sh{Lerntechnologien \& Umgebungen}
-Neben didaktischen Konzepten spielt auch die technologische Entwicklung eine zentrale Rolle bei der Gestaltung digitaler Lernumgebungen. Neue Technologien eröffnen dabei nicht nur innovative Interaktionsmöglichkeiten, sondern auch datenbasierte Ansätze zur Analyse von Lernprozessen sowie virtuelle Räume, in denen praxisnahes Lernen ermöglicht wird.
-
-\textit{Immersive Technologien} fassen Ansätze wie \ac{AR}, \ac{VR} und \ac{MR} zusammen, die es Lernenden ermöglichen, in digitale Umgebungen einzutauchen und dort interaktiv zu agieren. Häufig werden diese Technologien auch unter dem Oberbegriff \ac{XR} diskutiert \parencites[S.~82]{alnagrat_review_2022}[S.~256]{chen_information_2024}. In der Lehre finden immersive Technologien zunehmend Anwendung, da sie Motivation und Interaktivität fördern und hochgradig effektive Lernumgebungen schaffen können \parencite[S.~1]{izouaouen_education_2025}.
-
-Während immersive Technologien in erster Linie auf die Gestaltung neuer Interaktionsformen abzielen, verfolgt \textit{Learning Analytics} einen datengetriebenen Ansatz, um Lernprozesse zu erfassen und gezielt zu optimieren.
-
-\textit{Learning Analytics} bezeichnet die Erfassung, Sammlung, Analyse und Berichterstattung von Daten über Lernende und deren Kontexte mit dem Ziel, Lernprozesse sowie die Lernumgebungen, in denen sie stattfinden, besser zu verstehen und zu optimieren. Besondere Potenziale ergeben sich aus der Aufdeckung bislang verborgener Informationen in den Daten sowie aus deren gezielter Nutzung, etwa für didaktische Interventionen oder zur Vorhersage von Lernverläufen \parencite[S.~294]{xiao_applying_2019}.
-
-Ergänzend zu diesen Ansätzen bieten \textit{Virtual Labs} konkrete Umgebungen, in denen Lernende Wissen anwenden und experimentell vertiefen können – oftmals unter Einsatz sowohl immersiver Technologien als auch von Learning-Analytics-Methoden.
-
-\textit{Virtuelle Labs} sind computerbasierte, interaktive Umgebungen, die es ermöglichen, Aufgaben auszuführen, die normalerweise in einem physischen Labor stattfinden würden. Über entsprechende Benutzeroberflächen können Simulationen, Animationen und teilweise sogar die Fernsteuerung realer Laborhardware erfolgen. Zahlreiche Studien haben den Einsatz virtueller Labore als Lehr- und Lerninstrument untersucht und ihre Wirksamkeit in nahezu allen Fällen bestätigt \parencite[S.~117]{achuthan_value_2011}.
+Ergänzend zu diesen Ansätzen bieten \textit{Virtual Labs} konkrete Umgebungen, in denen Lernende Wissen anwenden und experimentell vertiefen können – oftmals unter Einsatz sowohl immersiver Technologien als auch von Learning-Analytics Methoden. \textit{Virtuelle Labs} sind computerbasierte, interaktive Umgebungen, die es ermöglichen, Aufgaben auszuführen, die normalerweise in einem physischen Labor stattfinden würden. Über entsprechende Benutzeroberflächen können Simulationen, Animationen und teilweise sogar die Fernsteuerung realer Laborhardware erfolgen. Zahlreiche Studien haben den Einsatz virtueller Labore als Lehr- und Lerninstrument untersucht und ihre Wirksamkeit in nahezu allen Fällen bestätigt \parencite[S.~117]{achuthan_value_2011}.
 
 In den letzten Jahren haben sich virtuelle Labore und Remote-Experimente durch Fortschritte in Webtechnologien und Anwendungen weiterentwickelt. Ziel ist es, die Erfahrungen eines klassischen Präsenzlabors möglichst realitätsnah abzubilden und dabei einen vergleichbaren Grad an Zugriff, Funktionalität und Flexibilität zu gewährleisten. Der Einsatz von virtuellen Welten und Mixed-Reality-Technologien eröffnet zudem neue Möglichkeiten für kollaboratives Arbeiten in immersiven 3D-Umgebungen, in denen Lernende komplexe Simulationen und Datensätze interaktiv erkunden und visualisieren können \parencite[S.~1]{savin-baden_understanding_2012}.
 
+% feingradige Unterscheidung hier nicht notwendig, da nur auf Gamification eingegangen wird in der Literaturrecherche
+\iffalse
 \sh{Didaktische Konzepte zur Motivation}
-Zur Förderung von Motivation und Engagement im Lernprozess haben sich in der Literatur verschiedene Konzepte etabliert, die spielerische Elemente auf unterschiedliche Weise nutzen. Die zentralen Ansätze sind Gamification, Gamified Learning und Game-Based Learning. Sie unterscheiden sich darin, ob Spielelemente lediglich in bestehende Lernumgebungen integriert werden oder ob das Spiel selbst den didaktischen Kern bildet.
+Zur Förderung von Motivation und Engagement im Lernprozess haben sich in der Literatur verschiedene Konzepte etabliert, die spielerische Elemente auf unterschiedliche Weise nutzen \parencite[S.~485]{triantafyllou_gamification_2025}. Die zentralen Ansätze sind Gamification, Gamified Learning und Game-Based Learning. Sie unterscheiden sich darin, ob Spielelemente lediglich in bestehende Lernumgebungen integriert werden oder ob das Spiel selbst den didaktischen Kern bildet.
 
 \textit{Gamification} bezeichnet den Ansatz, Designelemente aus (Video-)Spielen in nicht-spielerische Kontexte zu übertragen \parencites[S.~2]{deterding_gamification_2011}[S.~9]{kapp_gamification_2012}. Durch den Einsatz solcher Spielelemente sollen Lernprozesse attraktiver gestaltet und Motivation sowie kognitives Engagement gefördert werden. Ein höheres Maß an Involviertheit kann dabei aus hochschuldidaktischer Sicht zu einem aktiveren und nachhaltigeren Lernen führen \parencites[S.~97ff]{chi_active-constructive-interactive_2009}[S.~1821]{chi_translating_2018}.
 
-Der Begriff Gamification geht auf den Software-Entwickler Nick Pelling zurück, der Anfang der 2000er Jahre eine spieleähnliche Benutzeroberfläche für Bank- und Verkaufsautomaten entwarf \parencites{pelling_short_2011}[S.~2f]{deterding_gamification_2011}. In den folgenden Jahren haben sich neben Gamification auch verwandte Konzepte wie \textit{gamefulness}, \textit{gameful design} oder \textit{playful interaction design} etabliert, die sich teilweise überschneiden, jedoch unterschiedliche Akzentuierungen aufweisen \parencite[S.~2f]{deterding_gamification_2011}. Deterding et al. (2011) haben eine weit verbreitete Definition geprägt, die das Spiel als konstitutive Einheit betont und es von der allgemeinen Spielfreude (\textit{playfulness}) abgrenzt \parencites[S.~2f]{deterding_gamification_2011}[S.~452f]{schlag_gamifizierung_2021}.
+Der Begriff Gamification geht auf den Software-Entwickler Nick Pelling zurück, der Anfang der 2000er Jahre eine spieleähnliche Benutzeroberfläche für Bank- und Verkaufsautomaten entwarf \parencites{pelling_short_2011}[S.~2f]{deterding_gamification_2011}. In den folgenden Jahren haben sich neben Gamification auch verwandte Konzepte wie \textit{Gamefulness}, \textit{Gameful Design} oder \textit{Playful Interaction Design} etabliert, die sich teilweise überschneiden, jedoch unterschiedliche Akzentuierungen aufweisen \parencite[S.~2f]{deterding_gamification_2011}. Deterding et al. \parencite[S.~2f]{deterding_gamification_2011} haben eine weit verbreitete Definition geprägt, die das Spiel als konstitutive Einheit betont und es von der allgemeinen Spielfreude (\textit{Playfulness}) abgrenzt [S.~452f]{schlag_gamifizierung_2021}.
 
 Zu den typischen Gestaltungselementen der Gamification zählen unter anderem Punktesysteme, Ranglisten, Abzeichen, Belohnungen und Fortschrittsanzeigen. Sie sollen Lernende motivieren, indem sie Leistung sichtbar machen und Anreize zur weiteren Beschäftigung mit den Inhalten schaffen. Da sich die Spieleindustrie sowie die Anwendungsszenarien im Bildungsbereich kontinuierlich verändern, ist die Auswahl möglicher Spielelemente jedoch nicht abschließend festgelegt, sondern unterliegt einem dynamischen Wandel \parencite[S.~2f]{hamari_does_2014}.
 
-Während Gamification also vor allem die Übertragung einzelner Spielelemente in nicht-spielerische Kontexte beschreibt, geht Gamified Learning einen Schritt weiter und rückt das didaktische Gesamtdesign in den Vordergrund.
+Während Gamification also vor allem die Übertragung einzelner Spielelemente in nicht-spielerische Kontexte beschreibt, geht \textit{Gamified Learning} einen Schritt weiter und rückt das didaktische Gesamtdesign in den Vordergrund. Unter Gamified Learning wird der gezielte Einsatz von Spielelementen in Lehr- und Lernszenarien verstanden, wobei der didaktische Rahmen im Vordergrund steht. Die Theorie des gamifizierten Lernens beschreibt dieses Zusammenspiel anhand mehrerer Dimensionen: Der Instruktion selbst, den Einstellungen und Verhaltensweisen der Lernenden, den eingesetzten Spielelementen sowie dem daraus resultierenden Lernerfolg \parencites[S.~6f]{landers_developing_2014}[S.~453]{schlag_gamifizierung_2021}.
 
-\sh{Gamified Learning}
-Unter \textit{Gamified Learning} wird der gezielte Einsatz von
-Spielelementen in Lehr- und Lernszenarien verstanden, wobei der
-didaktische Rahmen im Vordergrund steht. Die Theorie des
-gamifizierten Lernens beschreibt dieses Zusammenspiel anhand
-mehrerer Dimensionen: der Instruktion selbst, den Einstellungen
-und Verhaltensweisen der Lernenden, den eingesetzten Spielelementen
-sowie dem daraus resultierenden Lernerfolg \parencites[S.~6f]{landers_developing_2014}[S.~453]{schlag_gamifizierung_2021}.
+Gamification kann dabei auf zwei Wegen wirken: Einerseits kann das Verhalten der Lernenden die Wirksamkeit der Instruktion verstärken oder abschwächen (moderierender Effekt). Andererseits können die durch Spielelemente angestoßenen Einstellungen und Verhaltensweisen selbst zum Lernerfolg beitragen (mediierender Effekt) \parencites[S.~6f]{landers_developing_2014}[S.~453]{schlag_gamifizierung_2021}.
 
-\textit{Gamification} kann dabei auf zwei Wegen wirken: Einerseits kann das
-Verhalten der Lernenden die Wirksamkeit der Instruktion verstärken
-oder abschwächen (moderierender Effekt). Andererseits können die
-durch Spielelemente angestoßenen Einstellungen und Verhaltensweisen
-selbst zum Lernerfolg beitragen (mediierender Effekt) \parencites[S.~6f]{landers_developing_2014}[S.~453]{schlag_gamifizierung_2021}.
+Damit Gamified Learning erfolgreich ist, müssen Spielelemente also so gestaltet werden, dass sie lernförderliche Verhaltensweisen hervorrufen und in ein didaktisch sinnvolles Instruktionsdesign eingebettet sind \parencites[S.~6f]{landers_developing_2014}[S.~453]{schlag_gamifizierung_2021}.
 
-Damit Gamified Learning erfolgreich ist, müssen Spielelemente also
-so gestaltet werden, dass sie lernförderliche Verhaltensweisen
-hervorrufen und in ein didaktisch sinnvolles Instruktionsdesign
-eingebettet sind \parencites[S.~6f]{landers_developing_2014}[S.~453]{schlag_gamifizierung_2021}.
+Im Gegensatz zu Gamification und Gamified Learning, bei denen Spielelemente in bestehende Lernumgebungen integriert werden, steht beim \textit{Game-Based Learning} das Spiel selbst im Zentrum des didaktischen Prozesses. Denn Game-Based Learning bezeichnet den Einsatz von digitalen Spielen mit didaktischer Zielsetzung im Lehr- und Lernkontext. Im deutschsprachigen Raum wird hierfür häufig auch der Begriff \textit{Serious Games} verwendet, womit digitale, multimediale Spiele gemeint sind, die nicht primär der Unterhaltung dienen, sondern einen \enquote{ernsthaften} Hintergrund verfolgen \parencite[S.~14]{niegemann_kompendium_2008}. 
+\fi
 
-Im Gegensatz zu Gamification und Gamified Learning, bei denen Spielelemente in bestehende Lernumgebungen integriert werden, steht beim Game-Based Learning das Spiel selbst im Zentrum des didaktischen Prozesses.
+\sh{Didaktische Konzepte zur Motivation}
+Zur Förderung von Motivation und Engagement im Lernprozess haben sich in der Literatur verschiedene Konzepte etabliert, die spielerische Elemente aufgreifen \parencite[S.~485]{triantafyllou_gamification_2025}. Dazu zählen \textit{Gamification}, \textit{Gamified Learning} und \textit{Game-Based Learning}. Sie unterscheiden sich darin, ob einzelne Spielelemente in bestehende Lernumgebungen integriert oder ganze Spiele als didaktischer Kern eingesetzt werden \parencites[S.~2]{deterding_gamification_2011}[S.~14]{niegemann_kompendium_2008}. Typische Gestaltungselemente sind etwa Punktesysteme, Ranglisten oder Abzeichen, die Motivation und Engagement der Lernenden fördern sollen \parencite[S.~2f]{hamari_does_2014}. 
 
-\textit{Game-Based Learning} bezeichnet den Einsatz von digitalen Spielen mit didaktischer Zielsetzung im Lehr- und Lernkontext. Im deutschsprachigen Raum wird hierfür häufig auch der Begriff \textit{Serious Games} verwendet, womit digitale, multimediale Spiele gemeint sind, die nicht primär der Unterhaltung dienen, sondern einen \enquote{ernsthaften} Hintergrund verfolgen \parencite[S.~14]{niegemann_kompendium_2008}.
+Im Rahmen der Literaturrecherche wurde zwischen den Begrifflichkeiten nicht differenziert, sondern lediglich geprüft, ob ein Simulator spielerische Elemente aufweist.
 
 \sh{Individuelle \& adaptive Lernformen}
-\TODO{Einleitender Satz}
-\TODO{Ggf. noch weiter den Bezug zu Simulatoren herstellen}
+Im Kontext digitaler Lehre gewinnen Konzepte zunehmend an Bedeutung, die Lernprozesse stärker an die individuellen Voraussetzungen, Bedürfnisse und Ziele der Lernenden anpassen. Dazu zählen insbesondere \textit{Microlearning}, \textit{Adaptive Learning}, \textit{Personalized Learning} sowie \textit{Collaborative Learning}. 
 
+\textit{Microlearning} segmentiert Inhalte in kurze, fokussierte Einheiten, die flexibel und kontextabhängig genutzt werden können \parencite[S.~74]{chong_mvr-cls_2022}. Aufbauend darauf ermöglichen \textit{Adaptive Learning}-Systeme eine dynamische Anpassung von Inhalten und Lernpfaden an den Wissensstand der Lernenden \parencite[S.~448]{zhao_research_2019}. \textit{Personalized Learning} verfolgt einen umfassenderen Ansatz, der neben technologischen auch didaktische und organisatorische Anpassungen umfasst, um Motivation, Selbststeuerung und nachhaltigen Lernerfolg zu fördern \parencites[S.~6ff]{pane_informing_2017}[S.~2f]{gunawardena_personalized_2024}[S.~236--239]{walkington_appraising_2020}. Ergänzend hebt \textit{Collaborative Learning} die Bedeutung sozialer Interaktion hervor, bei der Wissen durch Austausch und Kooperation gemeinschaftlich konstruiert wird \parencite[S.~486]{laal_benefits_2021}.
+
+% Themen werden in der Arbeit nicht diskutiert, das sehr kurz gehalten
+\iffalse
 Im Kontext digitaler Lehre gewinnen Konzepte zunehmend an Bedeutung, die Lernprozesse stärker an die individuellen Voraussetzungen, Bedürfnisse und Ziele der Lernenden anpassen. Zu diesen zählen Ansätze wie Microlearning, Adaptive Learning und Personalized Learning, die eine inhaltliche oder methodische Individualisierung anstreben, sowie Collaborative Learning, das den sozialen Austausch als wichtigen Bestandteil des Lernprozesses hervorhebt.
 
 \textit{Microlearning} bezeichnet eine Form des digitalen Lernens, bei der Inhalte in kleine, leicht verdauliche Einheiten segmentiert werden. Ziel ist es, Lernenden einen schnellen und fokussierten Zugriff auf Wissen zu ermöglichen, der sich flexibel in ihren Alltag integrieren lässt. Typische Merkmale sind die Kürze der Lerneinheiten, ihre thematische Fokussierung sowie die Möglichkeit, sie in unterschiedlichen Kontexten, etwa mobil oder \enquote{on demand}, zu nutzen \parencite[S.~74]{chong_mvr-cls_2022}.
@@ -113,10 +89,11 @@ Während Adaptive Learning vor allem die technologische Umsetzung individueller 
 Neben diesen auf Individualisierung ausgerichteten Konzepten betont \textit{Collaborative Learning} den Wert gemeinsamer Interaktion und Wissenskonstruktion.
 
 \textit{Collaborative Learning} bezeichnet eine Lehr- und Lernmethode, bei der Lernende gemeinsam an Aufgaben oder Problemstellungen arbeiten und ihr Wissen aktiv miteinander austauschen. Im Vordergrund steht nicht nur der individuelle Lernerfolg, sondern auch die gemeinsame Verantwortung innerhalb der Gruppe sowie die gegenseitige Unterstützung. Durch Diskussion, Interaktion und Kooperation wird Wissen nicht nur reproduziert, sondern gemeinsam konstruiert, wodurch sowohl kognitive als auch soziale Kompetenzen wie Kommunikation, Teamfähigkeit und Verantwortungsbewusstsein gefördert werden \parencite[S.~486]{laal_benefits_2021}.
+\fi
 
 \subsection{Lernpsychologische Grundlagen}\label{chap:3-1-psychology}
 
-\TODO{ggf. noch alle Theorien mit einer kurzen Beschreibung in einer Tabelle darstellen}
+Nachfolgend werden relevante lernpsychologische Theorien vorgestellt; eine komprimierte Übersicht findet sich in Tabelle~\ref{tab:lernpsychologie}.
 
 \sh{Behaviorismus}
 Der Behaviorismus versteht Lernen als eine Veränderung im beobachtbaren Verhalten, die durch Erfahrungen mit der Umwelt hervorgerufen wird. Zentrale Mechanismen sind die klassische und die operante Konditionierung \parencite[S.~15]{pfeiffer_simulationsumgebungen_2008}.
@@ -124,8 +101,6 @@ Der Behaviorismus versteht Lernen als eine Veränderung im beobachtbaren Verhalt
 Die \textit{klassische Konditionierung}, die auf Pawlow zurückgeht, beschreibt Lernprozesse, bei denen ein ursprünglich neutraler Stimulus durch wiederholte Kopplung mit einem unkonditionierten Stimulus die Fähigkeit erlangt, dieselbe Reaktion auszulösen wie der unkonditionierte Stimulus selbst. Ein bekanntes Beispiel ist Pawlows Experiment mit Hunden, bei dem ein Glockenton (neutraler Stimulus) mit der Darbietung von Futter (unkonditionierter Stimulus) kombiniert wurde, sodass schließlich allein der Ton eine Speichelreaktion hervorrief \parencite[S.~7ff]{furstenau_lehr-lern-theorien_2019}.
 
 Die \textit{operante Konditionierung}, entwickelt von Skinner, knüpft an Thorndikes \textit{Law of Effect} an, das besagt, dass Verhaltensweisen, die zu befriedigenden Konsequenzen führen, mit höherer Wahrscheinlichkeit erneut gezeigt werden. Im Zentrum steht hier die Beziehung zwischen Verhalten und Konsequenzen: Folgt auf ein Verhalten eine Verstärkung, steigt die Wahrscheinlichkeit, dass es unter ähnlichen Bedingungen wiederholt wird. Skinner unterscheidet dabei zwischen respondenten Verhaltensweisen, die durch einen Stimulus ausgelöst werden, und operanten Verhaltensweisen, die aktiv auf die Umwelt einwirken. Während klassische Konditionierung das Erlernen respondenten Verhaltens erklärt, bezieht sich die operante Konditionierung auf die Steuerung und Veränderung operanten Verhaltens \parencite[S.~15ff]{furstenau_lehr-lern-theorien_2019}.
-
-Während der Behaviorismus das äußere Verhalten fokussiert, rückt der Kognitivismus die internen Prozesse der Informationsverarbeitung ins Zentrum. Aufbauend darauf betonen konstruktivistische Ansätze schließlich die Eigenaktivität und Kontextgebundenheit des Lernens.
 
 \sh{Kognitivismus}
 Der Kognitivismus versteht Lernen wiederum als einen Prozess der aktiven Informationsaufnahme, -verarbeitung und -speicherung. Unter Kognition werden sämtliche \enquote{Prozesse des Wissens} verstanden, darunter Denken, Erinnerung, Sprache, Kreativität und Wahrnehmung. Lernende gelten in dieser Perspektive nicht als passiv durch äußere Reize gesteuert, sondern als aktive Individuen, die Informationen selbstständig verarbeiten und in bestehende Wissensstrukturen integrieren \parencite[S.~1]{furstenau_lehr-lern-theorien_2019}.
@@ -148,8 +123,6 @@ Eine der einflussreichsten Theorien des multimedialen Lernens innerhalb des kogn
 \end{enumerate}
 
 Ergänzend stützt sich die Theorie auf Paivios \textit{Dual-Coding-Theory} \parencite[S.~102f]{paivia_dual_2006}, nach der verbale und nonverbale Informationen in getrennten, aber miteinander verknüpften Repräsentationssystemen verarbeitet werden \parencite[S.~66f]{furstenau_lehr-lern-theorien_2019}.
-
-Während der Kognitivismus also die Verarbeitung von Informationen betont, hebt der Konstruktivismus die aktive Rolle der Lernenden bei der Wissenskonstruktion hervor.
 
 \sh{Konstruktivismus}
 \textit{Konstruktivistische Lerntheorien} verstehen Lernen als aktive Konstruktion von Wissen durch die Lernenden. Im Unterschied zu kognitivistischen Ansätzen wird dabei die Eigenaktivität und Selbststeuerung des Lernprozesses besonders betont. Lernen ist zudem stets in soziale und kulturelle Kontexte eingebettet und wird als situierte Kognition aufgefasst, die in authentischen Interaktionen und realitätsnahen Lernumgebungen stattfindet \parencite[S.~1f]{furstenau_lehr-lern-theorien_2019}.
@@ -192,3 +165,42 @@ Was unter \textit{multimedialem Lernen} verstanden wird, hängt stark von der zu
 
 In der Praxis zeigt sich jedoch, dass multimediales Lernen häufig nicht eindeutig einer dieser theoretischen Strömungen zugeordnet werden kann. Stattdessen vereinen viele Lernumgebungen Elemente verschiedener Ansätze, etwa indem sie behavioristische Übungsphasen mit kognitivistisch fundierter Informationsvermittlung und konstruktivistisch orientierten Erkundungsmöglichkeiten kombinieren. Dieser sogenannte \textit{Blended Theoretical Approach} verdeutlicht, dass moderne digitale Lernumgebungen typischerweise eine Synthese mehrerer Lerntheorien darstellen, um unterschiedlichen Anforderungen und Lernbedürfnissen gerecht zu werden \parencites[S.~186]{picciano_theories_2021}[S.~37]{liu_theoretical_2024}.
 
+{
+\small
+\centering
+\begin{longtable}{p{3cm}p{8.25cm}}
+    \caption{Zusammenfassung der lernpsychologischen Theorien\label{tab:lernpsychologie}}\\
+    \toprule
+    \textbf{Theorie / Ansatz} & \textbf{Zentrale Erkenntnisse} \\
+    \midrule
+    \endfirsthead
+
+    \multicolumn{2}{c}%
+    {{\bfseries Fortsetzung von Tabelle~\thetable}} \\
+    \toprule
+
+    \textbf{Theorie / Ansatz} & \textbf{Zentrale Erkenntnisse} \\
+    \midrule
+    \endhead
+
+    \midrule \multicolumn{2}{l}{{Fortsetzung auf der nächsten Seite}} \\
+    \endfoot
+
+    \bottomrule
+    \endlastfoot
+
+    Behaviorismus & Lernen = Veränderung beobachtbaren Verhaltens durch Reiz-Reaktions-Muster. Klassische Konditionierung (Pawlow) und operante Konditionierung (Skinner) als Hauptmechanismen; Fokus auf äußeres Verhalten. \\
+
+    Kognitivismus & Lernen = aktive Informationsaufnahme, -verarbeitung und -speicherung. Computermodell (Bower \& Hilgard) mit sensorischem Register, Arbeits- und Langzeitgedächtnis. Begrenzte Kapazität erfordert Strukturierung (Chunking). Zentrale Theorie: \ac{CTML} (Mayer) mit Dual-Channel, Limited Capacity, Active Processing. Ergänzend: Dual-Coding-Theory (Paivio). \\
+
+    Konstruktivismus & Lernen = aktive Konstruktion von Wissen. Betonung von Eigenaktivität, Selbststeuerung und situierter Kognition in sozialen und kulturellen Kontexten. Relevanz für digitale Lernangebote durch Gliederung, Abstimmung visueller und textueller Informationen sowie Strukturierungshilfen. \\
+
+    Erfahrungsbasierte Lerntheorie & Lernen als kreativer Prozess durch Erfahrung (Kolb). Zyklus: konkrete Erfahrung – reflektierende Beobachtung – abstrakte Konzeptualisierung – aktives Experimentieren. Besonders relevant für digitale Lernumgebungen wie Simulatoren, die geschützte Erfahrungsräume bieten. \\
+
+    Exploratives Lernen & Wissenserwerb durch Erforschen, Ausprobieren, Entdecken. Fokus auf Eigenaktivität, Problemlösen, Hypothesenbildung. Besonders geeignet für Simulatoren und Virtual Labs, die sicheres Ausprobieren und unmittelbares Feedback ermöglichen. \\
+
+    Konnektivismus & Wissen = Netzwerk aus Menschen, Informationen und Technologien (Siemens, Downes). Lernen = Identifikation relevanter Wissensknoten und Aufbau von Verbindungen. Besonders bedeutsam für MOOCs, soziale Plattformen und offene Bildungsressourcen. \\
+
+    Multimediales Lernen & Verständnis abhängig von theoretischem Zugang: (1) behavioristisch: Reiz-Reaktions-Verstärkung (z. B. Vokabeltrainer). (2) kognitivistisch: Informationsaufnahme und Verknüpfung mit Vorwissen. (3) konstruktivistisch: aktive Wissenskonstruktion durch Kombination von Medien. In der Praxis oft Mischformen als \textit{Blended Theoretical Approach}. \\
+\end{longtable}
+}
